@@ -1,7 +1,7 @@
 # Validity limits of logistic error growth
 
 Algorithms, frozen compact evidence records, and figure-generation code for
-the preprint *Validity limits of logistic error growth in turbulence*.
+the preprint *Conditional Logistic Error Growth and Similarity Fronts in Geophysical Turbulence*.
 
 This repository distinguishes three claims that should not be conflated:
 
