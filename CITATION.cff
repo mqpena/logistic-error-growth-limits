@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Validity limits of logistic error growth"
+title: "Conditional Logistic Error Growth and Similarity Fronts in Geophysical Turbulence"
 message: "Please cite the associated preprint and this software release."
 type: software
 authors:
@@ -7,4 +7,3 @@ authors:
     given-names: "Malaquias"
 repository-code: "https://github.com/mqpena/logistic-error-growth-limits"
 date-released: 2026-08-12
-
