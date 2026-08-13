@@ -1,0 +1,77 @@
+{
+  "schema": "prl-logistic-gt2-verification-1",
+  "date": "2026-08-11",
+  "passed": true,
+  "integral_checks": [
+    {
+      "n": 1.6666666666666667,
+      "m": 4.0,
+      "numerical": 1.5707963267939766,
+      "analytical": 1.5707963267948966,
+      "relative_error": 5.856461353468156e-13
+    },
+    {
+      "n": 2.0,
+      "m": 5.0,
+      "numerical": 1.068959332115598,
+      "analytical": 1.068959332115595,
+      "relative_error": 2.7003645295958353e-15
+    },
+    {
+      "n": 3.0,
+      "m": 6.0,
+      "numerical": 0.6045997880780727,
+      "analytical": 0.6045997880780726,
+      "relative_error": 1.836294101515286e-16
+    }
+  ],
+  "finite_band_derivative_checks": [
+    {
+      "n": 1.6666666666666667,
+      "beta": 0.6666666666666666,
+      "ke": 14.0,
+      "formula": 0.9821121411721665,
+      "finite_difference": 0.9821121411106944,
+      "relative_error": 6.259168082313379e-11
+    },
+    {
+      "n": 2.0,
+      "beta": 0.5,
+      "ke": 9.0,
+      "formula": 0.12099272187702065,
+      "finite_difference": 0.12099272186587294,
+      "relative_error": 9.213535809392337e-11
+    },
+    {
+      "n": 3.0,
+      "beta": 0.0,
+      "ke": 18.0,
+      "formula": 0.0036674623971725373,
+      "finite_difference": 0.0036674623976476815,
+      "relative_error": 1.295566738143835e-10
+    }
+  ],
+  "local_clock_decomposition_absolute_error": 0.0,
+  "inertial_exponents": [
+    {
+      "n": 1.6666666666666667,
+      "beta": 0.6666666666666666,
+      "p": 3.330669073875469e-16
+    },
+    {
+      "n": 2.0,
+      "beta": 0.5,
+      "p": 0.5
+    },
+    {
+      "n": 3.0,
+      "beta": 0.0,
+      "p": 1.0
+    }
+  ],
+  "tolerances": {
+    "integral_relative": 1e-09,
+    "derivative_relative": 1e-08,
+    "identity_absolute": 1e-14
+  }
+}

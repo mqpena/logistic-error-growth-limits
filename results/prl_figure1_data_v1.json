@@ -1,0 +1,255 @@
+{
+  "schema": "prl-figure1-data-clusters-1",
+  "evidence_status": "exploratory_visualization_of_frozen_artifacts",
+  "clustering_predictors": [
+    "R",
+    "Lambda_disp"
+  ],
+  "clustering_excludes": [
+    "logistic agreement",
+    "x_C",
+    "production response"
+  ],
+  "thresholds": {
+    "one_shape_R_max": 0.05,
+    "moving_front_R_min": 0.25,
+    "one_clock_Lambda_disp_max": 0.1
+  },
+  "audit": {
+    "path": "results/MTB_RESULT_2026-08-11.json",
+    "sha256": "4cad8591ec1245e8cd970cce52eaed564b1273348faf975a0cdeb6263beeb6e5"
+  },
+  "compact_data": {
+    "path": "data/prl_figure1_data_v1.npz",
+    "sha256": "5ff8a25d81dc2fbe1696976c2e8cff597a9f13db20ef04d43a7782acf891b26c"
+  },
+  "script_sha256": "bff012b9b90c323155e287ed9f6aafac873c61d1d3acc3fd1ce53b4fd094a861",
+  "trajectories": [
+    {
+      "regime": "n256_re470_steep",
+      "truth": 0,
+      "member": 0,
+      "R": 0.0463750681358153,
+      "Lambda_disp": 0.36715719803416463,
+      "cluster": 0,
+      "artifact": "n256_re470_steep/clusters/truth_00.npz",
+      "artifact_sha256": "5e64abe6edab6e48f39e6c39637f2fcd0890837eee8e1890536ecaa6d86db181",
+      "lambda_b": 2.7209141864080104,
+      "logistic_rmse": 0.08418851062551651,
+      "t_half": 6.105884177903965
+    },
+    {
+      "regime": "n256_re470_steep",
+      "truth": 0,
+      "member": 1,
+      "R": 0.035597820277145684,
+      "Lambda_disp": 0.2969095596200774,
+      "cluster": 0,
+      "artifact": "n256_re470_steep/clusters/truth_00.npz",
+      "artifact_sha256": "5e64abe6edab6e48f39e6c39637f2fcd0890837eee8e1890536ecaa6d86db181",
+      "lambda_b": 2.7209141864080104,
+      "logistic_rmse": 0.11288576456198389,
+      "t_half": 6.495409749841347
+    },
+    {
+      "regime": "n256_re470_steep",
+      "truth": 1,
+      "member": 0,
+      "R": 0.04036980043400491,
+      "Lambda_disp": 0.35625004764061025,
+      "cluster": 0,
+      "artifact": "n256_re470_steep/clusters/truth_01.npz",
+      "artifact_sha256": "20235d4e99f68d9b722c3e7584394f9f62708529fd3b891afd2a952653bf2672",
+      "lambda_b": 2.6078439425672424,
+      "logistic_rmse": 0.08313512403188188,
+      "t_half": 6.052178467596411
+    },
+    {
+      "regime": "n256_re470_steep",
+      "truth": 1,
+      "member": 1,
+      "R": 0.050955675871969676,
+      "Lambda_disp": 0.4761126887049246,
+      "cluster": 1,
+      "artifact": "n256_re470_steep/clusters/truth_01.npz",
+      "artifact_sha256": "20235d4e99f68d9b722c3e7584394f9f62708529fd3b891afd2a952653bf2672",
+      "lambda_b": 2.6078439425672424,
+      "logistic_rmse": 0.18691080267448426,
+      "t_half": 5.612446811122938
+    },
+    {
+      "regime": "n256_re470_steep",
+      "truth": 2,
+      "member": 0,
+      "R": 0.04765177180907655,
+      "Lambda_disp": 0.5344769188477474,
+      "cluster": 1,
+      "artifact": "n256_re470_steep/clusters/truth_02.npz",
+      "artifact_sha256": "8bb4d8b2f61dc43bd588ea97b00d9cc62fa37e1cb3a12bdbe7bc0eeb5f21b3ce",
+      "lambda_b": 2.6149239219992455,
+      "logistic_rmse": 0.11548538673949461,
+      "t_half": 7.823703170580545
+    },
+    {
+      "regime": "n256_re470_steep",
+      "truth": 2,
+      "member": 1,
+      "R": 0.0657713429671814,
+      "Lambda_disp": 0.4434486739178944,
+      "cluster": 1,
+      "artifact": "n256_re470_steep/clusters/truth_02.npz",
+      "artifact_sha256": "8bb4d8b2f61dc43bd588ea97b00d9cc62fa37e1cb3a12bdbe7bc0eeb5f21b3ce",
+      "lambda_b": 2.6149239219992455,
+      "logistic_rmse": 0.05932491470026559,
+      "t_half": 8.476232115032165
+    },
+    {
+      "regime": "n256_re470_steep",
+      "truth": 3,
+      "member": 0,
+      "R": 0.035426501184759346,
+      "Lambda_disp": 0.2187283194234236,
+      "cluster": 0,
+      "artifact": "n256_re470_steep/clusters/truth_03.npz",
+      "artifact_sha256": "6dce6ed8f082bb23b13198f1933578023e01ce2a18d0ba2931bb9a09010dd874",
+      "lambda_b": 2.6309706164679487,
+      "logistic_rmse": 0.06557353785590908,
+      "t_half": 7.1857826014004305
+    },
+    {
+      "regime": "n256_re470_steep",
+      "truth": 3,
+      "member": 1,
+      "R": 0.03465797303602272,
+      "Lambda_disp": 0.20840437348613497,
+      "cluster": 0,
+      "artifact": "n256_re470_steep/clusters/truth_03.npz",
+      "artifact_sha256": "6dce6ed8f082bb23b13198f1933578023e01ce2a18d0ba2931bb9a09010dd874",
+      "lambda_b": 2.6309706164679487,
+      "logistic_rmse": 0.09630645845183884,
+      "t_half": 7.161685798945685
+    },
+    {
+      "regime": "n512_re940_marginal",
+      "truth": 0,
+      "member": 0,
+      "R": 0.04741540012721375,
+      "Lambda_disp": 0.25225856263272994,
+      "cluster": 0,
+      "artifact": "n512_re940_marginal/clusters/truth_00.npz",
+      "artifact_sha256": "a789d95c0a3ae2ddde56515164930d20ee99e390630c9e46e6121083cc24deeb",
+      "lambda_b": 3.3304918611963967,
+      "logistic_rmse": 0.0643002821265156,
+      "t_half": 4.586849038821807
+    },
+    {
+      "regime": "n512_re940_marginal",
+      "truth": 0,
+      "member": 1,
+      "R": 0.048700383995431695,
+      "Lambda_disp": 0.3005972024149976,
+      "cluster": 0,
+      "artifact": "n512_re940_marginal/clusters/truth_00.npz",
+      "artifact_sha256": "a789d95c0a3ae2ddde56515164930d20ee99e390630c9e46e6121083cc24deeb",
+      "lambda_b": 3.3304918611963967,
+      "logistic_rmse": 0.053753671189207694,
+      "t_half": 4.53616480215559
+    },
+    {
+      "regime": "n512_re940_marginal",
+      "truth": 1,
+      "member": 0,
+      "R": 0.04729523438188611,
+      "Lambda_disp": 0.4119294813799256,
+      "cluster": 1,
+      "artifact": "n512_re940_marginal/clusters/truth_01.npz",
+      "artifact_sha256": "672ddb47bcb240fb9401fbe474186f42e026cb4c5a7cbc4a2fbb6f1e22d05bd0",
+      "lambda_b": 3.3962841928864176,
+      "logistic_rmse": 0.07677581383345479,
+      "t_half": 5.028932361933758
+    },
+    {
+      "regime": "n512_re940_marginal",
+      "truth": 1,
+      "member": 1,
+      "R": 0.07557901345765528,
+      "Lambda_disp": 0.3852616727690315,
+      "cluster": 1,
+      "artifact": "n512_re940_marginal/clusters/truth_01.npz",
+      "artifact_sha256": "672ddb47bcb240fb9401fbe474186f42e026cb4c5a7cbc4a2fbb6f1e22d05bd0",
+      "lambda_b": 3.3962841928864176,
+      "logistic_rmse": 0.0856332479274622,
+      "t_half": 5.272816833614192
+    },
+    {
+      "regime": "n512_re940_marginal",
+      "truth": 2,
+      "member": 0,
+      "R": 0.07777566655060542,
+      "Lambda_disp": 0.1939650992021183,
+      "cluster": 1,
+      "artifact": "n512_re940_marginal/clusters/truth_02.npz",
+      "artifact_sha256": "a63107d4056e12c18ba8af580f90035ff81560a0950b983806fe2155ce410658",
+      "lambda_b": 3.4157990270582164,
+      "logistic_rmse": 0.09580585927429855,
+      "t_half": 5.345751548821065
+    },
+    {
+      "regime": "n512_re940_marginal",
+      "truth": 2,
+      "member": 1,
+      "R": 0.04714290213512084,
+      "Lambda_disp": 0.43084885105425913,
+      "cluster": 1,
+      "artifact": "n512_re940_marginal/clusters/truth_02.npz",
+      "artifact_sha256": "a63107d4056e12c18ba8af580f90035ff81560a0950b983806fe2155ce410658",
+      "lambda_b": 3.4157990270582164,
+      "logistic_rmse": 0.06266847742843283,
+      "t_half": 5.88720800562623
+    },
+    {
+      "regime": "n512_re940_marginal",
+      "truth": 3,
+      "member": 0,
+      "R": 0.0760056478057027,
+      "Lambda_disp": 0.49431263182781443,
+      "cluster": 1,
+      "artifact": "n512_re940_marginal/clusters/truth_03.npz",
+      "artifact_sha256": "07bd598df0d90e0750d01d0af8ca13c88d084b85620dae04c6547fdb46848b54",
+      "lambda_b": 3.3694860985471164,
+      "logistic_rmse": 0.098161762148852,
+      "t_half": 4.564102647830484
+    },
+    {
+      "regime": "n512_re940_marginal",
+      "truth": 3,
+      "member": 1,
+      "R": 0.053827989972991444,
+      "Lambda_disp": 0.36501073776452436,
+      "cluster": 1,
+      "artifact": "n512_re940_marginal/clusters/truth_03.npz",
+      "artifact_sha256": "07bd598df0d90e0750d01d0af8ca13c88d084b85620dae04c6547fdb46848b54",
+      "lambda_b": 3.3694860985471164,
+      "logistic_rmse": 0.057698355975848,
+      "t_half": 4.429073043012973
+    }
+  ],
+  "cluster_summary": {
+    "1": {
+      "count": 7,
+      "R_mean": 0.04122042102719906,
+      "Lambda_disp_mean": 0.2857578947503055,
+      "logistic_rmse_mean": 0.08002047840612192
+    },
+    "2": {
+      "count": 9,
+      "R_mean": 0.06022280499468771,
+      "Lambda_disp_mean": 0.4150407506075822,
+      "logistic_rmse_mean": 0.09316273563362143
+    }
+  },
+  "admission_counts": {
+    "logistic": 0,
+    "moving_front": 0
+  }
+}

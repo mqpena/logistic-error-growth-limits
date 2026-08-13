@@ -1,0 +1,273 @@
+{
+  "schema": "prl-logistic-analysis-freeze-1",
+  "freeze_id": "MTB_v1",
+  "status": "RATIFIED AT D1 — authorized for prospective execution on stored artifacts under the ordered gates and stop rules in this record.",
+  "date_drafted": "2026-08-09",
+  "date_ratified": "2026-08-11",
+  "drafted_by": "Claude (Opus 5), reviewer",
+  "governing_charter": "M0_CHARTER_2026-08-09.md",
+  "governing_plan": "PLAN_logistic_validity_limit_2026-08-09.md",
+  "milestone": "M-Tb",
+  "milestone_title": "Ordered GT1 interpretability audit: one shape, one clock, residual control, then coefficient identification",
+  "path": "A — no new turbulence or tangent-linear integration; CPU post-processing of frozen fields only",
+
+  "inspection_attestation": {
+    "statement": "Neither the original drafter, Claude (Opus 5), nor the revising and countersigning agent, Sol (OpenAI Codex), examined per-shell rho(k,t), a(k,t), or any spectral-shape response from the frozen clusters before this record and its ordered D1-D3 gates were frozen. The statistics, thresholds, and predicted directions were derived from the named theory records without inspecting those responses.",
+    "prospective_window": "Open. It closes on first inspection of per-shell decorrelation structure by any agent.",
+    "verified_by": "Sol (OpenAI Codex), countersigning revising agent and intended M-Tb executor",
+    "verified_date": "2026-08-10",
+    "executor_precondition": "This countersignature is a precondition of the dedicated M-Tb authorization row in D1_PI_DECISION_2026-08-09.md, not a post-analysis repair. If any agent other than Sol executes M-Tb, that agent must countersign the same non-inspection statement before accessing a per-shell response."
+  },
+
+  "revision": {
+    "r2_date": "2026-08-10",
+    "r2_reason": "THEORY_closure_comparison_2026-08-09.tex (revised 10 August 2026) states the sharp condition as the pointwise eigencondition G(k)/U(k) = lambda and enumerates five distinct divergences. Revision 1 of this freeze tested only divergence 1 (spectral shape), which is NOT the hypothesis of that document's Theorem 1. D2 and D3 are added to cover divergences 2 and 5; both are feasible with no new compute.",
+    "r2_traceability_note": "RESOLVED 2026-08-10. The corrected theorem freeze now carries evidence status, the provisional T-code, source-verification provenance, and hashes for the detailed TeX/PDF input. D1_PI_DECISION_2026-08-09.md classifies the theorem freeze and synthesis as post-exit D1 inputs rather than milestone exits. The inherited 2026-08-09 synthesis filename is retained for stable provenance; the title, header, metadata, and D1 record identify the 2026-08-10 revision.",
+    "r3_date": "2026-08-10",
+    "r3_reason": "Reconciled the draft freeze with ADVISORY_to_Sol_freeze_fixes_2026-08-10.md and the corrected GT1/GT2 records; no response data were inspected and the prospective window remains open.",
+    "r4_date": "2026-08-10",
+    "r4_reason": "Corrected D3's scientific interpretation. D3 is conditional on D1 one shape, D2 one clock, and controlled residuals. Without those gates, its fitted logistic rate is not an estimate of the GT1 kernel coefficient and cannot affect the T-code. No response data were inspected.",
+    "r5_date": "2026-08-10",
+    "r5_reason": "Sol countersigned the prospective non-inspection precondition before M-Tb authorization; broadened the milestone title to all ordered gates; repaired the authorization pointer to the dedicated M-Tb row. No response data were inspected.",
+    "r6_date": "2026-08-11",
+    "r6_reason": "Bound the response-blind implementation before execution. Truth-level bootstrap uses 10000 draws with seed 20260811. Because log(lambda_eff) has no real value for nonpositive lambda_eff, those shell-time pairs are excluded and counted rather than transformed. The exact code hash is recorded below. No cluster response arrays were opened before this binding."
+  },
+
+  "purpose": {
+    "question": "Do the frozen SQG twins satisfy the ordered conditions under which a two-field closure reduces to the scalar logistic law: (D1) one shape, Delta(k,t) = a(t)U(k); (D2) one clock, G(k)/U(k) independent of k; controlled residuals; and only then (D3) coefficient identification, lambdabar = lambda_TL?",
+    "question_provenance": "these are divergences 1, 2 and 5 of THEORY_closure_comparison_2026-08-09.tex. Divergence 3 (memory D dependent on a) is not measurable from twin fields. Divergence 4 (finite-band leakage) belongs to M3A and is out of scope here.",
+    "original_r1_question_retained": "Do the twins realize Delta(k,t) = a(t)U(k), or a moving similarity spectrum Delta/U = r(k/k_e(t))? This remains the D1 question and is answered by R, b, k_half and Q.",
+    "axis": "THEORY SUPPORT ONLY.",
+    "explicit_non_claim": "M-Tb is not a held-out predictive test and contains no relational null. It cannot produce, support, or modify an E-axis verdict (E0-E3), and it cannot modify C0. Its outputs are measured magnitudes for the residuals that M-T is required to quantify.",
+    "decision_relevance": "The T1 gate is conjunctive and ordered. D1 must return ONE_SHAPE_LIMIT, D2 must return ONE_CLOCK, the relevant residuals must be controlled, and only then is D3 interpretable as a comparison of the GT1 kernel coefficient with lambda_TL. D3 alone cannot resolve the T-code in either direction. If D1 or D2 selects MOVING_FRONT or MANY_CLOCKS, the lifecycle logistic fit is not script-G/E and D3 has no theorem meaning; M-T owes GT2 or another corrected law. T2 is entered only after that alternative law or coefficient relation is derived. Without a completed alternative, the charter result is T0, not T3.",
+    "relation_to_M_T": "Delivered at or before the M-T midpoint checkpoint. Informs where M-T spends cap; does not license any T-verdict, which requires the §3.1 proof standard independently.",
+    "anti_ratchet_clause": {
+      "statement": "No outcome of M-Tb may reduce a claim. Every tier in item 4 routes to a DERIVATION OBLIGATION on M-T, not to a verdict. M-Tb selects WHICH scalar law M-T must derive; it never concludes that no law exists.",
+      "rationale": "Across eight prior iterations the adjustment variable was always the claim and never the theory. A measured failure of the one-shape ansatz N1 is not the absence of a scalarization: the Leith-Kraichnan moving similarity form Delta/U = r(k/k_e(t)) is itself a one-parameter family, with front position k_e(t) replacing amplitude a(t), and therefore also closes to a scalar law. Which law is an open derivation, not a demotion.",
+      "reconciliation_hypothesis": "N1 is the broad-front limit of the similarity picture. When the front width in log k exceeds the band width, all shells decorrelate together, a(k,t) -> a(t), and the moving-front law reduces to logistic. The reconciling parameter is the measurable ratio W_front / W_band, which M-Tb reports (item 2, front_width).",
+      "forbidden_conclusions": [
+        "'N1 fails, therefore the scalar law is not derivable' — this is T3 by assertion and is prohibited; T3 requires showing NO scalar reduction exists for the measured geometry",
+        "'N1 fails, therefore C0 weakens' — M-Tb cannot modify C0 under any outcome",
+        "any statement that treats a measured spectral geometry as a negative result rather than as the input to a derivation"
+      ]
+    }
+  },
+
+  "item_1_band_family_and_lifecycle_interval": {
+    "primary_band": "k10_20",
+    "primary_band_justification": "The frozen primary band of the v8 production (metadata_json.primary_band_index = 2). Not selected for this analysis.",
+    "shell_definition": "integer wavenumber shells, |k| in [k-0.5, k+0.5), via conventions_v1.py; shells k = 10..20 inclusive",
+    "resolution_check": "shells 10-20 lie inside the stored spectral support of both regimes (170 bins at N=512, 85 bins at N=256)",
+    "sensitivity_bands": ["k6_9", "k21_32"],
+    "sensitivity_status": "descriptive context only; not eligible for the primary verdict",
+    "excluded_bands": ["k1_5", "k33_241"],
+    "exclusion_reason": "k1_5 is forcing-influenced and spans too few shells for a dispersion statistic; k33_241 exceeds stored spectral support at both resolutions",
+    "nested_family_k11_19_through_k14_16": "NOT USED. That family was declared under M2a for the closure test and is not part of M-Tb.",
+    "lifecycle_interval": {
+      "rule": "field times at which the band-mean rho on k10_20 lies in [0.15, 0.85]",
+      "cadence": "field cadence 0.1 TU over 0-12 TU (125 stored field times; only 4 lie beyond t=12)",
+      "provenance": "the [0.15, 0.85] bracket is the interval already frozen and reported response-blind in M2A_FEASIBILITY_2026-08-09.json; it is inherited, not chosen here"
+    }
+  },
+
+  "item_2_primary_response_predictor_and_comparator": {
+    "per_shell_quantities": {
+      "Et_k": "0.5 * shell sum |truth_hat|^2",
+      "Ef_k": "0.5 * shell sum |forecast_hat|^2",
+      "C_k": "0.5 * shell sum Re(forecast_hat * conj(truth_hat))",
+      "rho_k": "C_k / sqrt(Et_k * Ef_k)",
+      "a_k": "1 - rho_k  (decorrelated fraction at shell k)",
+      "implementation": "the M2a arbitrary-band machinery in audit_nested_band_feasibility_v1.py, applied at width-one bands; all conversions through conventions_v1.py"
+    },
+    "primary_statistic": {
+      "name": "R",
+      "definition": "R(t) = Var_k[a(k,t)] / ( abar(t) * (1 - abar(t)) )",
+      "abar": "U-weighted mean of a(k,t) over shells 10-20",
+      "weights": "w_k proportional to Et(k,t) (background/truth energy in shell)",
+      "weight_justification": "under N1 the conversion integrand carries U(k); U-weighting matches how a enters the conversion integral",
+      "meaning": "R is exactly the fractional error induced in the a(1-a) conversion coefficient by replacing scale-dependent a(k,t) with its band mean, since <a(1-a)> - abar(1-abar) = -Var_k(a). It is the ledger N3 spectral-shape residual.",
+      "summary": "per trajectory, the median of R(t) over the lifecycle interval; then the median over the 4 truths within a regime",
+      "reported_separately_by_regime": true
+    },
+    "secondary_statistic_moving_spectrum": {
+      "name": "b and k_half",
+      "b": "U-weighted least-squares slope of a(k,t) against log(k) over shells 10-20",
+      "k_half": "the wavenumber at which the fitted a(k,t) profile crosses 0.5, by linear interpolation in log k; censored when the crossing lies outside [10, 20]",
+      "drift": "Spearman rank correlation of k_half(t) with t over the lifecycle interval",
+      "role": "distinguishes the two geometries: symmetric scatter about a band-uniform amplitude versus a systematic moving similarity front"
+    },
+    "secondary_statistic_front_width": {
+      "name": "W_front and the reconciliation ratio",
+      "W_front": "the width in log10(k) over which the fitted a(k,t) profile rises from 0.25 to 0.75, by interpolation in log k; censored when either crossing lies outside shells 10-20",
+      "W_band": "log10(20/10) = 0.301, fixed",
+      "ratio": "Q(t) = W_front(t) / W_band",
+      "role": "PRIMARY INPUT TO THE DERIVATION OBLIGATION. Q is the parameter that reconciles the one-shape and moving-front pictures: Q >> 1 means the front is broad compared with the band, all shells share one amplitude, and N1 is the correct limit; Q << 1 means a sharp front traverses the band and the similarity variable k_e(t) is the correct scalar coordinate.",
+      "summary": "median of Q(t) over the lifecycle interval, per trajectory, then per truth, then per regime, with truth-level bootstrap CI",
+      "censoring_note": "Q is right-censored whenever the front is broader than the band, which is itself the N1-favourable outcome; censored fractions must be reported and a lower bound on Q given, never silently dropped"
+    },
+    "comparator": "the N1 ansatz itself, i.e. the degenerate profile a(k,t) = abar(t), for which R = 0 and b = 0 identically",
+    "no_predictor_uses_held_out_response": true,
+
+    "D2_one_clock_test": {
+      "added": "2026-08-10, after THEORY_closure_comparison_2026-08-09.tex",
+      "why_added": "R tests only divergence 1 (spectral shape). The actual hypothesis of Theorem 1 is the pointwise eigencondition G(k)/U(k) = lambda, which is divergence 2 and which R does not test. The source document states at its 'first point of divergence' item 2 that G(k)/U(k) may vary with k even where Delta is approximately aU.",
+      "measurable_form": "invert the pointwise reduction U(k) adot = a(1-a) G(k) to obtain lambda_eff(k,t) = adot(k,t) / ( a(k,t) * (1 - a(k,t)) ), which equals G(k)/U(k) and is therefore the eigencondition residual, measured without any closure model",
+      "requires_lambda_b": false,
+      "independence_note": "This is a DISPERSION question — whether lambda_eff is flat in k — not a comparison against an independently measured rate. No held-out response is used and the M2a independent-lambda_b blocker does not apply.",
+      "statistic": "Lambda_disp(t) = U-weighted standard deviation of log(lambda_eff(k,t)) across shells 10-20; summarised as the median over the lifecycle interval, per trajectory then per truth then per regime",
+      "derivative_rule": "adot by centred finite difference on the 0.1 TU dense field cadence, after a predeclared 3-point moving average on a(k,t); the unsmoothed variant is a predeclared sensitivity",
+      "endpoint_guard": "lambda_eff diverges as a -> 0 or a -> 1; restrict to shells and times with a(k,t) in [0.15, 0.85], matching the existing lifecycle rule. Excluded (k,t) counts are reported.",
+      "geometry_tiers": [
+        {"tier": "ONE_CLOCK", "condition": "Lambda_disp <= 0.10", "meaning": "rates agree across the band to about 10 percent; the eigencondition is numerically realised", "derivation_obligation": "M-T proceeds to identify the coefficient; Theorem 1's hypothesis is empirically supported in this band"},
+        {"tier": "MIXED_CLOCKS", "condition": "0.10 < Lambda_disp <= 0.40", "derivation_obligation": "M-T derives the leading correction from clock dispersion and the domain over which one clock suffices"},
+        {"tier": "MANY_CLOCKS", "condition": "Lambda_disp > 0.40", "derivation_obligation": "M-T derives the scalar law for a k-dependent rate profile, or shows the reduction requires a bandwise vector rather than one scalar exposure (the source document's own language in its compact-record section). NOT an obstruction record."}
+      ],
+      "predicted_direction": "MANY_CLOCKS in n512_re940_marginal; smaller dispersion in n256_re470_steep",
+      "independence_from_R": "R and Lambda_disp can disagree in either direction. R small with Lambda_disp large is the case the source document explicitly warns about and is the most decision-relevant outcome; it must be reported prominently if observed."
+    },
+
+    "D3_coefficient_identification_test": {
+      "added": "2026-08-10, after THEORY_closure_comparison_2026-08-09.tex",
+      "why_added": "The source document derives the logistic FORM with coefficient lambdabar = script-G / E, a closure-kernel rate. The manuscript claim uses lambda_TL. Their equality is still a ledger assumption. D3 is a necessary but not sufficient T1 diagnostic, and it is interpretable only after the D1, D2, and residual gates establish that the fitted lifecycle coefficient estimates script-G/E.",
+      "feasibility": "FEASIBLE NOW, NO PATH B. lambda_TL is stored for the frozen primary band as lambda_energy_rate band index 2 at 1200 times. No new tangent-linear integration is required.",
+      "restricted_to": "k10_20 only. Inner nested bands have no stored lambda_TL; that remains the M2a blocker and is out of scope.",
+      "ordering_and_interpretability_gate": "Evaluate D1, then D2, then residual control. Interpret D3 as a GT1 coefficient comparison only if D1 = ONE_SHAPE_LIMIT, D2 = ONE_CLOCK, and the relevant spectral, band-boundary, dissipation, and forcing residuals are controlled at the predeclared level. Otherwise D3 may be computed only as a labelled descriptive sensitivity and cannot enter a T-code.",
+      "statistic": "the ratio lambda_fit / lambda_TL, where lambda_fit is the rate fitted from the band-integrated logistic over the lifecycle interval and lambda_TL is the stored tangent-linear half-energy rate over a predeclared matched early-time window. Rename lambda_fit as lambdabar = script-G/E only after the interpretability gate passes.",
+      "reporting": "report the D1, D2, and residual gates before the ratio. If any gate fails, label the ratio NOT INTERPRETABLE FOR GT1. If all gates pass, report per trajectory with truth-level bootstrap CI; always report the ratio and CI, never only a binary tier.",
+      "tiers": [
+        {"tier": "MATCHED", "condition": "all interpretability gates pass and the CI of the ratio contains 1", "consequence": "necessary coefficient evidence for T1, but not sufficient: the analytical and numerical proof gates must also pass"},
+        {"tier": "OFFSET", "condition": "all interpretability gates pass and the CI excludes 1", "consequence": "routes to a T2 coefficient branch; T2 is assigned only after M-T derives the relation between the kernel and tangent-linear rates"},
+        {"tier": "NOT_INTERPRETABLE_FOR_GT1", "condition": "D1, D2, or residual control fails", "consequence": "the fitted coefficient is not script-G/E and the comparison has no T-code implication; route M-T to GT2 or the corrected-law derivation"}
+      ],
+      "boundary_with_forbidden_M2": "D3 compares two growth-rate summaries. It does not compute, fit, or report the closure ratio P_b / (lambda_b * epsilon_b), which remains forbidden under item 3. Before the interpretability gate passes, the lifecycle fit must be called lambda_fit, not lambdabar or script-G/E."
+    }
+  },
+
+  "item_3_independent_lambda_b": {
+    "required": false,
+    "justification": "M-Tb is a shape test on decorrelation structure, not a rate or closure test. No infinitesimal rate enters R, b, or k_half. The M2a blocker (missing independent lambda_b for inner bands) therefore does not apply.",
+    "prohibition": "M-Tb may not compute, fit, or report any band closure ratio P_b / (lambda_b * epsilon_b). Doing so converts it into an unauthorized M2."
+  },
+
+  "item_4_numerical_tolerances": {
+    "geometry_tiers_on_primary_statistic_R": [
+      {
+        "tier": "ONE_SHAPE_LIMIT",
+        "condition": "R <= 0.05",
+        "measured_geometry": "band-uniform decorrelation amplitude; the front is broad compared with the band (Q >> 1)",
+        "derivation_obligation": "M-T derives the coefficient K under N1/N3 and reports the residual. The empirical premise of the logistic reduction is verified in this regime; the coefficient bias from scalarization is at most 5 percent.",
+        "verdict_this_licenses": "none by itself; supports a T1 branch only if M-T meets the §3.1 proof standard including the numerical confirmation gate"
+      },
+      {
+        "tier": "MIXED",
+        "condition": "0.05 < R <= 0.25",
+        "measured_geometry": "partial scale coherence; front width comparable to band width (Q of order 1)",
+        "derivation_obligation": "M-T derives the leading correction to the logistic coefficient in powers of R, giving logistic plus a quantified O(R) shape correction and the domain over which the correction is negligible.",
+        "verdict_this_licenses": "none by itself; a derived correction is T1-with-domain or T2 depending on whether the corrected law remains logistic in form"
+      },
+      {
+        "tier": "MOVING_FRONT",
+        "condition": "R > 0.25",
+        "measured_geometry": "a sharp decorrelation front traverses the band; the similarity variable k_e(t) rather than the amplitude a(t) is the correct scalar coordinate (Q < 1)",
+        "derivation_obligation": "M-T derives the scalar law implied by the measured similarity geometry, using k_e(t) as the one-parameter family, and identifies the limit in which it reduces to logistic. It does NOT record an obstruction. The moving similarity form is a one-parameter family and therefore closes to a scalar law; which law is the open question and is precisely what the cap is for.",
+        "verdict_this_licenses": "none by itself; the expected branch is T2 with logistic as an explicit special case. T3 is available ONLY if M-T proves that no scalar reduction exists for this measured geometry, which is a strictly higher bar than 'N1 fails'.",
+        "scoping_note": "A sharp-front calculation on U ~ k^-n with front propagation at the local strain rate lambda(k) ~ k^((3-n)/2) yields d(eps)/dt proportional to (eps + eps_0)^p with p = -(5-3n)/(2(n-1)). This reproduces exponential growth at n=3 (p=1) and Lorenz (1969) finite-time linear growth at n=5/3 (p=0). It is recorded here as evidence that the derivation target is real and reachable, NOT as a derivation and NOT as a result. M-T owns the actual calculation, including finite-band boundary terms and the smooth-front generalisation.",
+        "validity_caveat": "The moving-front model presumes upscale error migration and is not expected to hold for steep spectra where lambda(k) decreases with k and error grows in place rather than propagating. The two regimes may therefore require different laws; this is a result, not a failure."
+      }
+    ],
+    "tier_justification": "The tiers are stated in units of coefficient error because R is literally the fractional conversion-coefficient error, not an arbitrary goodness score. 0.05 and 0.25 are declared before inspection.",
+    "tier_semantics": "These are GEOMETRY tiers, not verdict tiers. Each names a measured spectral geometry and the derivation M-T then owes. No tier is a negative result and no tier reduces a claim. See purpose.anti_ratchet_clause.",
+    "reconstruction_validation_gate": {
+      "test": "the sum of per-shell Et, Ef, C over shells 10-20 must reproduce the stored k10_20 band values at the 125 field times",
+      "tolerance": "relative L2 <= 1.0e-5",
+      "precedent": "M2a achieved 4.0e-8 to 5.3e-7 on the same machinery",
+      "on_failure": "HARD STOP; report and do not proceed to R"
+    },
+    "shell_inclusion_floor": {
+      "rule": "exclude shell k at time t if Et(k,t) contributes less than 0.1 percent of the band truth energy",
+      "reporting": "the count of excluded (k,t) pairs is reported; if it exceeds 5 percent of pairs, the trajectory is flagged"
+    }
+  },
+
+  "item_5_minimum_improvement_and_uncertainty": {
+    "applicability": "no held-out improvement criterion applies; M-Tb is a magnitude measurement against predeclared tiers, not a model comparison",
+    "uncertainty_rule": "report bootstrap 95 percent confidence intervals over the 4 truths within each regime (truth-level resampling, not member-level or time-level)",
+    "member_treatment": "the 2 members per truth are reported individually and averaged within truth before truth-level resampling; members are not independent samples"
+  },
+
+  "item_6_stability_metric": {
+    "requirement": "the verdict tier must agree across all 4 truths within a regime",
+    "on_disagreement": "report as HETEROGENEOUS with the per-truth values; a heterogeneous regime yields no tier verdict",
+    "cross_regime": "the two regimes are reported separately and are never pooled; disagreement between regimes is a result, not a failure",
+    "sensitivity_bands": "k6_9 and k21_32 values are reported alongside but cannot overturn or establish the k10_20 verdict"
+  },
+
+  "item_7_null_statistic_and_multiplicity": {
+    "relational_null": "NONE. M-Tb declares no null hypothesis test and produces no p-value.",
+    "rationale": "R is a physical magnitude with a predeclared interpretation, not a detection problem. Attaching a null would create the false impression of an E-axis result.",
+    "frozen_nulls_untouched": "the frozen v8 verdicts p_time = 0.011, p_cross = 113/384, p_phase = 0.001 are not recomputed, reinterpreted, or referenced as support",
+    "multiplicity": "the primary statistic is one number per regime; the sensitivity bands and the secondary statistics are labelled secondary and carry no verdict authority"
+  },
+
+  "item_8_power_or_information_target": {
+    "minimum_eligible_times": 5,
+    "provenance": "M2a reports minimum 5, median 10.5, maximum 18 eligible field points per trajectory on k10_20, with 16/16 trajectories bracketing [0.15, 0.85]",
+    "on_shortfall": "a trajectory with fewer than 5 eligible times is excluded and reported as excluded",
+    "acknowledged_limit": "4 truths per regime. This is a descriptive magnitude with truth-level uncertainty, not a powered inference, and it is reported as such."
+  },
+
+  "item_9_predicted_direction": {
+    "label": "PROSPECTIVE_MAGNITUDE — the SIGN is not open; see sign_is_not_a_prediction",
+    "sign_is_not_a_prediction": {
+      "correction_date": "2026-08-10",
+      "finding": "Verification against references/LeithKraichnan1972.pdf p.1049 shows LK themselves define the error ratio function r(k/k_e) = Delta(k,t)/U(k) and define k_e(t) as the wavenumber at which Delta/U = 0.5, and report that r(x) is INCREASING in x and that the similarity spectrum moves toward lower wavenumbers. P3 and P4 below are therefore LK's published findings for an inertial range, not predictions of this record.",
+      "consequence": "The statistics a(k,t), k_half and Q are LK's own standard diagnostics — which strengthens them — but item 9 must not claim prospective credit for their direction. What is genuinely open, and what this record predicts, is MAGNITUDE: how large R and Q are within a finite eleven-shell band of these SQG twins, at this Reynolds number and spectral slope.",
+      "excluded_regime": "LK p.1049 further report that while correlated and uncorrelated regions are separated by a sharp discontinuity, sweeping of uncorrelated energy to high wavenumbers overpowers conversion and THE ERROR DECREASES. A logistic law with lambda > 0 cannot produce d(eps)/dt < 0 at small eps. The rho window [0.15, 0.85] already excludes this transient; it is recorded here as a NAMED excluded regime rather than a silent crop."
+    },
+    "basis": "WPT_assumption_ledger_v1.md, 'Prior literature boundary', and direct verification of Leith (1971) Eqs. (11)-(12) p.149 and Leith & Kraichnan (1972) Eqs. (2)-(5) p.1043 and Section 4 p.1049 against the scanned primary sources in references/.",
+    "predictions": [
+      "P1: in n512_re940_marginal, R > 0.25 and Q < 1 (tier MOVING_FRONT), obligating M-T to derive the similarity-variable scalar law",
+      "P2: R is smaller and Q larger in n256_re470_steep than in n512_re940_marginal, because the steeper spectrum is more scale-coherent",
+      "P3: b(t) > 0 across the lifecycle interval (decorrelation increases with wavenumber)",
+      "P4: the Spearman correlation of k_half with t is negative (the decorrelation front migrates upscale), which is the moving-front signature rather than symmetric scatter"
+    ],
+    "what_these_predictions_are_about": "P1-P4 predict WHICH SCALAR LAW M-T must derive. They are not predictions that a claim will shrink. Under the anti-ratchet clause, confirming P1 obligates the moving-front derivation (expected branch T2 with logistic as a special case); refuting P1 verifies the N1 premise empirically and obligates the coefficient derivation (expected branch T1 with domain). Both outcomes send M-T to a derivation and neither weakens C0.",
+    "symmetry_note": "Declaring a direction that disfavours the originally assumed geometry is required by ADVISORY_to_Sol_theory_symmetry_2026-08-09.md §3, but it is only legitimate because every tier carries a derivation obligation. A predicted-failure direction paired with a menu of verdicts would be the ratchet, not a test."
+  },
+
+  "item_10_exclusions_censoring_and_stop_rules": {
+    "exclusions": [
+      "field times outside the band-mean rho window [0.15, 0.85]",
+      "shells failing the 0.1 percent energy floor",
+      "trajectories with fewer than 5 eligible times"
+    ],
+    "censoring": "k_half is censored (not extrapolated) when the 0.5 crossing lies outside shells 10-20; censored fractions are reported per trajectory",
+    "stop_rules": [
+      "STOP if the reconstruction validation gate fails at 1.0e-5",
+      "STOP if any cluster sha256 fails the config_v1.json manifest",
+      "STOP and report HETEROGENEOUS rather than pooling if truths within a regime disagree on tier",
+      "STOP if execution would require any new integration; that is Path B and is not authorized",
+      "STOP and escalate to the PI if any M-Tb output is being written as a claim reduction rather than as a derivation obligation; that is the failure mode this record exists to prevent"
+    ],
+    "refuse_overwrite": true,
+    "output": "scripts/out/validity_limit_v1/MTB_RESULT_<date>.json plus a dated exit record, recording configuration, input sha256 hashes, code version, convention, this freeze's sha256, and evidence_status"
+  },
+
+  "evidence_status": "prospective_diagnostic",
+  "evidence_status_note": "The underlying fields were used previously for other statistics (v8 nulls, spectra). Under M0 §4 this record claims prospective status for THIS statistic, THESE bands, and THESE directions only, on the strength of the inspection attestation above. It makes no confirmatory claim and cannot be promoted to one.",
+
+  "estimated_cost": "CPU only; per-shell moments at 125 field times x 16 trajectories using validated M2a machinery. No GPU. No new integration.",
+
+  "hashes": {
+    "self_sha256": "1aa42e31ee202f472c56c4ee55c5e3b1c444bbb8a8aca6d331f85919bcef61cf",
+    "code_sha256": "7e16fbc4d417e866ae9212b1540080c7f1d136ff74025b8f3091064855a983b8",
+    "note": "self_sha256 is the ratification hash of the canonical file with that field set to null. code_sha256 binds audit_mtb_ordered_gates_v1.py before response access. The final executable-freeze file hash is recorded externally in M0 §9."
+  },
+
+  "authorization": {
+    "authorized": true,
+    "authorizing_decision": "D1_PI_DECISION_2026-08-09.md, row 'Authorize and ratify ordered M-Tb gates on stored artifacts only'",
+    "pi_signature": "PI (user authorization)",
+    "date": "2026-08-11"
+  }
+}

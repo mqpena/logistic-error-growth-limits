@@ -1,0 +1,939 @@
+{
+  "schema": "prl-logistic-m2a-feasibility-1",
+  "date": "2026-08-09",
+  "scope": "M2a only; no closure fit and no new model integration",
+  "input_config": {
+    "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/PRL_Logistic/scripts/validity_limit_v1/config_v1.json",
+    "sha256": "10a4214ea28f94b23f90c5465d634bc04641f3f7847dc51a7b1fa7db6ba747f5"
+  },
+  "pilot_config": {
+    "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/03_JFM/codex_work/experiments/prl_v8_gate5_nonconfirmatory_config_20260715.json",
+    "sha256": "25f7b4c12881ab1c4223b791554f1e3be2494eb62a929649b7cd62b1cfb8dc66"
+  },
+  "artifacts": [
+    {
+      "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/03_JFM/codex_work/experiments/out/prl_v8_gate5_nonconfirmatory_20260715/n512_re940_marginal/clusters/truth_00.npz",
+      "sha256": "a789d95c0a3ae2ddde56515164930d20ee99e390630c9e46e6121083cc24deeb"
+    },
+    {
+      "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/03_JFM/codex_work/experiments/out/prl_v8_gate5_nonconfirmatory_20260715/n512_re940_marginal/clusters/truth_01.npz",
+      "sha256": "672ddb47bcb240fb9401fbe474186f42e026cb4c5a7cbc4a2fbb6f1e22d05bd0"
+    },
+    {
+      "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/03_JFM/codex_work/experiments/out/prl_v8_gate5_nonconfirmatory_20260715/n512_re940_marginal/clusters/truth_02.npz",
+      "sha256": "a63107d4056e12c18ba8af580f90035ff81560a0950b983806fe2155ce410658"
+    },
+    {
+      "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/03_JFM/codex_work/experiments/out/prl_v8_gate5_nonconfirmatory_20260715/n512_re940_marginal/clusters/truth_03.npz",
+      "sha256": "07bd598df0d90e0750d01d0af8ca13c88d084b85620dae04c6547fdb46848b54"
+    },
+    {
+      "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/03_JFM/codex_work/experiments/out/prl_v8_gate5_nonconfirmatory_20260715/n256_re470_steep/clusters/truth_00.npz",
+      "sha256": "5e64abe6edab6e48f39e6c39637f2fcd0890837eee8e1890536ecaa6d86db181"
+    },
+    {
+      "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/03_JFM/codex_work/experiments/out/prl_v8_gate5_nonconfirmatory_20260715/n256_re470_steep/clusters/truth_01.npz",
+      "sha256": "20235d4e99f68d9b722c3e7584394f9f62708529fd3b891afd2a952653bf2672"
+    },
+    {
+      "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/03_JFM/codex_work/experiments/out/prl_v8_gate5_nonconfirmatory_20260715/n256_re470_steep/clusters/truth_02.npz",
+      "sha256": "8bb4d8b2f61dc43bd588ea97b00d9cc62fa37e1cb3a12bdbe7bc0eeb5f21b3ce"
+    },
+    {
+      "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/03_JFM/codex_work/experiments/out/prl_v8_gate5_nonconfirmatory_20260715/n256_re470_steep/clusters/truth_03.npz",
+      "sha256": "6dce6ed8f082bb23b13198f1933578023e01ce2a18d0ba2931bb9a09010dd874"
+    }
+  ],
+  "nested_band_family": {
+    "bands": [
+      [
+        10,
+        20
+      ],
+      [
+        11,
+        19
+      ],
+      [
+        12,
+        18
+      ],
+      [
+        13,
+        17
+      ],
+      [
+        14,
+        16
+      ]
+    ],
+    "rule": "concentric one-shell narrowing of frozen primary k10_20, declared without response inspection"
+  },
+  "cadence": {
+    "field_times": 125,
+    "dense_field_interval": [
+      0.0,
+      12.0
+    ],
+    "dense_field_dt": 0.1,
+    "late_field_times": [
+      20.0,
+      40.0,
+      80.0,
+      120.0
+    ],
+    "scalar_times_pre_existing_bands": 733,
+    "lambda_times_pre_existing_bands": 1200
+  },
+  "availability": [
+    {
+      "quantity": "Et, Ef, C, epsilon, rho, x_C",
+      "pre_existing_bands": "available at 733 scalar times",
+      "arbitrary_nested_bands": "reconstructable from fields at 125 field times",
+      "method": "hash-verified Fourier inner products; half-energy convention"
+    },
+    {
+      "quantity": "P_linear, P_tl_nonlinear, P_pure_error",
+      "pre_existing_bands": "available at 733 scalar times",
+      "arbitrary_nested_bands": "reconstructable from fields at 125 field times",
+      "method": "solver-equivalent NumPy spectral operators; common forcing cancels"
+    },
+    {
+      "quantity": "complete instantaneous production",
+      "pre_existing_bands": "available as sum of three stored components",
+      "arbitrary_nested_bands": "reconstructable at field times",
+      "method": "P_linear + P_tl_nonlinear + P_pure_error"
+    },
+    {
+      "quantity": "manuscript linearized production",
+      "pre_existing_bands": "available",
+      "arbitrary_nested_bands": "reconstructable at field times",
+      "method": "P_linear + P_tl_nonlinear"
+    },
+    {
+      "quantity": "independent lambda_b",
+      "pre_existing_bands": "available for five frozen bands plus full support",
+      "arbitrary_nested_bands": "missing except outer k10_20",
+      "method": "requires new independently initialized tangent-linear integration"
+    },
+    {
+      "quantity": "nested-band lifecycle at scalar cadence",
+      "pre_existing_bands": "available only for k10_20",
+      "arbitrary_nested_bands": "missing",
+      "method": "cannot recover 733-time arbitrary-band series from 125 snapshots"
+    },
+    {
+      "quantity": "nested-band saturation ceiling",
+      "pre_existing_bands": "estimable at scalar cadence",
+      "arbitrary_nested_bands": "reconstructable but weakly sampled late",
+      "method": "only four field snapshots after t=12 (20, 40, 80, 120 TU)"
+    }
+  ],
+  "outer_band_reconstruction_validation": {
+    "Et": {
+      "relative_l2": 4.036510135335759e-08,
+      "tolerance": 1e-05
+    },
+    "Ef": {
+      "relative_l2": 4.0745718023730954e-08,
+      "tolerance": 1e-05
+    },
+    "C": {
+      "relative_l2": 4.2315770520204496e-08,
+      "tolerance": 1e-05
+    },
+    "epsilon": {
+      "relative_l2": 4.170042689596134e-08,
+      "tolerance": 1e-05
+    },
+    "rho": {
+      "relative_l2": 6.020134385393011e-08,
+      "tolerance": 1e-05
+    },
+    "P_linear": {
+      "relative_l2": 4.066738471027683e-08,
+      "tolerance": 1e-05
+    },
+    "P_tl_nonlinear": {
+      "relative_l2": 4.2955350132698635e-07,
+      "tolerance": 1e-05
+    },
+    "P_pure_error": {
+      "relative_l2": 5.307591443865807e-07,
+      "tolerance": 1e-05
+    }
+  },
+  "coverage": {
+    "k10_20": {
+      "trajectories": 16,
+      "eligible_points_min": 5,
+      "eligible_points_median": 10.5,
+      "eligible_points_max": 18,
+      "trajectories_bracketing_0p15_0p85": 16,
+      "details": [
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 0,
+          "member_index": 0,
+          "eligible_field_points": 8,
+          "rho_min": -0.08877634117299354,
+          "rho_max": 0.9999997253917636,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 0,
+          "member_index": 1,
+          "eligible_field_points": 8,
+          "rho_min": -0.06258910825095017,
+          "rho_max": 0.9999996673379639,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 1,
+          "member_index": 0,
+          "eligible_field_points": 10,
+          "rho_min": -0.15019645129398465,
+          "rho_max": 0.9999997623130079,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 1,
+          "member_index": 1,
+          "eligible_field_points": 11,
+          "rho_min": -0.0634332665879029,
+          "rho_max": 0.9999997994319946,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 2,
+          "member_index": 0,
+          "eligible_field_points": 10,
+          "rho_min": -0.07772722757836534,
+          "rho_max": 0.9999997747742743,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 2,
+          "member_index": 1,
+          "eligible_field_points": 13,
+          "rho_min": -0.09577395480237717,
+          "rho_max": 0.9999998265174074,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 3,
+          "member_index": 0,
+          "eligible_field_points": 13,
+          "rho_min": -0.10693514013800816,
+          "rho_max": 0.999999800983506,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 3,
+          "member_index": 1,
+          "eligible_field_points": 10,
+          "rho_min": -0.11110641750215473,
+          "rho_max": 0.9999997851626505,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 0,
+          "member_index": 0,
+          "eligible_field_points": 7,
+          "rho_min": -0.1393402329529922,
+          "rho_max": 0.9999999799084482,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 0,
+          "member_index": 1,
+          "eligible_field_points": 11,
+          "rho_min": -0.10221846144439625,
+          "rho_max": 0.9999999818051589,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 1,
+          "member_index": 0,
+          "eligible_field_points": 12,
+          "rho_min": -0.11633585975346118,
+          "rho_max": 0.9999999359214824,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 1,
+          "member_index": 1,
+          "eligible_field_points": 15,
+          "rho_min": -0.10096680307049148,
+          "rho_max": 0.9999999213043826,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 2,
+          "member_index": 0,
+          "eligible_field_points": 18,
+          "rho_min": -0.08618673746049664,
+          "rho_max": 0.9999999470287295,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 2,
+          "member_index": 1,
+          "eligible_field_points": 14,
+          "rho_min": -0.0970325394039804,
+          "rho_max": 0.9999999553824214,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 3,
+          "member_index": 0,
+          "eligible_field_points": 9,
+          "rho_min": -0.12148051592108512,
+          "rho_max": 0.999999869635782,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 3,
+          "member_index": 1,
+          "eligible_field_points": 5,
+          "rho_min": -0.1397527205965468,
+          "rho_max": 0.9999999366700417,
+          "brackets_interval": true
+        }
+      ]
+    },
+    "k11_19": {
+      "trajectories": 16,
+      "eligible_points_min": 7,
+      "eligible_points_median": 10.0,
+      "eligible_points_max": 18,
+      "trajectories_bracketing_0p15_0p85": 16,
+      "details": [
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 0,
+          "member_index": 0,
+          "eligible_field_points": 8,
+          "rho_min": -0.11791475152817671,
+          "rho_max": 0.999999692870108,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 0,
+          "member_index": 1,
+          "eligible_field_points": 9,
+          "rho_min": -0.09078984398400572,
+          "rho_max": 0.9999996453462038,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 1,
+          "member_index": 0,
+          "eligible_field_points": 11,
+          "rho_min": -0.1074994425285244,
+          "rho_max": 0.9999997563568815,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 1,
+          "member_index": 1,
+          "eligible_field_points": 10,
+          "rho_min": -0.06450323378651637,
+          "rho_max": 0.9999997897397787,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 2,
+          "member_index": 0,
+          "eligible_field_points": 7,
+          "rho_min": -0.09559505374828457,
+          "rho_max": 0.9999997414019999,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 2,
+          "member_index": 1,
+          "eligible_field_points": 13,
+          "rho_min": -0.08442506681499996,
+          "rho_max": 0.9999997862229169,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 3,
+          "member_index": 0,
+          "eligible_field_points": 13,
+          "rho_min": -0.10785882995744744,
+          "rho_max": 0.9999997961186113,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 3,
+          "member_index": 1,
+          "eligible_field_points": 10,
+          "rho_min": -0.11693069074803418,
+          "rho_max": 0.9999997793601605,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 0,
+          "member_index": 0,
+          "eligible_field_points": 7,
+          "rho_min": -0.12457414444211502,
+          "rho_max": 0.9999999777074084,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 0,
+          "member_index": 1,
+          "eligible_field_points": 10,
+          "rho_min": -0.09475730735494067,
+          "rho_max": 0.9999999774590846,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 1,
+          "member_index": 0,
+          "eligible_field_points": 12,
+          "rho_min": -0.10529840880453761,
+          "rho_max": 0.9999999352450943,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 1,
+          "member_index": 1,
+          "eligible_field_points": 13,
+          "rho_min": -0.08426345674987656,
+          "rho_max": 0.9999999257007335,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 2,
+          "member_index": 0,
+          "eligible_field_points": 18,
+          "rho_min": -0.10814561134257179,
+          "rho_max": 0.9999999404431461,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 2,
+          "member_index": 1,
+          "eligible_field_points": 12,
+          "rho_min": -0.12333095098317409,
+          "rho_max": 0.9999999559470466,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 3,
+          "member_index": 0,
+          "eligible_field_points": 10,
+          "rho_min": -0.1286782908889265,
+          "rho_max": 0.9999998631187605,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 3,
+          "member_index": 1,
+          "eligible_field_points": 7,
+          "rho_min": -0.10636808857600819,
+          "rho_max": 0.9999999316523834,
+          "brackets_interval": true
+        }
+      ]
+    },
+    "k12_18": {
+      "trajectories": 16,
+      "eligible_points_min": 7,
+      "eligible_points_median": 9.5,
+      "eligible_points_max": 16,
+      "trajectories_bracketing_0p15_0p85": 16,
+      "details": [
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 0,
+          "member_index": 0,
+          "eligible_field_points": 9,
+          "rho_min": -0.12081877068455531,
+          "rho_max": 0.9999996784793884,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 0,
+          "member_index": 1,
+          "eligible_field_points": 8,
+          "rho_min": -0.08894610880213448,
+          "rho_max": 0.9999996564343224,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 1,
+          "member_index": 0,
+          "eligible_field_points": 11,
+          "rho_min": -0.1081483343893764,
+          "rho_max": 0.9999997406052109,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 1,
+          "member_index": 1,
+          "eligible_field_points": 8,
+          "rho_min": -0.09238356839182357,
+          "rho_max": 0.9999997853240582,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 2,
+          "member_index": 0,
+          "eligible_field_points": 8,
+          "rho_min": -0.0680029635288234,
+          "rho_max": 0.9999997299199687,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 2,
+          "member_index": 1,
+          "eligible_field_points": 12,
+          "rho_min": -0.09055607560611145,
+          "rho_max": 0.9999997793066931,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 3,
+          "member_index": 0,
+          "eligible_field_points": 12,
+          "rho_min": -0.10683567588878792,
+          "rho_max": 0.9999997854340974,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 3,
+          "member_index": 1,
+          "eligible_field_points": 9,
+          "rho_min": -0.1295454224472842,
+          "rho_max": 0.9999997407109879,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 0,
+          "member_index": 0,
+          "eligible_field_points": 7,
+          "rho_min": -0.1388804053240638,
+          "rho_max": 0.9999999769774172,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 0,
+          "member_index": 1,
+          "eligible_field_points": 10,
+          "rho_min": -0.07538537924074241,
+          "rho_max": 0.9999999778192136,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 1,
+          "member_index": 0,
+          "eligible_field_points": 12,
+          "rho_min": -0.10562205738357897,
+          "rho_max": 0.9999999381700757,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 1,
+          "member_index": 1,
+          "eligible_field_points": 16,
+          "rho_min": -0.0871697572294418,
+          "rho_max": 0.9999999241187126,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 2,
+          "member_index": 0,
+          "eligible_field_points": 16,
+          "rho_min": -0.13832506898978458,
+          "rho_max": 0.9999999347312347,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 2,
+          "member_index": 1,
+          "eligible_field_points": 11,
+          "rho_min": -0.09850735251123045,
+          "rho_max": 0.9999999509854471,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 3,
+          "member_index": 0,
+          "eligible_field_points": 9,
+          "rho_min": -0.08571955468941349,
+          "rho_max": 0.9999998422108165,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 3,
+          "member_index": 1,
+          "eligible_field_points": 7,
+          "rho_min": -0.12067510675269083,
+          "rho_max": 0.9999999247340066,
+          "brackets_interval": true
+        }
+      ]
+    },
+    "k13_17": {
+      "trajectories": 16,
+      "eligible_points_min": 6,
+      "eligible_points_median": 9.0,
+      "eligible_points_max": 17,
+      "trajectories_bracketing_0p15_0p85": 16,
+      "details": [
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 0,
+          "member_index": 0,
+          "eligible_field_points": 9,
+          "rho_min": -0.128754840259465,
+          "rho_max": 0.9999996774105421,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 0,
+          "member_index": 1,
+          "eligible_field_points": 9,
+          "rho_min": -0.08598941712012596,
+          "rho_max": 0.9999996501397377,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 1,
+          "member_index": 0,
+          "eligible_field_points": 11,
+          "rho_min": -0.13693875800196725,
+          "rho_max": 0.9999997177194665,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 1,
+          "member_index": 1,
+          "eligible_field_points": 9,
+          "rho_min": -0.12560782520108937,
+          "rho_max": 0.9999997711483515,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 2,
+          "member_index": 0,
+          "eligible_field_points": 6,
+          "rho_min": -0.07903784948481707,
+          "rho_max": 0.9999997465887236,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 2,
+          "member_index": 1,
+          "eligible_field_points": 13,
+          "rho_min": -0.15483020229639974,
+          "rho_max": 0.999999741860527,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 3,
+          "member_index": 0,
+          "eligible_field_points": 13,
+          "rho_min": -0.11300059915854777,
+          "rho_max": 0.9999997872965539,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 3,
+          "member_index": 1,
+          "eligible_field_points": 9,
+          "rho_min": -0.14178042374070424,
+          "rho_max": 0.9999997396327114,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 0,
+          "member_index": 0,
+          "eligible_field_points": 7,
+          "rho_min": -0.12774063420141155,
+          "rho_max": 0.9999999786297233,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 0,
+          "member_index": 1,
+          "eligible_field_points": 9,
+          "rho_min": -0.08812001544845274,
+          "rho_max": 0.9999999767940314,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 1,
+          "member_index": 0,
+          "eligible_field_points": 12,
+          "rho_min": -0.09280686781350851,
+          "rho_max": 0.9999999388906087,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 1,
+          "member_index": 1,
+          "eligible_field_points": 13,
+          "rho_min": -0.09565935702770423,
+          "rho_max": 0.9999999234478502,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 2,
+          "member_index": 0,
+          "eligible_field_points": 17,
+          "rho_min": -0.08846899511579999,
+          "rho_max": 0.9999999304106402,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 2,
+          "member_index": 1,
+          "eligible_field_points": 12,
+          "rho_min": -0.1290577898458138,
+          "rho_max": 0.9999999497390969,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 3,
+          "member_index": 0,
+          "eligible_field_points": 9,
+          "rho_min": -0.08893741886784558,
+          "rho_max": 0.9999998428327643,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 3,
+          "member_index": 1,
+          "eligible_field_points": 7,
+          "rho_min": -0.13660976364167643,
+          "rho_max": 0.9999999286395697,
+          "brackets_interval": true
+        }
+      ]
+    },
+    "k14_16": {
+      "trajectories": 16,
+      "eligible_points_min": 7,
+      "eligible_points_median": 11.0,
+      "eligible_points_max": 17,
+      "trajectories_bracketing_0p15_0p85": 16,
+      "details": [
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 0,
+          "member_index": 0,
+          "eligible_field_points": 10,
+          "rho_min": -0.16185055607942564,
+          "rho_max": 0.9999997143630309,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 0,
+          "member_index": 1,
+          "eligible_field_points": 8,
+          "rho_min": -0.11175887254998698,
+          "rho_max": 0.9999996862359081,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 1,
+          "member_index": 0,
+          "eligible_field_points": 12,
+          "rho_min": -0.15689002331097665,
+          "rho_max": 0.9999997295533734,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 1,
+          "member_index": 1,
+          "eligible_field_points": 11,
+          "rho_min": -0.13355592112684103,
+          "rho_max": 0.9999997671813207,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 2,
+          "member_index": 0,
+          "eligible_field_points": 8,
+          "rho_min": -0.10340637916312401,
+          "rho_max": 0.9999997559613417,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 2,
+          "member_index": 1,
+          "eligible_field_points": 12,
+          "rho_min": -0.1688452267733674,
+          "rho_max": 0.9999997356360955,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 3,
+          "member_index": 0,
+          "eligible_field_points": 12,
+          "rho_min": -0.16320351640519304,
+          "rho_max": 0.9999997694513262,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n512_re940_marginal",
+          "truth_index": 3,
+          "member_index": 1,
+          "eligible_field_points": 9,
+          "rho_min": -0.19020391498505593,
+          "rho_max": 0.999999726683975,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 0,
+          "member_index": 0,
+          "eligible_field_points": 7,
+          "rho_min": -0.13239548069303808,
+          "rho_max": 0.9999999770147395,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 0,
+          "member_index": 1,
+          "eligible_field_points": 13,
+          "rho_min": -0.10291259997135571,
+          "rho_max": 0.9999999778191185,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 1,
+          "member_index": 0,
+          "eligible_field_points": 12,
+          "rho_min": -0.12475938237053447,
+          "rho_max": 0.9999999355572512,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 1,
+          "member_index": 1,
+          "eligible_field_points": 12,
+          "rho_min": -0.1264565189240423,
+          "rho_max": 0.999999930572502,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 2,
+          "member_index": 0,
+          "eligible_field_points": 17,
+          "rho_min": -0.15935840127625914,
+          "rho_max": 0.9999999234538267,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 2,
+          "member_index": 1,
+          "eligible_field_points": 11,
+          "rho_min": -0.1377363256799514,
+          "rho_max": 0.9999999478463848,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 3,
+          "member_index": 0,
+          "eligible_field_points": 9,
+          "rho_min": -0.12139859172337537,
+          "rho_max": 0.9999998291676896,
+          "brackets_interval": true
+        },
+        {
+          "regime": "n256_re470_steep",
+          "truth_index": 3,
+          "member_index": 1,
+          "eligible_field_points": 9,
+          "rho_min": -0.18575444622746212,
+          "rho_max": 0.9999999203231986,
+          "brackets_interval": true
+        }
+      ]
+    }
+  },
+  "decision": {
+    "arbitrary_nested_band_closure_test_now": "NO",
+    "reason": "independent lambda_b is missing for all inner nested bands and 733-time arbitrary-band lifecycles are not reconstructable",
+    "without_new_integration": "Only the existing k10_20 response is fully testable at scalar cadence; it is not a nested family.",
+    "conditional_path_b": "A true nested-band test requires new tangent-linear integrations and new higher-cadence diagnostics; this is not authorized at D1."
+  }
+}

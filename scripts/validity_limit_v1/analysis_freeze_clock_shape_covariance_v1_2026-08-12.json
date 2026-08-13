@@ -1,0 +1,60 @@
+{
+  "schema": "prl-logistic-exploratory-covariance-freeze-1",
+  "freeze_id": "MTX_CLOCK_SHAPE_v1",
+  "status": "AUTHORIZED EXPLORATORY DIAGNOSTIC — stored artifacts only; no new integration",
+  "date": "2026-08-12",
+  "authorization": {
+    "authorized": true,
+    "basis": "PI instruction on 2026-08-12 to proceed with the next step recommended in ADVISORY_to_Sol_MT_exit_2026-08-11.md",
+    "scope": "one finite-band local-clock decomposition on k10_20; no manuscript revision, E-axis change, C0 change, or downstream milestone"
+  },
+  "evidence_status": "exploratory_descriptive",
+  "why_not_prospective": "M-Tb per-shell results were executed and inspected on 2026-08-11. This covariance was not in the ratified D1-D3 freeze and cannot inherit its prospective status.",
+  "question": "How large are the one-shape and clock-shape covariance corrections in the exact instantaneous weighted local-clock identity, relative to lambdabar*abar*(1-abar)?",
+  "identity": "<adot>_w = lambdabar*[abar*(1-abar)-Var_w(a)] + Cov_w(lambda_eff,a*(1-a)), with lambda_eff=adot/[a*(1-a)]",
+  "interpretation_boundary": [
+    "Clock dispersion tests the GT1 eigencondition; it is not itself a departure-from-logistic magnitude.",
+    "The normalized covariance is the measured clock-shape correction in this diagnostic identity.",
+    "The identity is algebraic for the local-clock surrogate and does not close the nonlocal triad dynamics or evaluate I1, forcing, dissipation, or memory residuals.",
+    "No null hypothesis, p-value, binary threshold, confirmatory claim, E-axis verdict, or C0 change is permitted."
+  ],
+  "data": {
+    "artifacts": "the eight SHA-256-frozen clusters in scripts/validity_limit_v1/config_v1.json",
+    "band": "k10_20 only",
+    "lifecycle": "band rho in [0.15,0.85] and dense field cadence through 12 TU",
+    "shell_floor": "Et(k,t) >= 0.001 of k10_20 truth energy",
+    "endpoint_guard": "smoothed a(k,t) in [0.15,0.85]",
+    "time_derivative": "centered difference of the predeclared three-point moving average of a(k,t), dt=0.1 TU",
+    "lambda_sign": "all finite signed lambda_eff values are retained; the positivity exclusion used for log-dispersion does not apply to a covariance identity"
+  },
+  "estimands": {
+    "baseline": "B=lambda_bar*abar*(1-abar)",
+    "shape_fraction": "S=-lambda_bar*Var_w(a)/B = -Var_w(a)/[abar*(1-abar)]",
+    "clock_shape_fraction": "K=Cov_w(lambda_eff,a*(1-a))/B",
+    "net_correction_fraction": "S+K",
+    "direct_fraction": "<adot>_w/B, required to equal 1+S+K up to floating-point error",
+    "absolute_terms": "also report B, -lambda_bar*Var_w(a), Cov_w(lambda_eff,a*(1-a)), and <adot>_w so ratios cannot conceal a near-zero baseline"
+  },
+  "denominator_guard": "exclude and count a shell-time summary if B is nonfinite or |B| <= 1e-12 in inverse-time units",
+  "aggregation": "At each eligible time compute signed fractions. Per member take the median over time; average the two members within each truth; report all four truths and the regime median with a 10000-draw truth bootstrap 95 percent interval using seed 20260812.",
+  "required_reporting": [
+    "signed and absolute-magnitude clock-shape fractions",
+    "shape, clock-shape, net, and direct fractions",
+    "per-truth values before regime summaries",
+    "eligible and denominator-excluded counts",
+    "maximum algebraic identity error",
+    "a plain-language warning that exploratory covariance magnitude cannot be promoted to confirmatory evidence"
+  ],
+  "stop_rules": [
+    "STOP on any cluster hash mismatch",
+    "STOP if the algebraic identity error exceeds 1e-10 absolute",
+    "STOP if execution requires new model or tangent-linear integration",
+    "STOP if the result is used to assign a T-code, E-code, or revise C0"
+  ],
+  "implementation_note": "A first invocation stopped at module import before any artifact was opened. The standalone/package import fallback was repaired and the replacement code hash below was bound before retry.",
+  "output": "scripts/out/validity_limit_v1/CLOCK_SHAPE_COVARIANCE_RESULT_2026-08-12.json and a dated Markdown exit record; refuse overwrite",
+  "hashes": {
+    "code_sha256": "e46ea1c0e16c972c94b35ce65a65575479c2ac85b5cfba46089281e2806031eb",
+    "canonical_sha256_with_this_field_null": "f8032693fa2de5f9d78902ffe9ff66ece551b8113047f57fc95ff536dd435bcd"
+  }
+}

@@ -1,0 +1,1741 @@
+{
+  "schema": "prl-logistic-mtb-result-1",
+  "date": "2026-08-11",
+  "evidence_status": "prospective_diagnostic",
+  "scope": "M-Tb only; stored-artifact post-processing; no new integration and no E-axis claim",
+  "provenance": {
+    "config": {
+      "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/PRL_Logistic/scripts/validity_limit_v1/config_v1.json",
+      "sha256": "10a4214ea28f94b23f90c5465d634bc04641f3f7847dc51a7b1fa7db6ba747f5"
+    },
+    "freeze": {
+      "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/PRL_Logistic/scripts/validity_limit_v1/analysis_freeze_mtb_v1_DRAFT_2026-08-09.json",
+      "sha256": "ef553f3d5aad4b64a28bea786e1abc6730ce51c836f090712d8b943aa4f5e678",
+      "canonical_sha256": "1aa42e31ee202f472c56c4ee55c5e3b1c444bbb8a8aca6d331f85919bcef61cf"
+    },
+    "code_sha256": "7e16fbc4d417e866ae9212b1540080c7f1d136ff74025b8f3091064855a983b8",
+    "artifacts": [
+      {
+        "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/03_JFM/codex_work/experiments/out/prl_v8_gate5_nonconfirmatory_20260715/n512_re940_marginal/clusters/truth_00.npz",
+        "sha256": "a789d95c0a3ae2ddde56515164930d20ee99e390630c9e46e6121083cc24deeb"
+      },
+      {
+        "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/03_JFM/codex_work/experiments/out/prl_v8_gate5_nonconfirmatory_20260715/n512_re940_marginal/clusters/truth_01.npz",
+        "sha256": "672ddb47bcb240fb9401fbe474186f42e026cb4c5a7cbc4a2fbb6f1e22d05bd0"
+      },
+      {
+        "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/03_JFM/codex_work/experiments/out/prl_v8_gate5_nonconfirmatory_20260715/n512_re940_marginal/clusters/truth_02.npz",
+        "sha256": "a63107d4056e12c18ba8af580f90035ff81560a0950b983806fe2155ce410658"
+      },
+      {
+        "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/03_JFM/codex_work/experiments/out/prl_v8_gate5_nonconfirmatory_20260715/n512_re940_marginal/clusters/truth_03.npz",
+        "sha256": "07bd598df0d90e0750d01d0af8ca13c88d084b85620dae04c6547fdb46848b54"
+      },
+      {
+        "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/03_JFM/codex_work/experiments/out/prl_v8_gate5_nonconfirmatory_20260715/n256_re470_steep/clusters/truth_00.npz",
+        "sha256": "5e64abe6edab6e48f39e6c39637f2fcd0890837eee8e1890536ecaa6d86db181"
+      },
+      {
+        "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/03_JFM/codex_work/experiments/out/prl_v8_gate5_nonconfirmatory_20260715/n256_re470_steep/clusters/truth_01.npz",
+        "sha256": "20235d4e99f68d9b722c3e7584394f9f62708529fd3b891afd2a952653bf2672"
+      },
+      {
+        "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/03_JFM/codex_work/experiments/out/prl_v8_gate5_nonconfirmatory_20260715/n256_re470_steep/clusters/truth_02.npz",
+        "sha256": "8bb4d8b2f61dc43bd588ea97b00d9cc62fa37e1cb3a12bdbe7bc0eeb5f21b3ce"
+      },
+      {
+        "path": "/Users/hiwint1/Desktop/LogisticErrorGrowth-Program/03_JFM/codex_work/experiments/out/prl_v8_gate5_nonconfirmatory_20260715/n256_re470_steep/clusters/truth_03.npz",
+        "sha256": "6dce6ed8f082bb23b13198f1933578023e01ce2a18d0ba2931bb9a09010dd874"
+      }
+    ]
+  },
+  "implementation_freeze": {
+    "bootstrap_reps": 10000,
+    "bootstrap_seed": 20260811,
+    "nonpositive_lambda_eff": "excluded from log dispersion and counted",
+    "D3_ordering": "not computed unless D1, D2, and residual control all pass"
+  },
+  "reconstruction_validation": {
+    "Et": {
+      "relative_l2": 4.036510135335759e-08,
+      "tolerance": 1e-05
+    },
+    "Ef": {
+      "relative_l2": 4.07457180239656e-08,
+      "tolerance": 1e-05
+    },
+    "C": {
+      "relative_l2": 4.2315770520204496e-08,
+      "tolerance": 1e-05
+    }
+  },
+  "regimes": {
+    "n256_re470_steep": {
+      "truths": [
+        {
+          "truth_index": 0,
+          "R": 0.040986444206480496,
+          "R_tier": "ONE_SHAPE_LIMIT",
+          "Lambda_disp": 0.33203337882712103,
+          "clock_tier": "MIXED_CLOCKS",
+          "members": {
+            "D1": [
+              {
+                "member_index": 0,
+                "eligible_times": 7,
+                "included_R_times": 7,
+                "R_median": 0.0463750681358153,
+                "b_median_per_decade": 0.580481951562697,
+                "k_half_spearman_time": -1.0,
+                "k_half_uncensored": 3,
+                "k_half_censored": 4,
+                "Q_median_uncensored": null,
+                "Q_uncensored": 0,
+                "Q_right_censored": 7,
+                "Q_censored_lower_bound_median": 0.9422479177887731,
+                "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                "excluded_shell_time_pairs": 0,
+                "total_shell_time_pairs": 77,
+                "energy_floor_flag": false,
+                "eligible": true
+              },
+              {
+                "member_index": 1,
+                "eligible_times": 11,
+                "included_R_times": 11,
+                "R_median": 0.035597820277145684,
+                "b_median_per_decade": 0.48108844025326086,
+                "k_half_spearman_time": null,
+                "k_half_uncensored": 1,
+                "k_half_censored": 10,
+                "Q_median_uncensored": null,
+                "Q_uncensored": 0,
+                "Q_right_censored": 11,
+                "Q_censored_lower_bound_median": 0.367602004555736,
+                "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                "excluded_shell_time_pairs": 0,
+                "total_shell_time_pairs": 121,
+                "energy_floor_flag": false,
+                "eligible": true
+              }
+            ],
+            "D2": [
+              {
+                "member_index": 0,
+                "Lambda_disp_median": 0.36715719803416463,
+                "Lambda_disp_unsmoothed_median": 0.5129903245948448,
+                "included_times": 7,
+                "excluded_nonpositive_lambda_eff_pairs": 0,
+                "excluded_endpoint_pairs": 8,
+                "excluded_low_energy_pairs": 0,
+                "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+              },
+              {
+                "member_index": 1,
+                "Lambda_disp_median": 0.2969095596200774,
+                "Lambda_disp_unsmoothed_median": 0.4908326670531029,
+                "included_times": 11,
+                "excluded_nonpositive_lambda_eff_pairs": 5,
+                "excluded_endpoint_pairs": 28,
+                "excluded_low_energy_pairs": 0,
+                "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+              }
+            ]
+          },
+          "sensitivity_bands": {
+            "k6_9": {
+              "D1": [
+                {
+                  "member_index": 0,
+                  "eligible_times": 12,
+                  "included_R_times": 12,
+                  "R_median": 0.07737267431689468,
+                  "b_median_per_decade": 1.5497917635247822,
+                  "k_half_spearman_time": null,
+                  "k_half_uncensored": 2,
+                  "k_half_censored": 10,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 12,
+                  "Q_censored_lower_bound_median": 0.5142337894920638,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 48,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                },
+                {
+                  "member_index": 1,
+                  "eligible_times": 7,
+                  "included_R_times": 7,
+                  "R_median": 0.027464875208824065,
+                  "b_median_per_decade": 1.0099227788146095,
+                  "k_half_spearman_time": null,
+                  "k_half_uncensored": 1,
+                  "k_half_censored": 6,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 7,
+                  "Q_censored_lower_bound_median": 0.8627448618283712,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 28,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                }
+              ],
+              "D2": [
+                {
+                  "member_index": 0,
+                  "Lambda_disp_median": 0.24555610297378,
+                  "Lambda_disp_unsmoothed_median": 0.47512910371069456,
+                  "included_times": 8,
+                  "excluded_nonpositive_lambda_eff_pairs": 4,
+                  "excluded_endpoint_pairs": 16,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                },
+                {
+                  "member_index": 1,
+                  "Lambda_disp_median": 0.21797816748681892,
+                  "Lambda_disp_unsmoothed_median": 0.29243094902349615,
+                  "included_times": 6,
+                  "excluded_nonpositive_lambda_eff_pairs": 0,
+                  "excluded_endpoint_pairs": 3,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                }
+              ]
+            },
+            "k21_32": {
+              "D1": [
+                {
+                  "member_index": 0,
+                  "eligible_times": 7,
+                  "included_R_times": 7,
+                  "R_median": 0.020676113200904612,
+                  "b_median_per_decade": 0.7807789666121918,
+                  "k_half_spearman_time": null,
+                  "k_half_uncensored": 2,
+                  "k_half_censored": 5,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 7,
+                  "Q_censored_lower_bound_median": 0.5655919996965708,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 84,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                },
+                {
+                  "member_index": 1,
+                  "eligible_times": 8,
+                  "included_R_times": 8,
+                  "R_median": 0.01467355135091028,
+                  "b_median_per_decade": 0.7165552911291859,
+                  "k_half_spearman_time": null,
+                  "k_half_uncensored": 1,
+                  "k_half_censored": 7,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 8,
+                  "Q_censored_lower_bound_median": 1.0,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 96,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                }
+              ],
+              "D2": [
+                {
+                  "member_index": 0,
+                  "Lambda_disp_median": 0.18754066708634495,
+                  "Lambda_disp_unsmoothed_median": 0.37817248997737846,
+                  "included_times": 7,
+                  "excluded_nonpositive_lambda_eff_pairs": 0,
+                  "excluded_endpoint_pairs": 9,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                },
+                {
+                  "member_index": 1,
+                  "Lambda_disp_median": 0.18456227847137413,
+                  "Lambda_disp_unsmoothed_median": 0.38090506624605114,
+                  "included_times": 8,
+                  "excluded_nonpositive_lambda_eff_pairs": 0,
+                  "excluded_endpoint_pairs": 3,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "truth_index": 1,
+          "R": 0.0456627381529873,
+          "R_tier": "ONE_SHAPE_LIMIT",
+          "Lambda_disp": 0.4161813681727674,
+          "clock_tier": "MANY_CLOCKS",
+          "members": {
+            "D1": [
+              {
+                "member_index": 0,
+                "eligible_times": 12,
+                "included_R_times": 12,
+                "R_median": 0.04036980043400491,
+                "b_median_per_decade": 0.8070437673287205,
+                "k_half_spearman_time": -1.0,
+                "k_half_uncensored": 3,
+                "k_half_censored": 9,
+                "Q_median_uncensored": null,
+                "Q_uncensored": 0,
+                "Q_right_censored": 12,
+                "Q_censored_lower_bound_median": 0.5875904006910526,
+                "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                "excluded_shell_time_pairs": 0,
+                "total_shell_time_pairs": 132,
+                "energy_floor_flag": false,
+                "eligible": true
+              },
+              {
+                "member_index": 1,
+                "eligible_times": 15,
+                "included_R_times": 15,
+                "R_median": 0.050955675871969676,
+                "b_median_per_decade": 0.7217211153170334,
+                "k_half_spearman_time": -0.42857142857142866,
+                "k_half_uncensored": 7,
+                "k_half_censored": 8,
+                "Q_median_uncensored": null,
+                "Q_uncensored": 0,
+                "Q_right_censored": 15,
+                "Q_censored_lower_bound_median": 0.6712654333568568,
+                "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                "excluded_shell_time_pairs": 0,
+                "total_shell_time_pairs": 165,
+                "energy_floor_flag": false,
+                "eligible": true
+              }
+            ],
+            "D2": [
+              {
+                "member_index": 0,
+                "Lambda_disp_median": 0.35625004764061025,
+                "Lambda_disp_unsmoothed_median": 0.6803438566903802,
+                "included_times": 12,
+                "excluded_nonpositive_lambda_eff_pairs": 15,
+                "excluded_endpoint_pairs": 21,
+                "excluded_low_energy_pairs": 0,
+                "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+              },
+              {
+                "member_index": 1,
+                "Lambda_disp_median": 0.4761126887049246,
+                "Lambda_disp_unsmoothed_median": 0.45376676690611784,
+                "included_times": 14,
+                "excluded_nonpositive_lambda_eff_pairs": 28,
+                "excluded_endpoint_pairs": 33,
+                "excluded_low_energy_pairs": 0,
+                "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+              }
+            ]
+          },
+          "sensitivity_bands": {
+            "k6_9": {
+              "D1": [
+                {
+                  "member_index": 0,
+                  "eligible_times": 15,
+                  "included_R_times": 15,
+                  "R_median": 0.04270811741362855,
+                  "b_median_per_decade": 1.4367246852401512,
+                  "k_half_spearman_time": -0.8928571428571429,
+                  "k_half_uncensored": 7,
+                  "k_half_censored": 8,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 15,
+                  "Q_censored_lower_bound_median": 0.8321895136070752,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 60,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                },
+                {
+                  "member_index": 1,
+                  "eligible_times": 19,
+                  "included_R_times": 19,
+                  "R_median": 0.0540861186830375,
+                  "b_median_per_decade": 1.2543294694186187,
+                  "k_half_spearman_time": null,
+                  "k_half_uncensored": 1,
+                  "k_half_censored": 18,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 19,
+                  "Q_censored_lower_bound_median": 0.3403427505539943,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 76,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                }
+              ],
+              "D2": [
+                {
+                  "member_index": 0,
+                  "Lambda_disp_median": 0.4303198643130003,
+                  "Lambda_disp_unsmoothed_median": 0.6073420964729542,
+                  "included_times": 12,
+                  "excluded_nonpositive_lambda_eff_pairs": 7,
+                  "excluded_endpoint_pairs": 12,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                },
+                {
+                  "member_index": 1,
+                  "Lambda_disp_median": 0.2613997047898888,
+                  "Lambda_disp_unsmoothed_median": 0.40678605599190243,
+                  "included_times": 14,
+                  "excluded_nonpositive_lambda_eff_pairs": 10,
+                  "excluded_endpoint_pairs": 19,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                }
+              ]
+            },
+            "k21_32": {
+              "D1": [
+                {
+                  "member_index": 0,
+                  "eligible_times": 9,
+                  "included_R_times": 9,
+                  "R_median": 0.019886143810407847,
+                  "b_median_per_decade": 0.5811270200935214,
+                  "k_half_spearman_time": null,
+                  "k_half_uncensored": 1,
+                  "k_half_censored": 8,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 9,
+                  "Q_censored_lower_bound_median": 1.0,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 108,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                },
+                {
+                  "member_index": 1,
+                  "eligible_times": 7,
+                  "included_R_times": 7,
+                  "R_median": 0.017049424804009863,
+                  "b_median_per_decade": 0.47899293208168425,
+                  "k_half_spearman_time": null,
+                  "k_half_uncensored": 2,
+                  "k_half_censored": 5,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 7,
+                  "Q_censored_lower_bound_median": 1.0,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 84,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                }
+              ],
+              "D2": [
+                {
+                  "member_index": 0,
+                  "Lambda_disp_median": 0.30575205928333626,
+                  "Lambda_disp_unsmoothed_median": 0.4307468759496657,
+                  "included_times": 9,
+                  "excluded_nonpositive_lambda_eff_pairs": 16,
+                  "excluded_endpoint_pairs": 11,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                },
+                {
+                  "member_index": 1,
+                  "Lambda_disp_median": 0.35810465836706257,
+                  "Lambda_disp_unsmoothed_median": 0.885799754749212,
+                  "included_times": 7,
+                  "excluded_nonpositive_lambda_eff_pairs": 1,
+                  "excluded_endpoint_pairs": 0,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "truth_index": 2,
+          "R": 0.056711557388128976,
+          "R_tier": "MIXED",
+          "Lambda_disp": 0.4889627963828209,
+          "clock_tier": "MANY_CLOCKS",
+          "members": {
+            "D1": [
+              {
+                "member_index": 0,
+                "eligible_times": 18,
+                "included_R_times": 18,
+                "R_median": 0.04765177180907655,
+                "b_median_per_decade": 0.8722959359370889,
+                "k_half_spearman_time": -0.9047619047619048,
+                "k_half_uncensored": 8,
+                "k_half_censored": 10,
+                "Q_median_uncensored": null,
+                "Q_uncensored": 0,
+                "Q_right_censored": 18,
+                "Q_censored_lower_bound_median": 0.9805308047939436,
+                "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                "excluded_shell_time_pairs": 0,
+                "total_shell_time_pairs": 198,
+                "energy_floor_flag": false,
+                "eligible": true
+              },
+              {
+                "member_index": 1,
+                "eligible_times": 14,
+                "included_R_times": 14,
+                "R_median": 0.0657713429671814,
+                "b_median_per_decade": 1.1226566928391293,
+                "k_half_spearman_time": -0.8999999999999998,
+                "k_half_uncensored": 5,
+                "k_half_censored": 9,
+                "Q_median_uncensored": null,
+                "Q_uncensored": 0,
+                "Q_right_censored": 14,
+                "Q_censored_lower_bound_median": 0.6552449603632468,
+                "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                "excluded_shell_time_pairs": 0,
+                "total_shell_time_pairs": 154,
+                "energy_floor_flag": false,
+                "eligible": true
+              }
+            ],
+            "D2": [
+              {
+                "member_index": 0,
+                "Lambda_disp_median": 0.5344769188477474,
+                "Lambda_disp_unsmoothed_median": 0.6629269998790777,
+                "included_times": 18,
+                "excluded_nonpositive_lambda_eff_pairs": 25,
+                "excluded_endpoint_pairs": 29,
+                "excluded_low_energy_pairs": 0,
+                "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+              },
+              {
+                "member_index": 1,
+                "Lambda_disp_median": 0.4434486739178944,
+                "Lambda_disp_unsmoothed_median": 0.6864765660496377,
+                "included_times": 14,
+                "excluded_nonpositive_lambda_eff_pairs": 9,
+                "excluded_endpoint_pairs": 34,
+                "excluded_low_energy_pairs": 0,
+                "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+              }
+            ]
+          },
+          "sensitivity_bands": {
+            "k6_9": {
+              "D1": [
+                {
+                  "member_index": 0,
+                  "eligible_times": 19,
+                  "included_R_times": 19,
+                  "R_median": 0.041689934790583506,
+                  "b_median_per_decade": 1.0932296594770872,
+                  "k_half_spearman_time": -0.2571428571428572,
+                  "k_half_uncensored": 6,
+                  "k_half_censored": 13,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 19,
+                  "Q_censored_lower_bound_median": 0.7841684992679158,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 76,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                },
+                {
+                  "member_index": 1,
+                  "eligible_times": 12,
+                  "included_R_times": 12,
+                  "R_median": 0.042561533191413495,
+                  "b_median_per_decade": 1.314947601935068,
+                  "k_half_spearman_time": null,
+                  "k_half_uncensored": 2,
+                  "k_half_censored": 10,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 12,
+                  "Q_censored_lower_bound_median": 0.6443089854350851,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 48,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                }
+              ],
+              "D2": [
+                {
+                  "member_index": 0,
+                  "Lambda_disp_median": 0.4475731045556705,
+                  "Lambda_disp_unsmoothed_median": 0.6485510960971897,
+                  "included_times": 16,
+                  "excluded_nonpositive_lambda_eff_pairs": 17,
+                  "excluded_endpoint_pairs": 11,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                },
+                {
+                  "member_index": 1,
+                  "Lambda_disp_median": 0.20761125875373448,
+                  "Lambda_disp_unsmoothed_median": 0.2539045893299965,
+                  "included_times": 11,
+                  "excluded_nonpositive_lambda_eff_pairs": 5,
+                  "excluded_endpoint_pairs": 7,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                }
+              ]
+            },
+            "k21_32": {
+              "D1": [
+                {
+                  "member_index": 0,
+                  "eligible_times": 15,
+                  "included_R_times": 15,
+                  "R_median": 0.02133607809983334,
+                  "b_median_per_decade": 0.7079927245417357,
+                  "k_half_spearman_time": -1.0,
+                  "k_half_uncensored": 3,
+                  "k_half_censored": 12,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 15,
+                  "Q_censored_lower_bound_median": 0.9783628348454809,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 180,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                },
+                {
+                  "member_index": 1,
+                  "eligible_times": 12,
+                  "included_R_times": 12,
+                  "R_median": 0.027245225825488543,
+                  "b_median_per_decade": 1.045025467934143,
+                  "k_half_spearman_time": null,
+                  "k_half_uncensored": 1,
+                  "k_half_censored": 11,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 12,
+                  "Q_censored_lower_bound_median": 0.6917923508363912,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 144,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                }
+              ],
+              "D2": [
+                {
+                  "member_index": 0,
+                  "Lambda_disp_median": 0.2773072969037254,
+                  "Lambda_disp_unsmoothed_median": 0.7684319419068987,
+                  "included_times": 15,
+                  "excluded_nonpositive_lambda_eff_pairs": 30,
+                  "excluded_endpoint_pairs": 9,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                },
+                {
+                  "member_index": 1,
+                  "Lambda_disp_median": 0.2828815111811245,
+                  "Lambda_disp_unsmoothed_median": 0.4977585340499563,
+                  "included_times": 12,
+                  "excluded_nonpositive_lambda_eff_pairs": 6,
+                  "excluded_endpoint_pairs": 20,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "truth_index": 3,
+          "R": 0.035042237110391034,
+          "R_tier": "ONE_SHAPE_LIMIT",
+          "Lambda_disp": 0.2135663464547793,
+          "clock_tier": "MIXED_CLOCKS",
+          "members": {
+            "D1": [
+              {
+                "member_index": 0,
+                "eligible_times": 9,
+                "included_R_times": 9,
+                "R_median": 0.035426501184759346,
+                "b_median_per_decade": 0.7854024134389999,
+                "k_half_spearman_time": -1.0,
+                "k_half_uncensored": 4,
+                "k_half_censored": 5,
+                "Q_median_uncensored": null,
+                "Q_uncensored": 0,
+                "Q_right_censored": 9,
+                "Q_censored_lower_bound_median": 0.7890028869132881,
+                "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                "excluded_shell_time_pairs": 0,
+                "total_shell_time_pairs": 99,
+                "energy_floor_flag": false,
+                "eligible": true
+              },
+              {
+                "member_index": 1,
+                "eligible_times": 5,
+                "included_R_times": 5,
+                "R_median": 0.03465797303602272,
+                "b_median_per_decade": 0.48668269384557045,
+                "k_half_spearman_time": null,
+                "k_half_uncensored": 1,
+                "k_half_censored": 4,
+                "Q_median_uncensored": null,
+                "Q_uncensored": 0,
+                "Q_right_censored": 5,
+                "Q_censored_lower_bound_median": 1.0,
+                "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                "excluded_shell_time_pairs": 0,
+                "total_shell_time_pairs": 55,
+                "energy_floor_flag": false,
+                "eligible": true
+              }
+            ],
+            "D2": [
+              {
+                "member_index": 0,
+                "Lambda_disp_median": 0.2187283194234236,
+                "Lambda_disp_unsmoothed_median": 0.517328618655527,
+                "included_times": 9,
+                "excluded_nonpositive_lambda_eff_pairs": 1,
+                "excluded_endpoint_pairs": 12,
+                "excluded_low_energy_pairs": 0,
+                "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+              },
+              {
+                "member_index": 1,
+                "Lambda_disp_median": 0.20840437348613497,
+                "Lambda_disp_unsmoothed_median": 0.4579330911961201,
+                "included_times": 5,
+                "excluded_nonpositive_lambda_eff_pairs": 0,
+                "excluded_endpoint_pairs": 2,
+                "excluded_low_energy_pairs": 0,
+                "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+              }
+            ]
+          },
+          "sensitivity_bands": {
+            "k6_9": {
+              "D1": [
+                {
+                  "member_index": 0,
+                  "eligible_times": 10,
+                  "included_R_times": 10,
+                  "R_median": 0.05193089960021845,
+                  "b_median_per_decade": 1.2289691787811,
+                  "k_half_spearman_time": -1.0,
+                  "k_half_uncensored": 3,
+                  "k_half_censored": 7,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 10,
+                  "Q_censored_lower_bound_median": 0.8435298094870146,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 40,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                },
+                {
+                  "member_index": 1,
+                  "eligible_times": 11,
+                  "included_R_times": 11,
+                  "R_median": 0.09956003551040407,
+                  "b_median_per_decade": 1.0974977558400627,
+                  "k_half_spearman_time": null,
+                  "k_half_uncensored": 2,
+                  "k_half_censored": 9,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 11,
+                  "Q_censored_lower_bound_median": 0.30135270598213415,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 44,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                }
+              ],
+              "D2": [
+                {
+                  "member_index": 0,
+                  "Lambda_disp_median": 0.3337812736943095,
+                  "Lambda_disp_unsmoothed_median": 0.43713840803088266,
+                  "included_times": 9,
+                  "excluded_nonpositive_lambda_eff_pairs": 1,
+                  "excluded_endpoint_pairs": 6,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                },
+                {
+                  "member_index": 1,
+                  "Lambda_disp_median": 0.1942677927781727,
+                  "Lambda_disp_unsmoothed_median": 0.3933165682370216,
+                  "included_times": 7,
+                  "excluded_nonpositive_lambda_eff_pairs": 4,
+                  "excluded_endpoint_pairs": 20,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                }
+              ]
+            },
+            "k21_32": {
+              "D1": [
+                {
+                  "member_index": 0,
+                  "eligible_times": 9,
+                  "included_R_times": 9,
+                  "R_median": 0.03200321053184652,
+                  "b_median_per_decade": 1.1085684306697996,
+                  "k_half_spearman_time": -0.7999999999999999,
+                  "k_half_uncensored": 4,
+                  "k_half_censored": 5,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 9,
+                  "Q_censored_lower_bound_median": 0.28399184915433034,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 108,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                },
+                {
+                  "member_index": 1,
+                  "eligible_times": 6,
+                  "included_R_times": 6,
+                  "R_median": 0.02891434218193482,
+                  "b_median_per_decade": 1.2810689476515544,
+                  "k_half_spearman_time": -1.0,
+                  "k_half_uncensored": 3,
+                  "k_half_censored": 3,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 6,
+                  "Q_censored_lower_bound_median": 0.8657156059656355,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 72,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                }
+              ],
+              "D2": [
+                {
+                  "member_index": 0,
+                  "Lambda_disp_median": 0.255333591498211,
+                  "Lambda_disp_unsmoothed_median": 0.6221192144785459,
+                  "included_times": 9,
+                  "excluded_nonpositive_lambda_eff_pairs": 0,
+                  "excluded_endpoint_pairs": 12,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                },
+                {
+                  "member_index": 1,
+                  "Lambda_disp_median": 0.16753977373409917,
+                  "Lambda_disp_unsmoothed_median": 0.35635260523149087,
+                  "included_times": 6,
+                  "excluded_nonpositive_lambda_eff_pairs": 0,
+                  "excluded_endpoint_pairs": 2,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "D1": {
+        "regime_median_R": 0.0433245911797339,
+        "truth_bootstrap_95pct_CI": [
+          0.035042237110391034,
+          0.056711557388128976
+        ],
+        "tier": "HETEROGENEOUS"
+      },
+      "D2": {
+        "regime_median_Lambda_disp": 0.3741073734999442,
+        "truth_bootstrap_95pct_CI": [
+          0.2135663464547793,
+          0.4889627963828209
+        ],
+        "tier": "HETEROGENEOUS"
+      },
+      "residual_control": {
+        "tier": "NOT_ESTABLISHED",
+        "reason": "M-Tb measures spectral geometry and clock dispersion; the finite-band I1, dissipation, forcing, and closure-memory residual accounting remains an M-T obligation."
+      },
+      "D3": {
+        "tier": "NOT_INTERPRETABLE_FOR_GT1",
+        "computed": false,
+        "reason": "The residual-control gate is not established; ordered logic forbids treating a lifecycle fit as script-G/E."
+      }
+    },
+    "n512_re940_marginal": {
+      "truths": [
+        {
+          "truth_index": 0,
+          "R": 0.04805789206132272,
+          "R_tier": "ONE_SHAPE_LIMIT",
+          "Lambda_disp": 0.27642788252386374,
+          "clock_tier": "MIXED_CLOCKS",
+          "members": {
+            "D1": [
+              {
+                "member_index": 0,
+                "eligible_times": 8,
+                "included_R_times": 8,
+                "R_median": 0.04741540012721375,
+                "b_median_per_decade": 1.0239521232088626,
+                "k_half_spearman_time": -1.0,
+                "k_half_uncensored": 4,
+                "k_half_censored": 4,
+                "Q_median_uncensored": null,
+                "Q_uncensored": 0,
+                "Q_right_censored": 8,
+                "Q_censored_lower_bound_median": 0.5719777408581246,
+                "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                "excluded_shell_time_pairs": 0,
+                "total_shell_time_pairs": 88,
+                "energy_floor_flag": false,
+                "eligible": true
+              },
+              {
+                "member_index": 1,
+                "eligible_times": 8,
+                "included_R_times": 8,
+                "R_median": 0.048700383995431695,
+                "b_median_per_decade": 0.9225577459110158,
+                "k_half_spearman_time": null,
+                "k_half_uncensored": 2,
+                "k_half_censored": 6,
+                "Q_median_uncensored": null,
+                "Q_uncensored": 0,
+                "Q_right_censored": 8,
+                "Q_censored_lower_bound_median": 0.6137321568258364,
+                "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                "excluded_shell_time_pairs": 0,
+                "total_shell_time_pairs": 88,
+                "energy_floor_flag": false,
+                "eligible": true
+              }
+            ],
+            "D2": [
+              {
+                "member_index": 0,
+                "Lambda_disp_median": 0.25225856263272994,
+                "Lambda_disp_unsmoothed_median": 0.3462270076628253,
+                "included_times": 8,
+                "excluded_nonpositive_lambda_eff_pairs": 0,
+                "excluded_endpoint_pairs": 17,
+                "excluded_low_energy_pairs": 0,
+                "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+              },
+              {
+                "member_index": 1,
+                "Lambda_disp_median": 0.3005972024149976,
+                "Lambda_disp_unsmoothed_median": 0.5103992027366783,
+                "included_times": 8,
+                "excluded_nonpositive_lambda_eff_pairs": 0,
+                "excluded_endpoint_pairs": 13,
+                "excluded_low_energy_pairs": 0,
+                "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+              }
+            ]
+          },
+          "sensitivity_bands": {
+            "k6_9": {
+              "D1": [
+                {
+                  "member_index": 0,
+                  "eligible_times": 16,
+                  "included_R_times": 16,
+                  "R_median": 0.058614130611937085,
+                  "b_median_per_decade": 1.0639168436893014,
+                  "k_half_spearman_time": null,
+                  "k_half_uncensored": 2,
+                  "k_half_censored": 14,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 16,
+                  "Q_censored_lower_bound_median": 0.30483834935721277,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 64,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                },
+                {
+                  "member_index": 1,
+                  "eligible_times": 13,
+                  "included_R_times": 13,
+                  "R_median": 0.05909494146412636,
+                  "b_median_per_decade": 1.0933399283385778,
+                  "k_half_spearman_time": null,
+                  "k_half_uncensored": 1,
+                  "k_half_censored": 12,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 13,
+                  "Q_censored_lower_bound_median": 0.5947395889412094,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 52,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                }
+              ],
+              "D2": [
+                {
+                  "member_index": 0,
+                  "Lambda_disp_median": 0.25958489444018495,
+                  "Lambda_disp_unsmoothed_median": 0.45820916023035857,
+                  "included_times": 12,
+                  "excluded_nonpositive_lambda_eff_pairs": 6,
+                  "excluded_endpoint_pairs": 19,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                },
+                {
+                  "member_index": 1,
+                  "Lambda_disp_median": 0.28897025827139056,
+                  "Lambda_disp_unsmoothed_median": 0.4935902641370221,
+                  "included_times": 10,
+                  "excluded_nonpositive_lambda_eff_pairs": 3,
+                  "excluded_endpoint_pairs": 12,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                }
+              ]
+            },
+            "k21_32": {
+              "D1": [
+                {
+                  "member_index": 0,
+                  "eligible_times": 7,
+                  "included_R_times": 7,
+                  "R_median": 0.022598567913216818,
+                  "b_median_per_decade": 1.167778593144164,
+                  "k_half_spearman_time": -1.0,
+                  "k_half_uncensored": 3,
+                  "k_half_censored": 4,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 7,
+                  "Q_censored_lower_bound_median": 1.0,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 84,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                },
+                {
+                  "member_index": 1,
+                  "eligible_times": 9,
+                  "included_R_times": 9,
+                  "R_median": 0.022845821132074444,
+                  "b_median_per_decade": 0.9567212098597239,
+                  "k_half_spearman_time": null,
+                  "k_half_uncensored": 2,
+                  "k_half_censored": 7,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 9,
+                  "Q_censored_lower_bound_median": 0.7597481041005179,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 108,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                }
+              ],
+              "D2": [
+                {
+                  "member_index": 0,
+                  "Lambda_disp_median": 0.24305186704285744,
+                  "Lambda_disp_unsmoothed_median": 0.40492415889379285,
+                  "included_times": 7,
+                  "excluded_nonpositive_lambda_eff_pairs": 1,
+                  "excluded_endpoint_pairs": 3,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                },
+                {
+                  "member_index": 1,
+                  "Lambda_disp_median": 0.2721424996796051,
+                  "Lambda_disp_unsmoothed_median": 0.3356265445305796,
+                  "included_times": 9,
+                  "excluded_nonpositive_lambda_eff_pairs": 5,
+                  "excluded_endpoint_pairs": 10,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "truth_index": 1,
+          "R": 0.06143712391977069,
+          "R_tier": "MIXED",
+          "Lambda_disp": 0.39859557707447857,
+          "clock_tier": "MIXED_CLOCKS",
+          "members": {
+            "D1": [
+              {
+                "member_index": 0,
+                "eligible_times": 10,
+                "included_R_times": 10,
+                "R_median": 0.04729523438188611,
+                "b_median_per_decade": 0.7264109087983641,
+                "k_half_spearman_time": -0.7999999999999999,
+                "k_half_uncensored": 4,
+                "k_half_censored": 6,
+                "Q_median_uncensored": null,
+                "Q_uncensored": 0,
+                "Q_right_censored": 10,
+                "Q_censored_lower_bound_median": 0.8775025416720452,
+                "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                "excluded_shell_time_pairs": 0,
+                "total_shell_time_pairs": 110,
+                "energy_floor_flag": false,
+                "eligible": true
+              },
+              {
+                "member_index": 1,
+                "eligible_times": 11,
+                "included_R_times": 11,
+                "R_median": 0.07557901345765528,
+                "b_median_per_decade": 0.5768218348925275,
+                "k_half_spearman_time": -0.7999999999999999,
+                "k_half_uncensored": 4,
+                "k_half_censored": 7,
+                "Q_median_uncensored": null,
+                "Q_uncensored": 0,
+                "Q_right_censored": 11,
+                "Q_censored_lower_bound_median": 0.3193799401271223,
+                "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                "excluded_shell_time_pairs": 0,
+                "total_shell_time_pairs": 121,
+                "energy_floor_flag": false,
+                "eligible": true
+              }
+            ],
+            "D2": [
+              {
+                "member_index": 0,
+                "Lambda_disp_median": 0.4119294813799256,
+                "Lambda_disp_unsmoothed_median": 0.5911962510634231,
+                "included_times": 10,
+                "excluded_nonpositive_lambda_eff_pairs": 2,
+                "excluded_endpoint_pairs": 8,
+                "excluded_low_energy_pairs": 0,
+                "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+              },
+              {
+                "member_index": 1,
+                "Lambda_disp_median": 0.3852616727690315,
+                "Lambda_disp_unsmoothed_median": 0.587030097873268,
+                "included_times": 10,
+                "excluded_nonpositive_lambda_eff_pairs": 8,
+                "excluded_endpoint_pairs": 31,
+                "excluded_low_energy_pairs": 0,
+                "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+              }
+            ]
+          },
+          "sensitivity_bands": {
+            "k6_9": {
+              "D1": [
+                {
+                  "member_index": 0,
+                  "eligible_times": 18,
+                  "included_R_times": 18,
+                  "R_median": 0.10065965085108738,
+                  "b_median_per_decade": 1.5582911915970377,
+                  "k_half_spearman_time": -0.8571428571428573,
+                  "k_half_uncensored": 7,
+                  "k_half_censored": 11,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 18,
+                  "Q_censored_lower_bound_median": 0.3897954423146051,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 72,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                },
+                {
+                  "member_index": 1,
+                  "eligible_times": 17,
+                  "included_R_times": 17,
+                  "R_median": 0.07865892370511733,
+                  "b_median_per_decade": 1.4805145191989555,
+                  "k_half_spearman_time": -0.942857142857143,
+                  "k_half_uncensored": 6,
+                  "k_half_censored": 11,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 17,
+                  "Q_censored_lower_bound_median": 0.4187701052911921,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 68,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                }
+              ],
+              "D2": [
+                {
+                  "member_index": 0,
+                  "Lambda_disp_median": 0.27554645617153023,
+                  "Lambda_disp_unsmoothed_median": 0.5249523441139086,
+                  "included_times": 13,
+                  "excluded_nonpositive_lambda_eff_pairs": 9,
+                  "excluded_endpoint_pairs": 18,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                },
+                {
+                  "member_index": 1,
+                  "Lambda_disp_median": 0.567841875435664,
+                  "Lambda_disp_unsmoothed_median": 0.55677164939167,
+                  "included_times": 11,
+                  "excluded_nonpositive_lambda_eff_pairs": 14,
+                  "excluded_endpoint_pairs": 13,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                }
+              ]
+            },
+            "k21_32": {
+              "D1": [
+                {
+                  "member_index": 0,
+                  "eligible_times": 12,
+                  "included_R_times": 12,
+                  "R_median": 0.02896143963310171,
+                  "b_median_per_decade": 0.9944338444653408,
+                  "k_half_spearman_time": null,
+                  "k_half_uncensored": 2,
+                  "k_half_censored": 10,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 12,
+                  "Q_censored_lower_bound_median": 0.7509866896190716,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 144,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                },
+                {
+                  "member_index": 1,
+                  "eligible_times": 10,
+                  "included_R_times": 10,
+                  "R_median": 0.018346370139492245,
+                  "b_median_per_decade": 0.34097828733695495,
+                  "k_half_spearman_time": -1.0,
+                  "k_half_uncensored": 3,
+                  "k_half_censored": 7,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 10,
+                  "Q_censored_lower_bound_median": 0.8975247258947524,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 120,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                }
+              ],
+              "D2": [
+                {
+                  "member_index": 0,
+                  "Lambda_disp_median": 0.42884351525556463,
+                  "Lambda_disp_unsmoothed_median": 0.4250745133182489,
+                  "included_times": 12,
+                  "excluded_nonpositive_lambda_eff_pairs": 6,
+                  "excluded_endpoint_pairs": 22,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                },
+                {
+                  "member_index": 1,
+                  "Lambda_disp_median": 0.4191438583877919,
+                  "Lambda_disp_unsmoothed_median": 0.5137269177830763,
+                  "included_times": 10,
+                  "excluded_nonpositive_lambda_eff_pairs": 0,
+                  "excluded_endpoint_pairs": 7,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "truth_index": 2,
+          "R": 0.06245928434286313,
+          "R_tier": "MIXED",
+          "Lambda_disp": 0.3124069751281887,
+          "clock_tier": "MIXED_CLOCKS",
+          "members": {
+            "D1": [
+              {
+                "member_index": 0,
+                "eligible_times": 10,
+                "included_R_times": 10,
+                "R_median": 0.07777566655060542,
+                "b_median_per_decade": 0.8315312031540205,
+                "k_half_spearman_time": -1.0,
+                "k_half_uncensored": 3,
+                "k_half_censored": 7,
+                "Q_median_uncensored": null,
+                "Q_uncensored": 0,
+                "Q_right_censored": 10,
+                "Q_censored_lower_bound_median": 0.35061865122181,
+                "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                "excluded_shell_time_pairs": 0,
+                "total_shell_time_pairs": 110,
+                "energy_floor_flag": false,
+                "eligible": true
+              },
+              {
+                "member_index": 1,
+                "eligible_times": 13,
+                "included_R_times": 13,
+                "R_median": 0.04714290213512084,
+                "b_median_per_decade": 0.947745123740777,
+                "k_half_spearman_time": -0.7999999999999999,
+                "k_half_uncensored": 4,
+                "k_half_censored": 9,
+                "Q_median_uncensored": null,
+                "Q_uncensored": 0,
+                "Q_right_censored": 13,
+                "Q_censored_lower_bound_median": 0.7198391842194207,
+                "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                "excluded_shell_time_pairs": 0,
+                "total_shell_time_pairs": 143,
+                "energy_floor_flag": false,
+                "eligible": true
+              }
+            ],
+            "D2": [
+              {
+                "member_index": 0,
+                "Lambda_disp_median": 0.1939650992021183,
+                "Lambda_disp_unsmoothed_median": 0.32105493588307055,
+                "included_times": 9,
+                "excluded_nonpositive_lambda_eff_pairs": 10,
+                "excluded_endpoint_pairs": 33,
+                "excluded_low_energy_pairs": 0,
+                "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+              },
+              {
+                "member_index": 1,
+                "Lambda_disp_median": 0.43084885105425913,
+                "Lambda_disp_unsmoothed_median": 0.5665267448361946,
+                "included_times": 13,
+                "excluded_nonpositive_lambda_eff_pairs": 0,
+                "excluded_endpoint_pairs": 19,
+                "excluded_low_energy_pairs": 0,
+                "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+              }
+            ]
+          },
+          "sensitivity_bands": {
+            "k6_9": {
+              "D1": [
+                {
+                  "member_index": 0,
+                  "eligible_times": 15,
+                  "included_R_times": 15,
+                  "R_median": 0.05159780808030404,
+                  "b_median_per_decade": 1.1757526436230268,
+                  "k_half_spearman_time": null,
+                  "k_half_uncensored": 2,
+                  "k_half_censored": 13,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 15,
+                  "Q_censored_lower_bound_median": 0.6876363966507539,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 60,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                },
+                {
+                  "member_index": 1,
+                  "eligible_times": 13,
+                  "included_R_times": 13,
+                  "R_median": 0.0557868187364395,
+                  "b_median_per_decade": 0.968365709911601,
+                  "k_half_spearman_time": -1.0,
+                  "k_half_uncensored": 4,
+                  "k_half_censored": 9,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 13,
+                  "Q_censored_lower_bound_median": 0.7158315105201566,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 52,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                }
+              ],
+              "D2": [
+                {
+                  "member_index": 0,
+                  "Lambda_disp_median": 0.34156112999546895,
+                  "Lambda_disp_unsmoothed_median": 0.4031475702904116,
+                  "included_times": 12,
+                  "excluded_nonpositive_lambda_eff_pairs": 8,
+                  "excluded_endpoint_pairs": 10,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                },
+                {
+                  "member_index": 1,
+                  "Lambda_disp_median": 0.522606710643136,
+                  "Lambda_disp_unsmoothed_median": 0.47011368479587345,
+                  "included_times": 9,
+                  "excluded_nonpositive_lambda_eff_pairs": 5,
+                  "excluded_endpoint_pairs": 13,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                }
+              ]
+            },
+            "k21_32": {
+              "D1": [
+                {
+                  "member_index": 0,
+                  "eligible_times": 8,
+                  "included_R_times": 8,
+                  "R_median": 0.016299093693255547,
+                  "b_median_per_decade": 0.8245647061277657,
+                  "k_half_spearman_time": null,
+                  "k_half_uncensored": 1,
+                  "k_half_censored": 7,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 8,
+                  "Q_censored_lower_bound_median": 0.4930416533062568,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 96,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                },
+                {
+                  "member_index": 1,
+                  "eligible_times": 13,
+                  "included_R_times": 13,
+                  "R_median": 0.023361369455069985,
+                  "b_median_per_decade": 0.8709900957016974,
+                  "k_half_spearman_time": -0.39999999999999997,
+                  "k_half_uncensored": 4,
+                  "k_half_censored": 9,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 13,
+                  "Q_censored_lower_bound_median": 1.0,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 156,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                }
+              ],
+              "D2": [
+                {
+                  "member_index": 0,
+                  "Lambda_disp_median": 0.2564656798511036,
+                  "Lambda_disp_unsmoothed_median": 0.5734955454333224,
+                  "included_times": 8,
+                  "excluded_nonpositive_lambda_eff_pairs": 1,
+                  "excluded_endpoint_pairs": 7,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                },
+                {
+                  "member_index": 1,
+                  "Lambda_disp_median": 0.39523206017098284,
+                  "Lambda_disp_unsmoothed_median": 0.5107764314945407,
+                  "included_times": 13,
+                  "excluded_nonpositive_lambda_eff_pairs": 7,
+                  "excluded_endpoint_pairs": 18,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "truth_index": 3,
+          "R": 0.06491681888934707,
+          "R_tier": "MIXED",
+          "Lambda_disp": 0.4296616847961694,
+          "clock_tier": "MANY_CLOCKS",
+          "members": {
+            "D1": [
+              {
+                "member_index": 0,
+                "eligible_times": 13,
+                "included_R_times": 13,
+                "R_median": 0.0760056478057027,
+                "b_median_per_decade": 1.0923746136197798,
+                "k_half_spearman_time": -0.7714285714285715,
+                "k_half_uncensored": 6,
+                "k_half_censored": 7,
+                "Q_median_uncensored": null,
+                "Q_uncensored": 0,
+                "Q_right_censored": 13,
+                "Q_censored_lower_bound_median": 0.8344976161407068,
+                "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                "excluded_shell_time_pairs": 0,
+                "total_shell_time_pairs": 143,
+                "energy_floor_flag": false,
+                "eligible": true
+              },
+              {
+                "member_index": 1,
+                "eligible_times": 10,
+                "included_R_times": 10,
+                "R_median": 0.053827989972991444,
+                "b_median_per_decade": 0.8028359800115641,
+                "k_half_spearman_time": null,
+                "k_half_uncensored": 1,
+                "k_half_censored": 9,
+                "Q_median_uncensored": 0.8473790201602636,
+                "Q_uncensored": 1,
+                "Q_right_censored": 9,
+                "Q_censored_lower_bound_median": 0.47533318134991276,
+                "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                "excluded_shell_time_pairs": 0,
+                "total_shell_time_pairs": 110,
+                "energy_floor_flag": false,
+                "eligible": true
+              }
+            ],
+            "D2": [
+              {
+                "member_index": 0,
+                "Lambda_disp_median": 0.49431263182781443,
+                "Lambda_disp_unsmoothed_median": 0.6411607081240163,
+                "included_times": 13,
+                "excluded_nonpositive_lambda_eff_pairs": 4,
+                "excluded_endpoint_pairs": 16,
+                "excluded_low_energy_pairs": 0,
+                "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+              },
+              {
+                "member_index": 1,
+                "Lambda_disp_median": 0.36501073776452436,
+                "Lambda_disp_unsmoothed_median": 0.7477692877832827,
+                "included_times": 10,
+                "excluded_nonpositive_lambda_eff_pairs": 4,
+                "excluded_endpoint_pairs": 21,
+                "excluded_low_energy_pairs": 0,
+                "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+              }
+            ]
+          },
+          "sensitivity_bands": {
+            "k6_9": {
+              "D1": [
+                {
+                  "member_index": 0,
+                  "eligible_times": 19,
+                  "included_R_times": 19,
+                  "R_median": 0.02441189586157116,
+                  "b_median_per_decade": 0.7034643868460334,
+                  "k_half_spearman_time": null,
+                  "k_half_uncensored": 2,
+                  "k_half_censored": 17,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 19,
+                  "Q_censored_lower_bound_median": 0.3061603387283213,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 76,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                },
+                {
+                  "member_index": 1,
+                  "eligible_times": 11,
+                  "included_R_times": 11,
+                  "R_median": 0.020848766557717936,
+                  "b_median_per_decade": 0.3825696160260751,
+                  "k_half_spearman_time": null,
+                  "k_half_uncensored": 2,
+                  "k_half_censored": 9,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 11,
+                  "Q_censored_lower_bound_median": 0.7041168905578223,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 44,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                }
+              ],
+              "D2": [
+                {
+                  "member_index": 0,
+                  "Lambda_disp_median": 0.26533832562426085,
+                  "Lambda_disp_unsmoothed_median": 0.4542848893907795,
+                  "included_times": 16,
+                  "excluded_nonpositive_lambda_eff_pairs": 7,
+                  "excluded_endpoint_pairs": 16,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                },
+                {
+                  "member_index": 1,
+                  "Lambda_disp_median": 0.4810176224292856,
+                  "Lambda_disp_unsmoothed_median": 0.5532118837148015,
+                  "included_times": 10,
+                  "excluded_nonpositive_lambda_eff_pairs": 4,
+                  "excluded_endpoint_pairs": 5,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                }
+              ]
+            },
+            "k21_32": {
+              "D1": [
+                {
+                  "member_index": 0,
+                  "eligible_times": 11,
+                  "included_R_times": 11,
+                  "R_median": 0.03527460925075146,
+                  "b_median_per_decade": 1.1405671159057622,
+                  "k_half_spearman_time": -0.5,
+                  "k_half_uncensored": 3,
+                  "k_half_censored": 8,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 11,
+                  "Q_censored_lower_bound_median": 0.9973174507631486,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 132,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                },
+                {
+                  "member_index": 1,
+                  "eligible_times": 11,
+                  "included_R_times": 11,
+                  "R_median": 0.04472829310637307,
+                  "b_median_per_decade": 0.8035803162999733,
+                  "k_half_spearman_time": -1.0,
+                  "k_half_uncensored": 4,
+                  "k_half_censored": 7,
+                  "Q_median_uncensored": null,
+                  "Q_uncensored": 0,
+                  "Q_right_censored": 11,
+                  "Q_censored_lower_bound_median": 0.8287113750680732,
+                  "Q_censoring_rule": "when a threshold lies outside the band, report the in-band interval as a conservative lower bound; never extrapolate the crossing",
+                  "excluded_shell_time_pairs": 0,
+                  "total_shell_time_pairs": 132,
+                  "energy_floor_flag": false,
+                  "eligible": true
+                }
+              ],
+              "D2": [
+                {
+                  "member_index": 0,
+                  "Lambda_disp_median": 0.29501651010802055,
+                  "Lambda_disp_unsmoothed_median": 0.6092351865208118,
+                  "included_times": 11,
+                  "excluded_nonpositive_lambda_eff_pairs": 2,
+                  "excluded_endpoint_pairs": 25,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                },
+                {
+                  "member_index": 1,
+                  "Lambda_disp_median": 0.28518115990163656,
+                  "Lambda_disp_unsmoothed_median": 0.5837110806024649,
+                  "included_times": 11,
+                  "excluded_nonpositive_lambda_eff_pairs": 0,
+                  "excluded_endpoint_pairs": 21,
+                  "excluded_low_energy_pairs": 0,
+                  "log_domain_rule": "lambda_eff must be finite and positive; nonpositive values are excluded and counted"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "D1": {
+        "regime_median_R": 0.06194820413131691,
+        "truth_bootstrap_95pct_CI": [
+          0.04805789206132272,
+          0.06491681888934707
+        ],
+        "tier": "HETEROGENEOUS"
+      },
+      "D2": {
+        "regime_median_Lambda_disp": 0.35550127610133364,
+        "truth_bootstrap_95pct_CI": [
+          0.27642788252386374,
+          0.4296616847961694
+        ],
+        "tier": "HETEROGENEOUS"
+      },
+      "residual_control": {
+        "tier": "NOT_ESTABLISHED",
+        "reason": "M-Tb measures spectral geometry and clock dispersion; the finite-band I1, dissipation, forcing, and closure-memory residual accounting remains an M-T obligation."
+      },
+      "D3": {
+        "tier": "NOT_INTERPRETABLE_FOR_GT1",
+        "computed": false,
+        "reason": "The residual-control gate is not established; ordered logic forbids treating a lifecycle fit as script-G/E."
+      }
+    }
+  },
+  "t_code": "NONE \u2014 M-Tb supplies ordered derivation inputs only"
+}

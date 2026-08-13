@@ -1,0 +1,19 @@
+{
+  "schema": "prl-logistic-validity-limit-config-1",
+  "evidence_status": "frozen",
+  "null_gate": {
+    "path": "../01_PRL/Codex_work/reports/v8_pilot_null_gate_v2_20260720.json",
+    "sha256": "3c56548db321c352df687bfd4adb90c518046a8c12782f30d7ba926347bdbf53"
+  },
+  "clusters": [
+    ["n512_re940_marginal/clusters/truth_00.npz", "a789d95c0a3ae2ddde56515164930d20ee99e390630c9e46e6121083cc24deeb"],
+    ["n512_re940_marginal/clusters/truth_01.npz", "672ddb47bcb240fb9401fbe474186f42e026cb4c5a7cbc4a2fbb6f1e22d05bd0"],
+    ["n512_re940_marginal/clusters/truth_02.npz", "a63107d4056e12c18ba8af580f90035ff81560a0950b983806fe2155ce410658"],
+    ["n512_re940_marginal/clusters/truth_03.npz", "07bd598df0d90e0750d01d0af8ca13c88d084b85620dae04c6547fdb46848b54"],
+    ["n256_re470_steep/clusters/truth_00.npz", "5e64abe6edab6e48f39e6c39637f2fcd0890837eee8e1890536ecaa6d86db181"],
+    ["n256_re470_steep/clusters/truth_01.npz", "20235d4e99f68d9b722c3e7584394f9f62708529fd3b891afd2a952653bf2672"],
+    ["n256_re470_steep/clusters/truth_02.npz", "8bb4d8b2f61dc43bd588ea97b00d9cc62fa37e1cb3a12bdbe7bc0eeb5f21b3ce"],
+    ["n256_re470_steep/clusters/truth_03.npz", "6dce6ed8f082bb23b13198f1933578023e01ce2a18d0ba2931bb9a09010dd874"]
+  ],
+  "cluster_root": "../03_JFM/codex_work/experiments/out/prl_v8_gate5_nonconfirmatory_20260715"
+}
