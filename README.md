@@ -24,6 +24,9 @@ unlaunched confirmatory ensemble.
   the compact, hash-traceable derived data in `data/`.
 - `scripts/make_prl_validity_figures_v2.py`: reproduces the supplemental audit
   figure from compact records in `results/`.
+- `scripts/measure_finite_band_truth_slopes_v1.py`: recomputes the descriptive
+  `k=10--20` truth-spectrum slopes reported in the supplement when the raw
+  cluster archives are available.
 - `results/`: dated machine-readable audit and verification records.
 - `figures/`: released vector figures.
 

@@ -1,0 +1,120 @@
+{
+  "schema": "prl-finite-band-truth-slopes-1",
+  "evidence_status": "post_audit_descriptive_context",
+  "band": [
+    10,
+    20
+  ],
+  "definition": "OLS slope of log shell energy versus log integer shell k for each stored truth-field snapshot; median over snapshots, then median over four truths",
+  "non_claim": "These finite-band slopes do not establish an asymptotic similarity interval or freeze an error-growth prediction.",
+  "regimes": {
+    "n256_re470_steep": {
+      "truths": [
+        {
+          "truth_index": 0,
+          "artifact": "n256_re470_steep/clusters/truth_00.npz",
+          "artifact_sha256": "5e64abe6edab6e48f39e6c39637f2fcd0890837eee8e1890536ecaa6d86db181",
+          "snapshot_count": 125,
+          "snapshot_slope_median": -3.2318832889298856,
+          "snapshot_slope_95pct_interval": [
+            -3.8640036482636315,
+            -2.454542211498342
+          ]
+        },
+        {
+          "truth_index": 1,
+          "artifact": "n256_re470_steep/clusters/truth_01.npz",
+          "artifact_sha256": "20235d4e99f68d9b722c3e7584394f9f62708529fd3b891afd2a952653bf2672",
+          "snapshot_count": 125,
+          "snapshot_slope_median": -3.260608714476878,
+          "snapshot_slope_95pct_interval": [
+            -3.9260754203277015,
+            -2.52314848435197
+          ]
+        },
+        {
+          "truth_index": 2,
+          "artifact": "n256_re470_steep/clusters/truth_02.npz",
+          "artifact_sha256": "8bb4d8b2f61dc43bd588ea97b00d9cc62fa37e1cb3a12bdbe7bc0eeb5f21b3ce",
+          "snapshot_count": 125,
+          "snapshot_slope_median": -3.249066164523083,
+          "snapshot_slope_95pct_interval": [
+            -3.878253633811574,
+            -2.578736596044154
+          ]
+        },
+        {
+          "truth_index": 3,
+          "artifact": "n256_re470_steep/clusters/truth_03.npz",
+          "artifact_sha256": "6dce6ed8f082bb23b13198f1933578023e01ce2a18d0ba2931bb9a09010dd874",
+          "snapshot_count": 125,
+          "snapshot_slope_median": -3.1811730278849573,
+          "snapshot_slope_95pct_interval": [
+            -3.898606534305637,
+            -2.6079942740182216
+          ]
+        }
+      ],
+      "regime_truth_median_slope": -3.240474726726484,
+      "truth_median_range": [
+        -3.260608714476878,
+        -3.1811730278849573
+      ],
+      "positive_exponent_n": 3.240474726726484
+    },
+    "n512_re940_marginal": {
+      "truths": [
+        {
+          "truth_index": 0,
+          "artifact": "n512_re940_marginal/clusters/truth_00.npz",
+          "artifact_sha256": "a789d95c0a3ae2ddde56515164930d20ee99e390630c9e46e6121083cc24deeb",
+          "snapshot_count": 125,
+          "snapshot_slope_median": -2.718409185115433,
+          "snapshot_slope_95pct_interval": [
+            -3.39510766001723,
+            -2.1157514776954955
+          ]
+        },
+        {
+          "truth_index": 1,
+          "artifact": "n512_re940_marginal/clusters/truth_01.npz",
+          "artifact_sha256": "672ddb47bcb240fb9401fbe474186f42e026cb4c5a7cbc4a2fbb6f1e22d05bd0",
+          "snapshot_count": 125,
+          "snapshot_slope_median": -2.674911077032468,
+          "snapshot_slope_95pct_interval": [
+            -3.3183508105763213,
+            -2.128923770355199
+          ]
+        },
+        {
+          "truth_index": 2,
+          "artifact": "n512_re940_marginal/clusters/truth_02.npz",
+          "artifact_sha256": "a63107d4056e12c18ba8af580f90035ff81560a0950b983806fe2155ce410658",
+          "snapshot_count": 125,
+          "snapshot_slope_median": -2.7190988947377055,
+          "snapshot_slope_95pct_interval": [
+            -3.349417905401932,
+            -2.1314519260553073
+          ]
+        },
+        {
+          "truth_index": 3,
+          "artifact": "n512_re940_marginal/clusters/truth_03.npz",
+          "artifact_sha256": "07bd598df0d90e0750d01d0af8ca13c88d084b85620dae04c6547fdb46848b54",
+          "snapshot_count": 125,
+          "snapshot_slope_median": -2.6297235932376406,
+          "snapshot_slope_95pct_interval": [
+            -3.2747736320433676,
+            -1.972572069383484
+          ]
+        }
+      ],
+      "regime_truth_median_slope": -2.6966601310739504,
+      "truth_median_range": [
+        -2.7190988947377055,
+        -2.6297235932376406
+      ],
+      "positive_exponent_n": 2.6966601310739504
+    }
+  }
+}

@@ -8,7 +8,8 @@ recorded in `MANIFEST.sha256`.
 
 The raw N=256 and N=512 SQG truth-cluster NPZ files total approximately 1.6 GB
 and are excluded. Their expected SHA-256 hashes and original relative locations
-are recorded in the machine-readable evidence. With those archives available,
+are recorded in the machine-readable evidence, including
+`results/finite_band_truth_slopes_v1.json`. With those archives available,
 the compact input can be reconstructed and checked using:
 
 ```bash
