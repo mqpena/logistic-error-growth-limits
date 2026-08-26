@@ -1,7 +1,7 @@
-# Conditional Logistic Error Growth and Similarity Fronts in Geophysical Turbulence
+# When Does Forecast-Error Energy Grow Logistically in Geophysical Turbulence?
 
 Algorithms, frozen compact evidence records, and figure-generation code for
-the preprint *Conditional Logistic Error Growth and Similarity Fronts in Geophysical Turbulence*.
+the preprint *When Does Forecast-Error Energy Grow Logistically in Geophysical Turbulence?*.
 
 This repository distinguishes three claims that should not be conflated:
 

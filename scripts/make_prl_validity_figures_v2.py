@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the bounded theory-map and stored-artifact audit figures for PRL.
+"""Generate the bounded theory-map and finite-band validity figures for PRL.
 
 This script performs no simulation and derives no new inferential statistic. It
 reads two dated JSON records, draws their stored per-truth summaries, and emits
@@ -118,7 +118,7 @@ def metadata(input_hashes: dict[str, str], title: str) -> dict[str, str]:
     return {
         "Title": title,
         "Author": "Logistic Error Growth Program",
-        "Subject": "Stored-artifact validity audit; no new simulation or inference",
+        "Subject": "Finite-band validity test; no new simulation or inference",
         "Keywords": provenance,
         "Creator": f"{SCRIPT.name}; {provenance}",
     }
@@ -287,8 +287,8 @@ def make_audit(
     x = np.arange(4, dtype=float)
     offsets = (-0.10, 0.10)
     panels = (
-        ("R", r"shape residual $R$", "(a) One-shape audit"),
-        ("clock", r"clock dispersion $\Lambda_{\rm disp}$", "(b) One-clock audit"),
+        ("R", r"shape residual $R$", "(a) One-shape test"),
+        ("clock", r"clock dispersion $\Lambda_{\rm disp}$", "(b) One-clock test"),
         ("correction", "net correction (% of baseline)", "(c) Local-clock decomposition"),
     )
 
@@ -322,12 +322,12 @@ def make_audit(
         handletextpad=0.5, columnspacing=1.2,
     )
     fig.suptitle(
-        "Stored-artifact validity audit by truth cluster",
+        "Finite-band validity test by truth cluster",
         x=0.01, ha="left", fontsize=13.5, fontweight="bold", color=NAVY,
     )
     fig.text(
         0.99, 0.035,
-        "Panels (a,b): prospective audit; panel (c): exploratory post-exit diagnostic",
+        "Panels (a,b): prespecified tests; panel (c): separate exploratory diagnostic",
         ha="right", va="bottom", fontsize=6.8, color=MUTED,
     )
 
@@ -363,7 +363,7 @@ def main() -> None:
     )
     make_audit(
         targets[2], targets[3], mtb, clock,
-        metadata(input_hashes, "Validity limits of logistic error growth: stored-artifact audit"),
+        metadata(input_hashes, "Validity limits of logistic error growth: finite-band test"),
     )
 
     print(f"script_sha256  {sha256(SCRIPT)}  {SCRIPT}")
