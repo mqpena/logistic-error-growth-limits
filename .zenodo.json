@@ -1,0 +1,32 @@
+{
+  "title": "logistic-error-growth-limits: SQG simulation and analysis code",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Peña, Malaquias",
+      "affiliation": "Eversource Energy Center, University of Connecticut",
+      "orcid": "0000-0002-3400-5075"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "description": "Solver and analysis sources for the archived SQG forecast-error growth study. Raw model data are deposited separately; see the related dataset.",
+  "keywords": [
+    "surface quasigeostrophic turbulence",
+    "forecast error growth",
+    "predictability"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.22822514",
+      "relation": "isSupplementedBy",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://doi.org/10.48550/arXiv.2608.26492",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint"
+    }
+  ],
+  "version": "1.0.0"
+}

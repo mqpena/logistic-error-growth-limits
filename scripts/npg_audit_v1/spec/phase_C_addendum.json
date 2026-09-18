@@ -1,0 +1,68 @@
+{
+  "schema": "npg-phase-C-pre-execution-addendum-1",
+  "created_utc": "2026-09-11T16:58:01.047620+00:00",
+  "evidence_state": "implementation specified before any phase C raw-data computation",
+  "primary_fixed_shells": [
+    10,
+    20
+  ],
+  "exact_coordinate": "a_k=epsilon_k/(Et_k+Ef_k); w_k=(Et_k+Ef_k)/sum_j(Et_j+Ef_j); fixed support, no shell exclusion",
+  "inferred_rate_domain": {
+    "previous_generic_domain": "strict 0<a_k<1",
+    "refinement": "0.15<=a_k<=0.85 for every shell in the fixed partition at a retained time; exclude whole time rows, never individual shells",
+    "reason": "avoid endpoint-sensitive inferred rates; preserve historical bracket while correcting changing-domain issue",
+    "status": "descriptive sensitivity restriction, not a physical pass threshold"
+  },
+  "derivatives": {
+    "primary": "unsmoothed centered secant on equal-cadence three-point support; t<=12",
+    "sensitivity": "unsmoothed centered secant with span two on equal-cadence five-point support; t<=12",
+    "cadence_rtol": 1e-08,
+    "cadence_atol_TU": 1e-10,
+    "unavailable": "endpoints and cadence transitions; no interpolation inserted for derivative observations"
+  },
+  "arithmetic_tolerance": {
+    "relative": 1e-10,
+    "absolute": "1e-12*max(RMS D_t A,abs(lambda0)*RMS A(1-A),machine tiny)",
+    "applies_to": "algebraic inferred-rate reconstruction only",
+    "does_not_apply_to": "finite-difference product-rule residual, physical closure error, or scientific significance"
+  },
+  "bound": {
+    "object": "auxiliary piecewise-linear interpolation of sampled aggregate A",
+    "interval": "contiguous 0<=A<=1 consecutive 0.1-TU intervals through t<=12; gaps and later sparse intervals excluded",
+    "reference": "independent archived band energy lambda0 after inherited burn-in; initialized at first point of each eligible interval without retrospective half-height shift",
+    "integrand": "exp(lambda0*(dt-s))*abs(A_PL_prime-lambda0*A_PL*(1-A_PL))",
+    "quadrature": "split each quadratic defect at real interior roots; Gauss-Legendre 16 and 32 orders",
+    "error_reporting": "difference between quadrature orders, propagated by the same exponential recurrence; convergence estimate only, not a certified error enclosure",
+    "unavailable": [
+      "independently predictive shell-clock closure bound",
+      "certified unknown continuous physical-trajectory bound"
+    ]
+  },
+  "continuous_budget_caveat": "Primary k10..20 has no directly forced modes. In directly white-noise-forced bands a continuous normalized quotient may need an Ito correction; phase C does not extrapolate its classical derivative identity there.",
+  "execution_authority": "User approved existing-data phases A-C; root will run physical reconstruction pilot before phase C execution.",
+  "common_reference_addition_recorded_utc": "2026-09-11T17:00:20.681104+00:00",
+  "independent_common_reference": {
+    "definition": "q_ref,k=D_t a_k-lambda_b*a_k*(1-a_k), using independently archived tangent band lambda_b as explicitly prescribed common local reference",
+    "defect_identity": "D_observed=-lambda_b*V+H+sum(w*q_ref)+R_product",
+    "status": "available sampled residual against independently prescribed reference; not a measured heterogeneous shell-clock decomposition",
+    "report": "signed terms, sumabs/cancellation with and without temporal product residual, per-shell q_ref distributions and weighted RMS; no fit or new integration",
+    "interpretation_limit": "reference inadequacy quantified subject to finite-difference and storage precision, without physical attribution"
+  },
+  "operator_decomposition_addition_recorded_utc": "2026-09-11T17:09:14.046598+00:00",
+  "operator_common_reference": {
+    "preexecution_status": "added before any phase-C raw calculation or output inspection; A/B pilot may run independently",
+    "inputs": "phase-A/B verified and hash-checked P_linear_shell, P_tl_nonlinear_shell, P_pure_error_shell, Sdot_deterministic_shell on saved primary-band fields",
+    "coordinate": "same exact fixed-shell epsilon/S and S weights as FD analysis",
+    "formulas": [
+      "da_op=(Psum-a*Sdot)/S",
+      "dw_op=(Sdot-w*Sdot_band)/S_band",
+      "D_op=sum(Psum)/S_band-A*Sdot_band/S_band-lambda0*A*(1-A)",
+      "q_ref_op=da_op-lambda0*a*(1-a)",
+      "D_op=-lambda0*Var_w(a)+H_op+sum(w*q_ref_op)"
+    ],
+    "windows": "primary descriptive summaries at t<=12; all125-snapshot record summaries separate; operator-minus-FD comparisons only common dense derivative support",
+    "normalizer": "primary k10..20 excludes directly forced modes; deterministic modal Sdot is the applicable continuous-operator tendency there",
+    "checks": "finite-sum reconstruction with same dimensionally scaled arithmetic tolerance; operator-vs-FD mismatch is reported as sampling sensitivity, not required to be machinezero",
+    "interpretation": "residual to independently prescribed common tangent-band rate, not fitted/inferred shell clocks or physical-cause attribution; no continuous-time bound without intersnapshot envelope"
+  }
+}

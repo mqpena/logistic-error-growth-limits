@@ -1,0 +1,6 @@
+{
+  "recorded_at_utc": "2026-09-11T17:17:17.297691+00:00",
+  "source_sha256": "953dce52e3577a388d4a9e35a07f1b9cae4414e06a9e84dd11b3b143601be7d9",
+  "purpose": "Diagnose preserved failed checks; no tolerance change",
+  "results_status": "Post-failure descriptive numerical verification"
+}

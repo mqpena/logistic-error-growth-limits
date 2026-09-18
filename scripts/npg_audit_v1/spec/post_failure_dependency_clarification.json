@@ -1,0 +1,16 @@
+{
+  "recorded_at_utc": "2026-09-11T17:12:46.384619+00:00",
+  "status": "Post-failure clarification of dependent analyses, before N512 phase C and remaining truth groups",
+  "first_failure": "N512truth00 highestband archived allocated discrete budget",
+  "observed_scaled_errors": [
+    0.00011215291920748338,
+    0.00010422750631214429
+  ],
+  "frozen_threshold_unchanged": 0.0001,
+  "retained_failed_record": "results/physical/n512_re940_marginal/truth_00/result.json",
+  "independent_review": "Theory reviewer found primaryC has no dependency on nonprimary allocated increments. Raw moment/operator reconstruction passes, primary incrementalbudget and fullpurecancellation pass. Other truth groups are independent inputs for this check, though their statistical independence is not established.",
+  "decision": "Continue independent group audits and primaryC only when explicitprimarydependencies pass. Stop claims of validated discrete closure for failing bands. Preserve globalallchecks false and mark finalstatus completed_with_partial_failure. Do not rerunintegrations or alterfailthreshold.",
+  "dependency_rule": "audit_dependencies.primary_scope",
+  "analysis_change": "Prerequisite handling only; formulas, masks, tolerance values and failed raw records unchanged.",
+  "scope_limit": "No claim that primary-only validation establishes the accuracy of the entire numericaltrajectory."
+}

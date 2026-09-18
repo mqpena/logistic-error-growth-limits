@@ -1,0 +1,104 @@
+{
+  "source_dataset_doi": "10.5281/zenodo.22822514",
+  "source_archive": "sqg_logistic_reproduction_v1.zip",
+  "archive_prefix": "SQG_Logistic/v1/",
+  "change": "The relocation-guard test target uses /legacy instead of the author workstation path. All other audit files are byte-identical to the archived sources; no numerical implementation or threshold changed.",
+  "files": {
+    "scripts/npg_audit_v1/audit_aggregation.py": {
+      "archived_sha256": "cb4d71bbd3ef3bf6863d4c0e998c139552fa31699691d4c4c796572ceac23a63",
+      "repository_sha256": "cb4d71bbd3ef3bf6863d4c0e998c139552fa31699691d4c4c796572ceac23a63"
+    },
+    "scripts/npg_audit_v1/audit_dependencies.py": {
+      "archived_sha256": "de297b7bfa658de682d115d0c1dd12180a355e8f66701d462bc2e8a3940759fe",
+      "repository_sha256": "de297b7bfa658de682d115d0c1dd12180a355e8f66701d462bc2e8a3940759fe"
+    },
+    "scripts/npg_audit_v1/audit_io.py": {
+      "archived_sha256": "c329109c1881db25a4a43cca4721a765f1c2d39f78e89b8d66eb923fa5ff6faf",
+      "repository_sha256": "c329109c1881db25a4a43cca4721a765f1c2d39f78e89b8d66eb923fa5ff6faf"
+    },
+    "scripts/npg_audit_v1/audit_physical.py": {
+      "archived_sha256": "9e379592f058a96ffbee1bcc43ee2571cf0fd8fa1564d3197e4679aecfc48f82",
+      "repository_sha256": "9e379592f058a96ffbee1bcc43ee2571cf0fd8fa1564d3197e4679aecfc48f82"
+    },
+    "scripts/npg_audit_v1/check_relocation_guard.py": {
+      "archived_sha256": "338544d83fdb0f2cf716098843ffcfbaa051f0ed99f5d3b70dde423b53458909",
+      "repository_sha256": "789ace44a7ccb95ff7d13de629ec7df011dc3e70c96bb3bd0ddedf13e230866f"
+    },
+    "scripts/npg_audit_v1/diagnose_archived_budget.py": {
+      "archived_sha256": "953dce52e3577a388d4a9e35a07f1b9cae4414e06a9e84dd11b3b143601be7d9",
+      "repository_sha256": "953dce52e3577a388d4a9e35a07f1b9cae4414e06a9e84dd11b3b143601be7d9"
+    },
+    "scripts/npg_audit_v1/matched_lifecycle_summary.py": {
+      "archived_sha256": "4aa60526a18a0780d7b16c87dea6d2593001921e3752c0997c10e794efbc6771",
+      "repository_sha256": "4aa60526a18a0780d7b16c87dea6d2593001921e3752c0997c10e794efbc6771"
+    },
+    "scripts/npg_audit_v1/methods/PHASE_C_MATHEMATICAL_METHOD.md": {
+      "archived_sha256": "ead9c89cbb2be693ee1a3e78ae0bd45d93a297a7456a3a69ebcec1d503dc21eb",
+      "repository_sha256": "ead9c89cbb2be693ee1a3e78ae0bd45d93a297a7456a3a69ebcec1d503dc21eb"
+    },
+    "scripts/npg_audit_v1/methods/PHASE_C_OPERATOR_TOY_VERIFICATION.json": {
+      "archived_sha256": "c3ca8dc255a705f391b67896190713a0295c3f025d02f287a58a6f46d479898d",
+      "repository_sha256": "c3ca8dc255a705f391b67896190713a0295c3f025d02f287a58a6f46d479898d"
+    },
+    "scripts/npg_audit_v1/methods/PHASE_C_TOY_VERIFICATION.json": {
+      "archived_sha256": "9e7338db71c39581bf7ec14acfbe90434a0995e2d305134a5578b5bb4738715a",
+      "repository_sha256": "9e7338db71c39581bf7ec14acfbe90434a0995e2d305134a5578b5bb4738715a"
+    },
+    "scripts/npg_audit_v1/methods/POST_AUDIT_MATCHED_WINDOW.md": {
+      "archived_sha256": "81df51e35fffe60bee9c2558a28bff811fb5530f88e5fb3b3a879eb4e20f9974",
+      "repository_sha256": "81df51e35fffe60bee9c2558a28bff811fb5530f88e5fb3b3a879eb4e20f9974"
+    },
+    "scripts/npg_audit_v1/run_audit.py": {
+      "archived_sha256": "e5a76ad6fe034c86e64a758db84914993458e0634b97159929821522b2550ec4",
+      "repository_sha256": "e5a76ad6fe034c86e64a758db84914993458e0634b97159929821522b2550ec4"
+    },
+    "scripts/npg_audit_v1/spec/analysis_specification.json": {
+      "archived_sha256": "5f9d61dfb6d41eb688ceac057ccbfeddd0d518dec4c5005024f790374b1ce180",
+      "repository_sha256": "5f9d61dfb6d41eb688ceac057ccbfeddd0d518dec4c5005024f790374b1ce180"
+    },
+    "scripts/npg_audit_v1/spec/analysis_specification.sha256": {
+      "archived_sha256": "985a6d818c7951e5fc943507cff59a0205aa06a871228cdbd0355009ff1a60b7",
+      "repository_sha256": "985a6d818c7951e5fc943507cff59a0205aa06a871228cdbd0355009ff1a60b7"
+    },
+    "scripts/npg_audit_v1/spec/archived_budget_diagnosis_source.json": {
+      "archived_sha256": "d754ee17e4efb507f92f5fb8e54740016e03b777c9ed4a09f2fece2effaabde1",
+      "repository_sha256": "d754ee17e4efb507f92f5fb8e54740016e03b777c9ed4a09f2fece2effaabde1"
+    },
+    "scripts/npg_audit_v1/spec/final_C_source_manifest.json": {
+      "archived_sha256": "264646c3c4c63e964aa876bab11e87ae340f79f7c97e9422acc881ba701d8b65",
+      "repository_sha256": "264646c3c4c63e964aa876bab11e87ae340f79f7c97e9422acc881ba701d8b65"
+    },
+    "scripts/npg_audit_v1/spec/phase_AB_addendum.json": {
+      "archived_sha256": "b5b590c0ab173618e726be00d0fa0d8934a093356950dd3ba0cfc9533acc18eb",
+      "repository_sha256": "b5b590c0ab173618e726be00d0fa0d8934a093356950dd3ba0cfc9533acc18eb"
+    },
+    "scripts/npg_audit_v1/spec/phase_C_addendum.json": {
+      "archived_sha256": "eb8c19ac6993e0230c1f0ab1b8a558e0fd4fe8b7b52db3bf5ffcc4d716d92a0b",
+      "repository_sha256": "eb8c19ac6993e0230c1f0ab1b8a558e0fd4fe8b7b52db3bf5ffcc4d716d92a0b"
+    },
+    "scripts/npg_audit_v1/spec/pilot_AB_source_manifest.json": {
+      "archived_sha256": "2c95a61911fa6cde5343bb7d8277dcf678a41cbe1b0033f5d33373601c36d870",
+      "repository_sha256": "2c95a61911fa6cde5343bb7d8277dcf678a41cbe1b0033f5d33373601c36d870"
+    },
+    "scripts/npg_audit_v1/spec/pilot_C_source_manifest.json": {
+      "archived_sha256": "3b20ab1846027cfd1e73d56d41e38bccf7fab3585edc43c15e6c546e1987bd4c",
+      "repository_sha256": "3b20ab1846027cfd1e73d56d41e38bccf7fab3585edc43c15e6c546e1987bd4c"
+    },
+    "scripts/npg_audit_v1/spec/portability_execution_record.json": {
+      "archived_sha256": "4d7a3796c0998a60650c11cf4786bb957dee4a62ca9111c7cd02bcda2dca7fb3",
+      "repository_sha256": "4d7a3796c0998a60650c11cf4786bb957dee4a62ca9111c7cd02bcda2dca7fb3"
+    },
+    "scripts/npg_audit_v1/spec/post_failure_dependency_clarification.json": {
+      "archived_sha256": "258dd2d0703aadd24d9a1b7fbc81547316eaccfc55ff61b99a757a6840cdda59",
+      "repository_sha256": "258dd2d0703aadd24d9a1b7fbc81547316eaccfc55ff61b99a757a6840cdda59"
+    },
+    "scripts/npg_audit_v1/summarize_audit.py": {
+      "archived_sha256": "4846cc34f87d58458a916e43eaaca2f1735345ac2d11c50d1fd282d921c92734",
+      "repository_sha256": "4846cc34f87d58458a916e43eaaca2f1735345ac2d11c50d1fd282d921c92734"
+    },
+    "scripts/npg_audit_v1/with_archive_guard.py": {
+      "archived_sha256": "66390a8fe071f5a3f6378053fb46b26aa61e46d2111182c1abd10925ac87060c",
+      "repository_sha256": "66390a8fe071f5a3f6378053fb46b26aa61e46d2111182c1abd10925ac87060c"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "audit_id": "npg-existing-data-20260911",
+  "frozen_at_utc": "2026-09-11T16:53:52.092469+00:00",
+  "authorization": "User approved recommended existing-data audit and dependency relocation into NL-Analytics/CommonModels. No new model integration.",
+  "source_article": "journal_NPG/v1",
+  "cluster_ids": [
+    "n256_re470_steep/truth_00",
+    "n256_re470_steep/truth_01",
+    "n256_re470_steep/truth_02",
+    "n256_re470_steep/truth_03",
+    "n512_re940_marginal/truth_00",
+    "n512_re940_marginal/truth_01",
+    "n512_re940_marginal/truth_02",
+    "n512_re940_marginal/truth_03"
+  ],
+  "bands": {
+    "mask": "square abs(kx),abs(ky)<=floor(N/3)",
+    "radial_intervals": "[0,5.5),[5.5,9.5),[9.5,20.5),[20.5,32.5),[32.5,nextafter(max retained radius,+infinity)), plus full support",
+    "shells_C": "fixed integer shells10..20 with half-integer boundaries; no time-varying shell removal"
+  },
+  "phase_A": {
+    "field_times": "all 125 matched stored field times",
+    "moments": [
+      "truth energy",
+      "forecast energy",
+      "cross covariance",
+      "direct error energy from forecast-truth"
+    ],
+    "rms_tolerance_relative": 1e-05,
+    "near_zero_scale": "max(RMS archived quantity, 1e-10*RMS full twin-energy sum)",
+    "pointwise_diagnostic": "report pointwise scaled discrepancies separately; no after-the-fact acceptance threshold",
+    "summary_tolerance": "absolute1e-10 + relative1e-8",
+    "reproduce": "prespecified unsmoothed shape R, inferred-rate derivative smoothing with unsmoothed denominator/mask, exclusion counts, trajectory medians and two-member means/four-truth median; no new bootstrap"
+  },
+  "phase_B": {
+    "windows": [
+      "all available data",
+      "rho in (0.15,0.85)",
+      "t60..120"
+    ],
+    "derivatives": "centered equal-step stencils within cadence segments; native,step2,step4; exclude endpoints, unequal cadence transitions and gaps",
+    "quotient_interval_identity": "delta_a=delta_epsilon/S_next - a_prev*delta_S/S_next",
+    "physical_residuals": "sampled-production quadrature and archived allocated interval budget, distinct from temporal product-rule residual",
+    "archived_discrete_budget_tolerance_relative": 0.0001,
+    "full_pure_cancellation": "L2(full Ppure)/L2(sum of absolute physical-band Ppure)<=1e-5; report underresolved denominator",
+    "clocks": "use independently archived band tangent columns only, burnin t>=5, no fitted/new clocks",
+    "curves": "unaligned and retrospective half-height aligned individual trajectories; historical RMSE and leave-one-truth-out descriptive sensitivity",
+    "uncertainty": "shared truth groups retained; no bootstrap or null re-run"
+  },
+  "phase_C": {
+    "coordinate": "a_k=epsilon_k/S_k; w_k=S_k/sumS; A=sum(w*a)",
+    "derivatives": "fixed shell support, unsmoothed equal-cadence centered 3-point and span2 sensitivity",
+    "observed_defect": "D_tA - lambda0*A*(1-A), retrospective diagnostic",
+    "weight_term": "sum(D_tw)*(a-A)",
+    "product_residual": "D_tA-sum(w*D_ta)-sum(D_tw)*(a-A), report not machine-zero expectation",
+    "inferred_clock_domain": "all fixed shells strictly0<a<1, no selective shell removal; retain negative inferred rates without log",
+    "signed_terms": [
+      "clock drift",
+      "shape variance",
+      "rate-shape covariance",
+      "weight tendency",
+      "finite-difference product residual"
+    ],
+    "arithmetic_tolerance": "relative1e-10 term scale +absolute1e-12 characteristic tendency; characteristic=max(RMS DtA, abs(lambda0)*RMS A(1-A), tiny)",
+    "bound": "No claim of independently predictive or certified continuous-trajectory bound when independent shell dynamics/residuals unavailable. Auxiliary piecewise-linear sampled-path a posteriori bound may be evaluated with quadrature error and domain checks explicitly separate.",
+    "generalization": "no new predictive-skill or universal closure claim"
+  },
+  "resources": {
+    "pilot": "one N256 truth group first; measure wall time and peakRSS before full run",
+    "execution": "sequential groups, CPU existing-data analysis",
+    "stops": [
+      "input hash mismatch",
+      "moment reconstruction fails",
+      "missing quantities or insufficient support for a dependent analysis"
+    ],
+    "inputs_immutable": true
+  },
+  "outputs": [
+    "input and source manifests",
+    "frozen specification",
+    "machine-readable checks",
+    "per-group diagnostics",
+    "tables and PNG figures",
+    "results-to-claims report"
+  ]
+}

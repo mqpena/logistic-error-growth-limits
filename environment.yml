@@ -2,10 +2,7 @@ name: logistic-error-growth-limits
 channels:
   - conda-forge
 dependencies:
-  - python=3.12
-  - numpy=2.4.6
-  - matplotlib=3.11.0
-  - scipy>=1.14,<2
+  - python=3.13
   - pip
   - pip:
-      - mlx==0.31.2
+      - -r requirements.txt

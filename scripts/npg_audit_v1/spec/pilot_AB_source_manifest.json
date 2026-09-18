@@ -1,0 +1,10 @@
+{
+  "frozen_at_utc": "2026-09-11T17:07:13.822300+00:00",
+  "sources": {
+    "with_archive_guard.py": "66390a8fe071f5a3f6378053fb46b26aa61e46d2111182c1abd10925ac87060c",
+    "audit_io.py": "c329109c1881db25a4a43cca4721a765f1c2d39f78e89b8d66eb923fa5ff6faf",
+    "audit_physical.py": "9e379592f058a96ffbee1bcc43ee2571cf0fd8fa1564d3197e4679aecfc48f82"
+  },
+  "phase": "A/B first pilot",
+  "numeric_results_seen": false
+}

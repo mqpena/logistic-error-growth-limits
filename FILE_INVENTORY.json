@@ -1,0 +1,4509 @@
+{
+  "schema": "sqg-public-file-inventory-v1",
+  "created_utc": "2026-09-18T02:29:28.505682+00:00",
+  "inspection_method": "ZIP directory and NPY headers; small JSON metadata/time vectors only; streaming SHA-256; no spatial-field payload loaded",
+  "path_base": "SQG_Logistic/v1 (all paths relative)",
+  "file_count": 19,
+  "total_bytes": 1688539326,
+  "files": [
+    {
+      "path": "data/derived/prl_figure1_data_v1.npz",
+      "category": "derived_figure_data",
+      "bytes": 75526,
+      "sha256": "5ff8a25d81dc2fbe1696976c2e8cff597a9f13db20ef04d43a7782acf891b26c",
+      "arrays": [
+        {
+          "key": "row_00_tau",
+          "shape": [
+            35
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 408,
+          "zip_compressed_bytes": 368
+        },
+        {
+          "key": "row_00_a",
+          "shape": [
+            35
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 408,
+          "zip_compressed_bytes": 366
+        },
+        {
+          "key": "row_00_x",
+          "shape": [
+            35
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 408,
+          "zip_compressed_bytes": 365
+        },
+        {
+          "key": "row_00_y_linear",
+          "shape": [
+            35
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 408,
+          "zip_compressed_bytes": 369
+        },
+        {
+          "key": "row_00_y_tangent",
+          "shape": [
+            35
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 408,
+          "zip_compressed_bytes": 360
+        },
+        {
+          "key": "row_00_y_sum",
+          "shape": [
+            35
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 408,
+          "zip_compressed_bytes": 365
+        },
+        {
+          "key": "row_00_y_pure",
+          "shape": [
+            35
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 408,
+          "zip_compressed_bytes": 368
+        },
+        {
+          "key": "row_01_tau",
+          "shape": [
+            53
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 552,
+          "zip_compressed_bytes": 518
+        },
+        {
+          "key": "row_01_a",
+          "shape": [
+            53
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 552,
+          "zip_compressed_bytes": 514
+        },
+        {
+          "key": "row_01_x",
+          "shape": [
+            53
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 552,
+          "zip_compressed_bytes": 517
+        },
+        {
+          "key": "row_01_y_linear",
+          "shape": [
+            53
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 552,
+          "zip_compressed_bytes": 519
+        },
+        {
+          "key": "row_01_y_tangent",
+          "shape": [
+            53
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 552,
+          "zip_compressed_bytes": 513
+        },
+        {
+          "key": "row_01_y_sum",
+          "shape": [
+            53
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 552,
+          "zip_compressed_bytes": 520
+        },
+        {
+          "key": "row_01_y_pure",
+          "shape": [
+            53
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 552,
+          "zip_compressed_bytes": 517
+        },
+        {
+          "key": "row_02_tau",
+          "shape": [
+            64
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 640,
+          "zip_compressed_bytes": 614
+        },
+        {
+          "key": "row_02_a",
+          "shape": [
+            64
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 640,
+          "zip_compressed_bytes": 606
+        },
+        {
+          "key": "row_02_x",
+          "shape": [
+            64
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 640,
+          "zip_compressed_bytes": 605
+        },
+        {
+          "key": "row_02_y_linear",
+          "shape": [
+            64
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 640,
+          "zip_compressed_bytes": 599
+        },
+        {
+          "key": "row_02_y_tangent",
+          "shape": [
+            64
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 640,
+          "zip_compressed_bytes": 606
+        },
+        {
+          "key": "row_02_y_sum",
+          "shape": [
+            64
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 640,
+          "zip_compressed_bytes": 610
+        },
+        {
+          "key": "row_02_y_pure",
+          "shape": [
+            64
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 640,
+          "zip_compressed_bytes": 615
+        },
+        {
+          "key": "row_03_tau",
+          "shape": [
+            78
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 752,
+          "zip_compressed_bytes": 722
+        },
+        {
+          "key": "row_03_a",
+          "shape": [
+            78
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 752,
+          "zip_compressed_bytes": 710
+        },
+        {
+          "key": "row_03_x",
+          "shape": [
+            78
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 752,
+          "zip_compressed_bytes": 712
+        },
+        {
+          "key": "row_03_y_linear",
+          "shape": [
+            78
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 752,
+          "zip_compressed_bytes": 704
+        },
+        {
+          "key": "row_03_y_tangent",
+          "shape": [
+            78
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 752,
+          "zip_compressed_bytes": 717
+        },
+        {
+          "key": "row_03_y_sum",
+          "shape": [
+            78
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 752,
+          "zip_compressed_bytes": 724
+        },
+        {
+          "key": "row_03_y_pure",
+          "shape": [
+            78
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 752,
+          "zip_compressed_bytes": 718
+        },
+        {
+          "key": "row_04_tau",
+          "shape": [
+            88
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 832,
+          "zip_compressed_bytes": 802
+        },
+        {
+          "key": "row_04_a",
+          "shape": [
+            88
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 832,
+          "zip_compressed_bytes": 782
+        },
+        {
+          "key": "row_04_x",
+          "shape": [
+            88
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 832,
+          "zip_compressed_bytes": 780
+        },
+        {
+          "key": "row_04_y_linear",
+          "shape": [
+            88
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 832,
+          "zip_compressed_bytes": 785
+        },
+        {
+          "key": "row_04_y_tangent",
+          "shape": [
+            88
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 832,
+          "zip_compressed_bytes": 797
+        },
+        {
+          "key": "row_04_y_sum",
+          "shape": [
+            88
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 832,
+          "zip_compressed_bytes": 796
+        },
+        {
+          "key": "row_04_y_pure",
+          "shape": [
+            88
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 832,
+          "zip_compressed_bytes": 798
+        },
+        {
+          "key": "row_05_tau",
+          "shape": [
+            66
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 656,
+          "zip_compressed_bytes": 630
+        },
+        {
+          "key": "row_05_a",
+          "shape": [
+            66
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 656,
+          "zip_compressed_bytes": 615
+        },
+        {
+          "key": "row_05_x",
+          "shape": [
+            66
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 656,
+          "zip_compressed_bytes": 616
+        },
+        {
+          "key": "row_05_y_linear",
+          "shape": [
+            66
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 656,
+          "zip_compressed_bytes": 617
+        },
+        {
+          "key": "row_05_y_tangent",
+          "shape": [
+            66
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 656,
+          "zip_compressed_bytes": 620
+        },
+        {
+          "key": "row_05_y_sum",
+          "shape": [
+            66
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 656,
+          "zip_compressed_bytes": 631
+        },
+        {
+          "key": "row_05_y_pure",
+          "shape": [
+            66
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 656,
+          "zip_compressed_bytes": 628
+        },
+        {
+          "key": "row_06_tau",
+          "shape": [
+            46
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 496,
+          "zip_compressed_bytes": 460
+        },
+        {
+          "key": "row_06_a",
+          "shape": [
+            46
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 496,
+          "zip_compressed_bytes": 458
+        },
+        {
+          "key": "row_06_x",
+          "shape": [
+            46
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 496,
+          "zip_compressed_bytes": 460
+        },
+        {
+          "key": "row_06_y_linear",
+          "shape": [
+            46
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 496,
+          "zip_compressed_bytes": 454
+        },
+        {
+          "key": "row_06_y_tangent",
+          "shape": [
+            46
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 496,
+          "zip_compressed_bytes": 452
+        },
+        {
+          "key": "row_06_y_sum",
+          "shape": [
+            46
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 496,
+          "zip_compressed_bytes": 455
+        },
+        {
+          "key": "row_06_y_pure",
+          "shape": [
+            46
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 496,
+          "zip_compressed_bytes": 460
+        },
+        {
+          "key": "row_07_tau",
+          "shape": [
+            26
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 336,
+          "zip_compressed_bytes": 290
+        },
+        {
+          "key": "row_07_a",
+          "shape": [
+            26
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 336,
+          "zip_compressed_bytes": 289
+        },
+        {
+          "key": "row_07_x",
+          "shape": [
+            26
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 336,
+          "zip_compressed_bytes": 290
+        },
+        {
+          "key": "row_07_y_linear",
+          "shape": [
+            26
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 336,
+          "zip_compressed_bytes": 290
+        },
+        {
+          "key": "row_07_y_tangent",
+          "shape": [
+            26
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 336,
+          "zip_compressed_bytes": 286
+        },
+        {
+          "key": "row_07_y_sum",
+          "shape": [
+            26
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 336,
+          "zip_compressed_bytes": 288
+        },
+        {
+          "key": "row_07_y_pure",
+          "shape": [
+            26
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 336,
+          "zip_compressed_bytes": 291
+        },
+        {
+          "key": "row_08_tau",
+          "shape": [
+            42
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 464,
+          "zip_compressed_bytes": 427
+        },
+        {
+          "key": "row_08_a",
+          "shape": [
+            42
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 464,
+          "zip_compressed_bytes": 421
+        },
+        {
+          "key": "row_08_x",
+          "shape": [
+            42
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 464,
+          "zip_compressed_bytes": 424
+        },
+        {
+          "key": "row_08_y_linear",
+          "shape": [
+            42
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 464,
+          "zip_compressed_bytes": 426
+        },
+        {
+          "key": "row_08_y_tangent",
+          "shape": [
+            42
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 464,
+          "zip_compressed_bytes": 423
+        },
+        {
+          "key": "row_08_y_sum",
+          "shape": [
+            42
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 464,
+          "zip_compressed_bytes": 426
+        },
+        {
+          "key": "row_08_y_pure",
+          "shape": [
+            42
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 464,
+          "zip_compressed_bytes": 430
+        },
+        {
+          "key": "row_09_tau",
+          "shape": [
+            40
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 448,
+          "zip_compressed_bytes": 410
+        },
+        {
+          "key": "row_09_a",
+          "shape": [
+            40
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 448,
+          "zip_compressed_bytes": 406
+        },
+        {
+          "key": "row_09_x",
+          "shape": [
+            40
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 448,
+          "zip_compressed_bytes": 409
+        },
+        {
+          "key": "row_09_y_linear",
+          "shape": [
+            40
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 448,
+          "zip_compressed_bytes": 411
+        },
+        {
+          "key": "row_09_y_tangent",
+          "shape": [
+            40
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 448,
+          "zip_compressed_bytes": 407
+        },
+        {
+          "key": "row_09_y_sum",
+          "shape": [
+            40
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 448,
+          "zip_compressed_bytes": 408
+        },
+        {
+          "key": "row_09_y_pure",
+          "shape": [
+            40
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 448,
+          "zip_compressed_bytes": 411
+        },
+        {
+          "key": "row_10_tau",
+          "shape": [
+            55
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 568,
+          "zip_compressed_bytes": 538
+        },
+        {
+          "key": "row_10_a",
+          "shape": [
+            55
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 568,
+          "zip_compressed_bytes": 532
+        },
+        {
+          "key": "row_10_x",
+          "shape": [
+            55
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 568,
+          "zip_compressed_bytes": 529
+        },
+        {
+          "key": "row_10_y_linear",
+          "shape": [
+            55
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 568,
+          "zip_compressed_bytes": 533
+        },
+        {
+          "key": "row_10_y_tangent",
+          "shape": [
+            55
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 568,
+          "zip_compressed_bytes": 535
+        },
+        {
+          "key": "row_10_y_sum",
+          "shape": [
+            55
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 568,
+          "zip_compressed_bytes": 536
+        },
+        {
+          "key": "row_10_y_pure",
+          "shape": [
+            55
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 568,
+          "zip_compressed_bytes": 534
+        },
+        {
+          "key": "row_11_tau",
+          "shape": [
+            52
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 544,
+          "zip_compressed_bytes": 513
+        },
+        {
+          "key": "row_11_a",
+          "shape": [
+            52
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 544,
+          "zip_compressed_bytes": 504
+        },
+        {
+          "key": "row_11_x",
+          "shape": [
+            52
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 544,
+          "zip_compressed_bytes": 508
+        },
+        {
+          "key": "row_11_y_linear",
+          "shape": [
+            52
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 544,
+          "zip_compressed_bytes": 504
+        },
+        {
+          "key": "row_11_y_tangent",
+          "shape": [
+            52
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 544,
+          "zip_compressed_bytes": 508
+        },
+        {
+          "key": "row_11_y_sum",
+          "shape": [
+            52
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 544,
+          "zip_compressed_bytes": 510
+        },
+        {
+          "key": "row_11_y_pure",
+          "shape": [
+            52
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 544,
+          "zip_compressed_bytes": 512
+        },
+        {
+          "key": "row_12_tau",
+          "shape": [
+            41
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 456,
+          "zip_compressed_bytes": 417
+        },
+        {
+          "key": "row_12_a",
+          "shape": [
+            41
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 456,
+          "zip_compressed_bytes": 414
+        },
+        {
+          "key": "row_12_x",
+          "shape": [
+            41
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 456,
+          "zip_compressed_bytes": 414
+        },
+        {
+          "key": "row_12_y_linear",
+          "shape": [
+            41
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 456,
+          "zip_compressed_bytes": 418
+        },
+        {
+          "key": "row_12_y_tangent",
+          "shape": [
+            41
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 456,
+          "zip_compressed_bytes": 415
+        },
+        {
+          "key": "row_12_y_sum",
+          "shape": [
+            41
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 456,
+          "zip_compressed_bytes": 420
+        },
+        {
+          "key": "row_12_y_pure",
+          "shape": [
+            41
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 456,
+          "zip_compressed_bytes": 419
+        },
+        {
+          "key": "row_13_tau",
+          "shape": [
+            69
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 680,
+          "zip_compressed_bytes": 654
+        },
+        {
+          "key": "row_13_a",
+          "shape": [
+            69
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 680,
+          "zip_compressed_bytes": 641
+        },
+        {
+          "key": "row_13_x",
+          "shape": [
+            69
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 680,
+          "zip_compressed_bytes": 639
+        },
+        {
+          "key": "row_13_y_linear",
+          "shape": [
+            69
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 680,
+          "zip_compressed_bytes": 631
+        },
+        {
+          "key": "row_13_y_tangent",
+          "shape": [
+            69
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 680,
+          "zip_compressed_bytes": 646
+        },
+        {
+          "key": "row_13_y_sum",
+          "shape": [
+            69
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 680,
+          "zip_compressed_bytes": 653
+        },
+        {
+          "key": "row_13_y_pure",
+          "shape": [
+            69
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 680,
+          "zip_compressed_bytes": 653
+        },
+        {
+          "key": "row_14_tau",
+          "shape": [
+            65
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 648,
+          "zip_compressed_bytes": 622
+        },
+        {
+          "key": "row_14_a",
+          "shape": [
+            65
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 648,
+          "zip_compressed_bytes": 614
+        },
+        {
+          "key": "row_14_x",
+          "shape": [
+            65
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 648,
+          "zip_compressed_bytes": 614
+        },
+        {
+          "key": "row_14_y_linear",
+          "shape": [
+            65
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 648,
+          "zip_compressed_bytes": 606
+        },
+        {
+          "key": "row_14_y_tangent",
+          "shape": [
+            65
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 648,
+          "zip_compressed_bytes": 619
+        },
+        {
+          "key": "row_14_y_sum",
+          "shape": [
+            65
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 648,
+          "zip_compressed_bytes": 619
+        },
+        {
+          "key": "row_14_y_pure",
+          "shape": [
+            65
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 648,
+          "zip_compressed_bytes": 622
+        },
+        {
+          "key": "row_15_tau",
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 528,
+          "zip_compressed_bytes": 496
+        },
+        {
+          "key": "row_15_a",
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 528,
+          "zip_compressed_bytes": 492
+        },
+        {
+          "key": "row_15_x",
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 528,
+          "zip_compressed_bytes": 493
+        },
+        {
+          "key": "row_15_y_linear",
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 528,
+          "zip_compressed_bytes": 495
+        },
+        {
+          "key": "row_15_y_tangent",
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 528,
+          "zip_compressed_bytes": 490
+        },
+        {
+          "key": "row_15_y_sum",
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 528,
+          "zip_compressed_bytes": 492
+        },
+        {
+          "key": "row_15_y_pure",
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 528,
+          "zip_compressed_bytes": 495
+        },
+        {
+          "key": "metadata_json",
+          "shape": [],
+          "dtype": "<U6003",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 24140,
+          "zip_compressed_bytes": 2203
+        }
+      ],
+      "derived_row_mapping": [
+        {
+          "row_prefix": "row_00_",
+          "regime": "n256_re470_steep",
+          "truth_index": 0,
+          "member_index": 0,
+          "input_relative_to_raw": "n256_re470_steep/clusters/truth_00.npz",
+          "input_sha256": "5e64abe6edab6e48f39e6c39637f2fcd0890837eee8e1890536ecaa6d86db181"
+        },
+        {
+          "row_prefix": "row_01_",
+          "regime": "n256_re470_steep",
+          "truth_index": 0,
+          "member_index": 1,
+          "input_relative_to_raw": "n256_re470_steep/clusters/truth_00.npz",
+          "input_sha256": "5e64abe6edab6e48f39e6c39637f2fcd0890837eee8e1890536ecaa6d86db181"
+        },
+        {
+          "row_prefix": "row_02_",
+          "regime": "n256_re470_steep",
+          "truth_index": 1,
+          "member_index": 0,
+          "input_relative_to_raw": "n256_re470_steep/clusters/truth_01.npz",
+          "input_sha256": "20235d4e99f68d9b722c3e7584394f9f62708529fd3b891afd2a952653bf2672"
+        },
+        {
+          "row_prefix": "row_03_",
+          "regime": "n256_re470_steep",
+          "truth_index": 1,
+          "member_index": 1,
+          "input_relative_to_raw": "n256_re470_steep/clusters/truth_01.npz",
+          "input_sha256": "20235d4e99f68d9b722c3e7584394f9f62708529fd3b891afd2a952653bf2672"
+        },
+        {
+          "row_prefix": "row_04_",
+          "regime": "n256_re470_steep",
+          "truth_index": 2,
+          "member_index": 0,
+          "input_relative_to_raw": "n256_re470_steep/clusters/truth_02.npz",
+          "input_sha256": "8bb4d8b2f61dc43bd588ea97b00d9cc62fa37e1cb3a12bdbe7bc0eeb5f21b3ce"
+        },
+        {
+          "row_prefix": "row_05_",
+          "regime": "n256_re470_steep",
+          "truth_index": 2,
+          "member_index": 1,
+          "input_relative_to_raw": "n256_re470_steep/clusters/truth_02.npz",
+          "input_sha256": "8bb4d8b2f61dc43bd588ea97b00d9cc62fa37e1cb3a12bdbe7bc0eeb5f21b3ce"
+        },
+        {
+          "row_prefix": "row_06_",
+          "regime": "n256_re470_steep",
+          "truth_index": 3,
+          "member_index": 0,
+          "input_relative_to_raw": "n256_re470_steep/clusters/truth_03.npz",
+          "input_sha256": "6dce6ed8f082bb23b13198f1933578023e01ce2a18d0ba2931bb9a09010dd874"
+        },
+        {
+          "row_prefix": "row_07_",
+          "regime": "n256_re470_steep",
+          "truth_index": 3,
+          "member_index": 1,
+          "input_relative_to_raw": "n256_re470_steep/clusters/truth_03.npz",
+          "input_sha256": "6dce6ed8f082bb23b13198f1933578023e01ce2a18d0ba2931bb9a09010dd874"
+        },
+        {
+          "row_prefix": "row_08_",
+          "regime": "n512_re940_marginal",
+          "truth_index": 0,
+          "member_index": 0,
+          "input_relative_to_raw": "n512_re940_marginal/clusters/truth_00.npz",
+          "input_sha256": "a789d95c0a3ae2ddde56515164930d20ee99e390630c9e46e6121083cc24deeb"
+        },
+        {
+          "row_prefix": "row_09_",
+          "regime": "n512_re940_marginal",
+          "truth_index": 0,
+          "member_index": 1,
+          "input_relative_to_raw": "n512_re940_marginal/clusters/truth_00.npz",
+          "input_sha256": "a789d95c0a3ae2ddde56515164930d20ee99e390630c9e46e6121083cc24deeb"
+        },
+        {
+          "row_prefix": "row_10_",
+          "regime": "n512_re940_marginal",
+          "truth_index": 1,
+          "member_index": 0,
+          "input_relative_to_raw": "n512_re940_marginal/clusters/truth_01.npz",
+          "input_sha256": "672ddb47bcb240fb9401fbe474186f42e026cb4c5a7cbc4a2fbb6f1e22d05bd0"
+        },
+        {
+          "row_prefix": "row_11_",
+          "regime": "n512_re940_marginal",
+          "truth_index": 1,
+          "member_index": 1,
+          "input_relative_to_raw": "n512_re940_marginal/clusters/truth_01.npz",
+          "input_sha256": "672ddb47bcb240fb9401fbe474186f42e026cb4c5a7cbc4a2fbb6f1e22d05bd0"
+        },
+        {
+          "row_prefix": "row_12_",
+          "regime": "n512_re940_marginal",
+          "truth_index": 2,
+          "member_index": 0,
+          "input_relative_to_raw": "n512_re940_marginal/clusters/truth_02.npz",
+          "input_sha256": "a63107d4056e12c18ba8af580f90035ff81560a0950b983806fe2155ce410658"
+        },
+        {
+          "row_prefix": "row_13_",
+          "regime": "n512_re940_marginal",
+          "truth_index": 2,
+          "member_index": 1,
+          "input_relative_to_raw": "n512_re940_marginal/clusters/truth_02.npz",
+          "input_sha256": "a63107d4056e12c18ba8af580f90035ff81560a0950b983806fe2155ce410658"
+        },
+        {
+          "row_prefix": "row_14_",
+          "regime": "n512_re940_marginal",
+          "truth_index": 3,
+          "member_index": 0,
+          "input_relative_to_raw": "n512_re940_marginal/clusters/truth_03.npz",
+          "input_sha256": "07bd598df0d90e0750d01d0af8ca13c88d084b85620dae04c6547fdb46848b54"
+        },
+        {
+          "row_prefix": "row_15_",
+          "regime": "n512_re940_marginal",
+          "truth_index": 3,
+          "member_index": 1,
+          "input_relative_to_raw": "n512_re940_marginal/clusters/truth_03.npz",
+          "input_sha256": "07bd598df0d90e0750d01d0af8ca13c88d084b85620dae04c6547fdb46848b54"
+        }
+      ]
+    },
+    {
+      "path": "data/raw/n256_re470_steep/clusters/truth_00.npz",
+      "category": "cluster_trajectory",
+      "bytes": 84927343,
+      "sha256": "5e64abe6edab6e48f39e6c39637f2fcd0890837eee8e1890536ecaa6d86db181",
+      "arrays": [
+        {
+          "key": "scalar_time",
+          "shape": [
+            733
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 5992,
+          "zip_compressed_bytes": 1735
+        },
+        {
+          "key": "locality_time",
+          "shape": [
+            125
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1128,
+          "zip_compressed_bytes": 368
+        },
+        {
+          "key": "field_time",
+          "shape": [
+            125
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1128,
+          "zip_compressed_bytes": 368
+        },
+        {
+          "key": "lambda_time",
+          "shape": [
+            1200
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 9728,
+          "zip_compressed_bytes": 2360
+        },
+        {
+          "key": "lambda_energy_rate",
+          "shape": [
+            1200,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 57728,
+          "zip_compressed_bytes": 55520
+        },
+        {
+          "key": "budget_components",
+          "shape": [
+            733,
+            4,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 281600,
+          "zip_compressed_bytes": 165435
+        },
+        {
+          "key": "budget_observed",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 35625
+        },
+        {
+          "key": "shared_forcing_relative_energy_error",
+          "shape": [
+            733
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 5992,
+          "zip_compressed_bytes": 3304
+        },
+        {
+          "key": "locality_tl_source",
+          "shape": [
+            125,
+            2,
+            5,
+            5,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 300128,
+          "zip_compressed_bytes": 176134
+        },
+        {
+          "key": "locality_phi_source",
+          "shape": [
+            125,
+            2,
+            5,
+            5,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 300128,
+          "zip_compressed_bytes": 163655
+        },
+        {
+          "key": "truth_spectrum",
+          "shape": [
+            125,
+            85
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 42628,
+          "zip_compressed_bytes": 40256
+        },
+        {
+          "key": "forecast_spectrum",
+          "shape": [
+            125,
+            2,
+            85
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 85128,
+          "zip_compressed_bytes": 80078
+        },
+        {
+          "key": "error_spectrum",
+          "shape": [
+            125,
+            2,
+            85
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 85128,
+          "zip_compressed_bytes": 79674
+        },
+        {
+          "key": "field_truth_hat",
+          "shape": [
+            125,
+            256,
+            256
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 65536128,
+          "zip_compressed_bytes": 27941785
+        },
+        {
+          "key": "field_forecast_hat",
+          "shape": [
+            125,
+            2,
+            256,
+            256
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 131072128,
+          "zip_compressed_bytes": 55898905
+        },
+        {
+          "key": "metadata_json",
+          "shape": [],
+          "dtype": "<U781",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 3252,
+          "zip_compressed_bytes": 790
+        },
+        {
+          "key": "Et",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 20237
+        },
+        {
+          "key": "Ef",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 36349
+        },
+        {
+          "key": "C",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38172
+        },
+        {
+          "key": "epsilon",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 37834
+        },
+        {
+          "key": "rho",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 31280
+        },
+        {
+          "key": "P_linear",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 37634
+        },
+        {
+          "key": "P_tl_nonlinear",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38652
+        },
+        {
+          "key": "P_pure_error",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38059
+        }
+      ],
+      "metadata_summary": {
+        "regime": "n256_re470_steep",
+        "truth_index": 0,
+        "band_names": [
+          "k1_5",
+          "k6_9",
+          "k10_20",
+          "k21_32",
+          "k33_121",
+          "full"
+        ],
+        "bands": [
+          [
+            1,
+            5
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            21,
+            32
+          ],
+          [
+            33,
+            121
+          ]
+        ],
+        "primary_band_index": 2,
+        "schema": "prl-v8-jfm-two-regime-pilot-1",
+        "lambda_is_energy_growth_rate": true,
+        "shared_forcing": true,
+        "config_sha256": "25f7b4c12881ab1c4223b791554f1e3be2494eb62a929649b7cd62b1cfb8dc66",
+        "solver_sha256": "0a17486280732af52fcf11eb02b2b06e0e375f4e94a94cce93f09a6222e16416",
+        "runner_sha256": "1bc80eeccd3c3bf07f67ac034a9aeb0300f46181294871804a279443d23544c5",
+        "truth_state_sha256": "f3c56c6625510330bcc815fc8319aeabba307f01c7d003145c90e2fae3bdeb70"
+      }
+    },
+    {
+      "path": "data/raw/n256_re470_steep/clusters/truth_01.npz",
+      "category": "cluster_trajectory",
+      "bytes": 84900206,
+      "sha256": "20235d4e99f68d9b722c3e7584394f9f62708529fd3b891afd2a952653bf2672",
+      "arrays": [
+        {
+          "key": "scalar_time",
+          "shape": [
+            733
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 5992,
+          "zip_compressed_bytes": 1735
+        },
+        {
+          "key": "locality_time",
+          "shape": [
+            125
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1128,
+          "zip_compressed_bytes": 368
+        },
+        {
+          "key": "field_time",
+          "shape": [
+            125
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1128,
+          "zip_compressed_bytes": 368
+        },
+        {
+          "key": "lambda_time",
+          "shape": [
+            1200
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 9728,
+          "zip_compressed_bytes": 2360
+        },
+        {
+          "key": "lambda_energy_rate",
+          "shape": [
+            1200,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 57728,
+          "zip_compressed_bytes": 55574
+        },
+        {
+          "key": "budget_components",
+          "shape": [
+            733,
+            4,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 281600,
+          "zip_compressed_bytes": 165373
+        },
+        {
+          "key": "budget_observed",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 35621
+        },
+        {
+          "key": "shared_forcing_relative_energy_error",
+          "shape": [
+            733
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 5992,
+          "zip_compressed_bytes": 3319
+        },
+        {
+          "key": "locality_tl_source",
+          "shape": [
+            125,
+            2,
+            5,
+            5,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 300128,
+          "zip_compressed_bytes": 176032
+        },
+        {
+          "key": "locality_phi_source",
+          "shape": [
+            125,
+            2,
+            5,
+            5,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 300128,
+          "zip_compressed_bytes": 163656
+        },
+        {
+          "key": "truth_spectrum",
+          "shape": [
+            125,
+            85
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 42628,
+          "zip_compressed_bytes": 40298
+        },
+        {
+          "key": "forecast_spectrum",
+          "shape": [
+            125,
+            2,
+            85
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 85128,
+          "zip_compressed_bytes": 80104
+        },
+        {
+          "key": "error_spectrum",
+          "shape": [
+            125,
+            2,
+            85
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 85128,
+          "zip_compressed_bytes": 79674
+        },
+        {
+          "key": "field_truth_hat",
+          "shape": [
+            125,
+            256,
+            256
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 65536128,
+          "zip_compressed_bytes": 27932229
+        },
+        {
+          "key": "field_forecast_hat",
+          "shape": [
+            125,
+            2,
+            256,
+            256
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 131072128,
+          "zip_compressed_bytes": 55879507
+        },
+        {
+          "key": "metadata_json",
+          "shape": [],
+          "dtype": "<U782",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 3256,
+          "zip_compressed_bytes": 795
+        },
+        {
+          "key": "Et",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 20283
+        },
+        {
+          "key": "Ef",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 36676
+        },
+        {
+          "key": "C",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38433
+        },
+        {
+          "key": "epsilon",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 37898
+        },
+        {
+          "key": "rho",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 32281
+        },
+        {
+          "key": "P_linear",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 37602
+        },
+        {
+          "key": "P_tl_nonlinear",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38753
+        },
+        {
+          "key": "P_pure_error",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38133
+        }
+      ],
+      "metadata_summary": {
+        "regime": "n256_re470_steep",
+        "truth_index": 1,
+        "band_names": [
+          "k1_5",
+          "k6_9",
+          "k10_20",
+          "k21_32",
+          "k33_121",
+          "full"
+        ],
+        "bands": [
+          [
+            1,
+            5
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            21,
+            32
+          ],
+          [
+            33,
+            121
+          ]
+        ],
+        "primary_band_index": 2,
+        "schema": "prl-v8-jfm-two-regime-pilot-1",
+        "lambda_is_energy_growth_rate": true,
+        "shared_forcing": true,
+        "config_sha256": "25f7b4c12881ab1c4223b791554f1e3be2494eb62a929649b7cd62b1cfb8dc66",
+        "solver_sha256": "0a17486280732af52fcf11eb02b2b06e0e375f4e94a94cce93f09a6222e16416",
+        "runner_sha256": "1bc80eeccd3c3bf07f67ac034a9aeb0300f46181294871804a279443d23544c5",
+        "truth_state_sha256": "10d648da6ba9356bfbf4ba687f193d596bb81050c4ecfe795ccb5af1cb8464be"
+      }
+    },
+    {
+      "path": "data/raw/n256_re470_steep/clusters/truth_02.npz",
+      "category": "cluster_trajectory",
+      "bytes": 84971027,
+      "sha256": "8bb4d8b2f61dc43bd588ea97b00d9cc62fa37e1cb3a12bdbe7bc0eeb5f21b3ce",
+      "arrays": [
+        {
+          "key": "scalar_time",
+          "shape": [
+            733
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 5992,
+          "zip_compressed_bytes": 1735
+        },
+        {
+          "key": "locality_time",
+          "shape": [
+            125
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1128,
+          "zip_compressed_bytes": 368
+        },
+        {
+          "key": "field_time",
+          "shape": [
+            125
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1128,
+          "zip_compressed_bytes": 368
+        },
+        {
+          "key": "lambda_time",
+          "shape": [
+            1200
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 9728,
+          "zip_compressed_bytes": 2360
+        },
+        {
+          "key": "lambda_energy_rate",
+          "shape": [
+            1200,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 57728,
+          "zip_compressed_bytes": 55576
+        },
+        {
+          "key": "budget_components",
+          "shape": [
+            733,
+            4,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 281600,
+          "zip_compressed_bytes": 165386
+        },
+        {
+          "key": "budget_observed",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 35507
+        },
+        {
+          "key": "shared_forcing_relative_energy_error",
+          "shape": [
+            733
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 5992,
+          "zip_compressed_bytes": 3299
+        },
+        {
+          "key": "locality_tl_source",
+          "shape": [
+            125,
+            2,
+            5,
+            5,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 300128,
+          "zip_compressed_bytes": 175952
+        },
+        {
+          "key": "locality_phi_source",
+          "shape": [
+            125,
+            2,
+            5,
+            5,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 300128,
+          "zip_compressed_bytes": 163258
+        },
+        {
+          "key": "truth_spectrum",
+          "shape": [
+            125,
+            85
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 42628,
+          "zip_compressed_bytes": 40342
+        },
+        {
+          "key": "forecast_spectrum",
+          "shape": [
+            125,
+            2,
+            85
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 85128,
+          "zip_compressed_bytes": 80173
+        },
+        {
+          "key": "error_spectrum",
+          "shape": [
+            125,
+            2,
+            85
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 85128,
+          "zip_compressed_bytes": 79637
+        },
+        {
+          "key": "field_truth_hat",
+          "shape": [
+            125,
+            256,
+            256
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 65536128,
+          "zip_compressed_bytes": 27961625
+        },
+        {
+          "key": "field_forecast_hat",
+          "shape": [
+            125,
+            2,
+            256,
+            256
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 131072128,
+          "zip_compressed_bytes": 55923596
+        },
+        {
+          "key": "metadata_json",
+          "shape": [],
+          "dtype": "<U781",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 3252,
+          "zip_compressed_bytes": 792
+        },
+        {
+          "key": "Et",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 20238
+        },
+        {
+          "key": "Ef",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 36450
+        },
+        {
+          "key": "C",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 37827
+        },
+        {
+          "key": "epsilon",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38114
+        },
+        {
+          "key": "rho",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 30489
+        },
+        {
+          "key": "P_linear",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 37839
+        },
+        {
+          "key": "P_tl_nonlinear",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38652
+        },
+        {
+          "key": "P_pure_error",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38310
+        }
+      ],
+      "metadata_summary": {
+        "regime": "n256_re470_steep",
+        "truth_index": 2,
+        "band_names": [
+          "k1_5",
+          "k6_9",
+          "k10_20",
+          "k21_32",
+          "k33_121",
+          "full"
+        ],
+        "bands": [
+          [
+            1,
+            5
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            21,
+            32
+          ],
+          [
+            33,
+            121
+          ]
+        ],
+        "primary_band_index": 2,
+        "schema": "prl-v8-jfm-two-regime-pilot-1",
+        "lambda_is_energy_growth_rate": true,
+        "shared_forcing": true,
+        "config_sha256": "25f7b4c12881ab1c4223b791554f1e3be2494eb62a929649b7cd62b1cfb8dc66",
+        "solver_sha256": "0a17486280732af52fcf11eb02b2b06e0e375f4e94a94cce93f09a6222e16416",
+        "runner_sha256": "1bc80eeccd3c3bf07f67ac034a9aeb0300f46181294871804a279443d23544c5",
+        "truth_state_sha256": "eeaf97c8de4a8525bda232dbc0aab4fae0439a5dc19918fce64034f3825348d5"
+      }
+    },
+    {
+      "path": "data/raw/n256_re470_steep/clusters/truth_03.npz",
+      "category": "cluster_trajectory",
+      "bytes": 84892210,
+      "sha256": "6dce6ed8f082bb23b13198f1933578023e01ce2a18d0ba2931bb9a09010dd874",
+      "arrays": [
+        {
+          "key": "scalar_time",
+          "shape": [
+            733
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 5992,
+          "zip_compressed_bytes": 1735
+        },
+        {
+          "key": "locality_time",
+          "shape": [
+            125
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1128,
+          "zip_compressed_bytes": 368
+        },
+        {
+          "key": "field_time",
+          "shape": [
+            125
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1128,
+          "zip_compressed_bytes": 368
+        },
+        {
+          "key": "lambda_time",
+          "shape": [
+            1200
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 9728,
+          "zip_compressed_bytes": 2360
+        },
+        {
+          "key": "lambda_energy_rate",
+          "shape": [
+            1200,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 57728,
+          "zip_compressed_bytes": 55587
+        },
+        {
+          "key": "budget_components",
+          "shape": [
+            733,
+            4,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 281600,
+          "zip_compressed_bytes": 165416
+        },
+        {
+          "key": "budget_observed",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 35521
+        },
+        {
+          "key": "shared_forcing_relative_energy_error",
+          "shape": [
+            733
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 5992,
+          "zip_compressed_bytes": 3315
+        },
+        {
+          "key": "locality_tl_source",
+          "shape": [
+            125,
+            2,
+            5,
+            5,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 300128,
+          "zip_compressed_bytes": 175906
+        },
+        {
+          "key": "locality_phi_source",
+          "shape": [
+            125,
+            2,
+            5,
+            5,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 300128,
+          "zip_compressed_bytes": 163415
+        },
+        {
+          "key": "truth_spectrum",
+          "shape": [
+            125,
+            85
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 42628,
+          "zip_compressed_bytes": 40310
+        },
+        {
+          "key": "forecast_spectrum",
+          "shape": [
+            125,
+            2,
+            85
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 85128,
+          "zip_compressed_bytes": 80190
+        },
+        {
+          "key": "error_spectrum",
+          "shape": [
+            125,
+            2,
+            85
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 85128,
+          "zip_compressed_bytes": 79555
+        },
+        {
+          "key": "field_truth_hat",
+          "shape": [
+            125,
+            256,
+            256
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 65536128,
+          "zip_compressed_bytes": 27938512
+        },
+        {
+          "key": "field_forecast_hat",
+          "shape": [
+            125,
+            2,
+            256,
+            256
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 131072128,
+          "zip_compressed_bytes": 55866927
+        },
+        {
+          "key": "metadata_json",
+          "shape": [],
+          "dtype": "<U782",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 3256,
+          "zip_compressed_bytes": 802
+        },
+        {
+          "key": "Et",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 20209
+        },
+        {
+          "key": "Ef",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 36446
+        },
+        {
+          "key": "C",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38071
+        },
+        {
+          "key": "epsilon",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 37887
+        },
+        {
+          "key": "rho",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 31523
+        },
+        {
+          "key": "P_linear",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 37713
+        },
+        {
+          "key": "P_tl_nonlinear",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38764
+        },
+        {
+          "key": "P_pure_error",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38176
+        }
+      ],
+      "metadata_summary": {
+        "regime": "n256_re470_steep",
+        "truth_index": 3,
+        "band_names": [
+          "k1_5",
+          "k6_9",
+          "k10_20",
+          "k21_32",
+          "k33_121",
+          "full"
+        ],
+        "bands": [
+          [
+            1,
+            5
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            21,
+            32
+          ],
+          [
+            33,
+            121
+          ]
+        ],
+        "primary_band_index": 2,
+        "schema": "prl-v8-jfm-two-regime-pilot-1",
+        "lambda_is_energy_growth_rate": true,
+        "shared_forcing": true,
+        "config_sha256": "25f7b4c12881ab1c4223b791554f1e3be2494eb62a929649b7cd62b1cfb8dc66",
+        "solver_sha256": "0a17486280732af52fcf11eb02b2b06e0e375f4e94a94cce93f09a6222e16416",
+        "runner_sha256": "1bc80eeccd3c3bf07f67ac034a9aeb0300f46181294871804a279443d23544c5",
+        "truth_state_sha256": "71aa1b686c9d545d8f5665fef53674a0d29975e66d0989227e8829d0bdc139f1"
+      }
+    },
+    {
+      "path": "data/raw/n256_re470_steep/truths/truth_00.npz",
+      "category": "initial_truth",
+      "bytes": 225677,
+      "sha256": "f3c56c6625510330bcc815fc8319aeabba307f01c7d003145c90e2fae3bdeb70",
+      "arrays": [
+        {
+          "key": "theta_hat",
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 524416,
+          "zip_compressed_bytes": 224778
+        },
+        {
+          "key": "metadata_json",
+          "shape": [],
+          "dtype": "<U574",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 2424,
+          "zip_compressed_bytes": 625
+        }
+      ],
+      "metadata_summary": {
+        "regime": "n256_re470_steep",
+        "truth_index": 0,
+        "nature_time_tu": 100.0,
+        "nature_step": 250000,
+        "schema": "prl-v8-jfm-two-regime-pilot-1",
+        "config_sha256": "25f7b4c12881ab1c4223b791554f1e3be2494eb62a929649b7cd62b1cfb8dc66",
+        "solver_sha256": "0a17486280732af52fcf11eb02b2b06e0e375f4e94a94cce93f09a6222e16416",
+        "runner_sha256": "1bc80eeccd3c3bf07f67ac034a9aeb0300f46181294871804a279443d23544c5"
+      }
+    },
+    {
+      "path": "data/raw/n256_re470_steep/truths/truth_01.npz",
+      "category": "initial_truth",
+      "bytes": 225430,
+      "sha256": "10d648da6ba9356bfbf4ba687f193d596bb81050c4ecfe795ccb5af1cb8464be",
+      "arrays": [
+        {
+          "key": "theta_hat",
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 524416,
+          "zip_compressed_bytes": 224525
+        },
+        {
+          "key": "metadata_json",
+          "shape": [],
+          "dtype": "<U573",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 2420,
+          "zip_compressed_bytes": 631
+        }
+      ],
+      "metadata_summary": {
+        "regime": "n256_re470_steep",
+        "truth_index": 1,
+        "nature_time_tu": 115.0,
+        "nature_step": 287500,
+        "schema": "prl-v8-jfm-two-regime-pilot-1",
+        "config_sha256": "25f7b4c12881ab1c4223b791554f1e3be2494eb62a929649b7cd62b1cfb8dc66",
+        "solver_sha256": "0a17486280732af52fcf11eb02b2b06e0e375f4e94a94cce93f09a6222e16416",
+        "runner_sha256": "1bc80eeccd3c3bf07f67ac034a9aeb0300f46181294871804a279443d23544c5"
+      }
+    },
+    {
+      "path": "data/raw/n256_re470_steep/truths/truth_02.npz",
+      "category": "initial_truth",
+      "bytes": 224724,
+      "sha256": "eeaf97c8de4a8525bda232dbc0aab4fae0439a5dc19918fce64034f3825348d5",
+      "arrays": [
+        {
+          "key": "theta_hat",
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 524416,
+          "zip_compressed_bytes": 223822
+        },
+        {
+          "key": "metadata_json",
+          "shape": [],
+          "dtype": "<U573",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 2420,
+          "zip_compressed_bytes": 628
+        }
+      ],
+      "metadata_summary": {
+        "regime": "n256_re470_steep",
+        "truth_index": 2,
+        "nature_time_tu": 130.0,
+        "nature_step": 325000,
+        "schema": "prl-v8-jfm-two-regime-pilot-1",
+        "config_sha256": "25f7b4c12881ab1c4223b791554f1e3be2494eb62a929649b7cd62b1cfb8dc66",
+        "solver_sha256": "0a17486280732af52fcf11eb02b2b06e0e375f4e94a94cce93f09a6222e16416",
+        "runner_sha256": "1bc80eeccd3c3bf07f67ac034a9aeb0300f46181294871804a279443d23544c5"
+      }
+    },
+    {
+      "path": "data/raw/n256_re470_steep/truths/truth_03.npz",
+      "category": "initial_truth",
+      "bytes": 224659,
+      "sha256": "71aa1b686c9d545d8f5665fef53674a0d29975e66d0989227e8829d0bdc139f1",
+      "arrays": [
+        {
+          "key": "theta_hat",
+          "shape": [
+            256,
+            256
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 524416,
+          "zip_compressed_bytes": 223753
+        },
+        {
+          "key": "metadata_json",
+          "shape": [],
+          "dtype": "<U574",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 2424,
+          "zip_compressed_bytes": 632
+        }
+      ],
+      "metadata_summary": {
+        "regime": "n256_re470_steep",
+        "truth_index": 3,
+        "nature_time_tu": 145.0,
+        "nature_step": 362500,
+        "schema": "prl-v8-jfm-two-regime-pilot-1",
+        "config_sha256": "25f7b4c12881ab1c4223b791554f1e3be2494eb62a929649b7cd62b1cfb8dc66",
+        "solver_sha256": "0a17486280732af52fcf11eb02b2b06e0e375f4e94a94cce93f09a6222e16416",
+        "runner_sha256": "1bc80eeccd3c3bf07f67ac034a9aeb0300f46181294871804a279443d23544c5"
+      }
+    },
+    {
+      "path": "data/raw/n512_re940_marginal/clusters/truth_00.npz",
+      "category": "cluster_trajectory",
+      "bytes": 336286291,
+      "sha256": "a789d95c0a3ae2ddde56515164930d20ee99e390630c9e46e6121083cc24deeb",
+      "arrays": [
+        {
+          "key": "scalar_time",
+          "shape": [
+            733
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 5992,
+          "zip_compressed_bytes": 1735
+        },
+        {
+          "key": "locality_time",
+          "shape": [
+            125
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1128,
+          "zip_compressed_bytes": 368
+        },
+        {
+          "key": "field_time",
+          "shape": [
+            125
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1128,
+          "zip_compressed_bytes": 368
+        },
+        {
+          "key": "lambda_time",
+          "shape": [
+            1200
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 9728,
+          "zip_compressed_bytes": 2360
+        },
+        {
+          "key": "lambda_energy_rate",
+          "shape": [
+            1200,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 57728,
+          "zip_compressed_bytes": 55398
+        },
+        {
+          "key": "budget_components",
+          "shape": [
+            733,
+            4,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 281600,
+          "zip_compressed_bytes": 164410
+        },
+        {
+          "key": "budget_observed",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 35319
+        },
+        {
+          "key": "shared_forcing_relative_energy_error",
+          "shape": [
+            733
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 5992,
+          "zip_compressed_bytes": 3304
+        },
+        {
+          "key": "locality_tl_source",
+          "shape": [
+            125,
+            2,
+            5,
+            5,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 300128,
+          "zip_compressed_bytes": 175421
+        },
+        {
+          "key": "locality_phi_source",
+          "shape": [
+            125,
+            2,
+            5,
+            5,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 300128,
+          "zip_compressed_bytes": 164248
+        },
+        {
+          "key": "truth_spectrum",
+          "shape": [
+            125,
+            170
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 85128,
+          "zip_compressed_bytes": 81306
+        },
+        {
+          "key": "forecast_spectrum",
+          "shape": [
+            125,
+            2,
+            170
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 170128,
+          "zip_compressed_bytes": 161683
+        },
+        {
+          "key": "error_spectrum",
+          "shape": [
+            125,
+            2,
+            170
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 170128,
+          "zip_compressed_bytes": 160638
+        },
+        {
+          "key": "field_truth_hat",
+          "shape": [
+            125,
+            512,
+            512
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 262144128,
+          "zip_compressed_bytes": 111690022
+        },
+        {
+          "key": "field_forecast_hat",
+          "shape": [
+            125,
+            2,
+            512,
+            512
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 524288128,
+          "zip_compressed_bytes": 223303817
+        },
+        {
+          "key": "metadata_json",
+          "shape": [],
+          "dtype": "<U785",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 3268,
+          "zip_compressed_bytes": 798
+        },
+        {
+          "key": "Et",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 20064
+        },
+        {
+          "key": "Ef",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 36634
+        },
+        {
+          "key": "C",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38888
+        },
+        {
+          "key": "epsilon",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 37592
+        },
+        {
+          "key": "rho",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 34523
+        },
+        {
+          "key": "P_linear",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 37260
+        },
+        {
+          "key": "P_tl_nonlinear",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38927
+        },
+        {
+          "key": "P_pure_error",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38074
+        }
+      ],
+      "metadata_summary": {
+        "regime": "n512_re940_marginal",
+        "truth_index": 0,
+        "band_names": [
+          "k1_5",
+          "k6_9",
+          "k10_20",
+          "k21_32",
+          "k33_241",
+          "full"
+        ],
+        "bands": [
+          [
+            1,
+            5
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            21,
+            32
+          ],
+          [
+            33,
+            241
+          ]
+        ],
+        "primary_band_index": 2,
+        "schema": "prl-v8-jfm-two-regime-pilot-1",
+        "lambda_is_energy_growth_rate": true,
+        "shared_forcing": true,
+        "config_sha256": "25f7b4c12881ab1c4223b791554f1e3be2494eb62a929649b7cd62b1cfb8dc66",
+        "solver_sha256": "0a17486280732af52fcf11eb02b2b06e0e375f4e94a94cce93f09a6222e16416",
+        "runner_sha256": "1bc80eeccd3c3bf07f67ac034a9aeb0300f46181294871804a279443d23544c5",
+        "truth_state_sha256": "ae846f5b9698cc2cdeb0d75bbb91a7796d7a85f9e09dab1ebe1ff79dd2fc8e5a"
+      }
+    },
+    {
+      "path": "data/raw/n512_re940_marginal/clusters/truth_01.npz",
+      "category": "cluster_trajectory",
+      "bytes": 336087920,
+      "sha256": "672ddb47bcb240fb9401fbe474186f42e026cb4c5a7cbc4a2fbb6f1e22d05bd0",
+      "arrays": [
+        {
+          "key": "scalar_time",
+          "shape": [
+            733
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 5992,
+          "zip_compressed_bytes": 1735
+        },
+        {
+          "key": "locality_time",
+          "shape": [
+            125
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1128,
+          "zip_compressed_bytes": 368
+        },
+        {
+          "key": "field_time",
+          "shape": [
+            125
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1128,
+          "zip_compressed_bytes": 368
+        },
+        {
+          "key": "lambda_time",
+          "shape": [
+            1200
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 9728,
+          "zip_compressed_bytes": 2360
+        },
+        {
+          "key": "lambda_energy_rate",
+          "shape": [
+            1200,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 57728,
+          "zip_compressed_bytes": 55414
+        },
+        {
+          "key": "budget_components",
+          "shape": [
+            733,
+            4,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 281600,
+          "zip_compressed_bytes": 164402
+        },
+        {
+          "key": "budget_observed",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 35336
+        },
+        {
+          "key": "shared_forcing_relative_energy_error",
+          "shape": [
+            733
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 5992,
+          "zip_compressed_bytes": 3313
+        },
+        {
+          "key": "locality_tl_source",
+          "shape": [
+            125,
+            2,
+            5,
+            5,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 300128,
+          "zip_compressed_bytes": 175192
+        },
+        {
+          "key": "locality_phi_source",
+          "shape": [
+            125,
+            2,
+            5,
+            5,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 300128,
+          "zip_compressed_bytes": 164001
+        },
+        {
+          "key": "truth_spectrum",
+          "shape": [
+            125,
+            170
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 85128,
+          "zip_compressed_bytes": 81356
+        },
+        {
+          "key": "forecast_spectrum",
+          "shape": [
+            125,
+            2,
+            170
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 170128,
+          "zip_compressed_bytes": 161901
+        },
+        {
+          "key": "error_spectrum",
+          "shape": [
+            125,
+            2,
+            170
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 170128,
+          "zip_compressed_bytes": 160460
+        },
+        {
+          "key": "field_truth_hat",
+          "shape": [
+            125,
+            512,
+            512
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 262144128,
+          "zip_compressed_bytes": 111594621
+        },
+        {
+          "key": "field_forecast_hat",
+          "shape": [
+            125,
+            2,
+            512,
+            512
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 524288128,
+          "zip_compressed_bytes": 223202178
+        },
+        {
+          "key": "metadata_json",
+          "shape": [],
+          "dtype": "<U782",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 3256,
+          "zip_compressed_bytes": 798
+        },
+        {
+          "key": "Et",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 20135
+        },
+        {
+          "key": "Ef",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 36416
+        },
+        {
+          "key": "C",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38563
+        },
+        {
+          "key": "epsilon",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 37601
+        },
+        {
+          "key": "rho",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 34027
+        },
+        {
+          "key": "P_linear",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 37226
+        },
+        {
+          "key": "P_tl_nonlinear",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38836
+        },
+        {
+          "key": "P_pure_error",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38179
+        }
+      ],
+      "metadata_summary": {
+        "regime": "n512_re940_marginal",
+        "truth_index": 1,
+        "band_names": [
+          "k1_5",
+          "k6_9",
+          "k10_20",
+          "k21_32",
+          "k33_241",
+          "full"
+        ],
+        "bands": [
+          [
+            1,
+            5
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            21,
+            32
+          ],
+          [
+            33,
+            241
+          ]
+        ],
+        "primary_band_index": 2,
+        "schema": "prl-v8-jfm-two-regime-pilot-1",
+        "lambda_is_energy_growth_rate": true,
+        "shared_forcing": true,
+        "config_sha256": "25f7b4c12881ab1c4223b791554f1e3be2494eb62a929649b7cd62b1cfb8dc66",
+        "solver_sha256": "0a17486280732af52fcf11eb02b2b06e0e375f4e94a94cce93f09a6222e16416",
+        "runner_sha256": "1bc80eeccd3c3bf07f67ac034a9aeb0300f46181294871804a279443d23544c5",
+        "truth_state_sha256": "773ffe8e4f450692680bd482495c1306a4a2f7d1df7ca833abc241382196e65c"
+      }
+    },
+    {
+      "path": "data/raw/n512_re940_marginal/clusters/truth_02.npz",
+      "category": "cluster_trajectory",
+      "bytes": 336101811,
+      "sha256": "a63107d4056e12c18ba8af580f90035ff81560a0950b983806fe2155ce410658",
+      "arrays": [
+        {
+          "key": "scalar_time",
+          "shape": [
+            733
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 5992,
+          "zip_compressed_bytes": 1735
+        },
+        {
+          "key": "locality_time",
+          "shape": [
+            125
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1128,
+          "zip_compressed_bytes": 368
+        },
+        {
+          "key": "field_time",
+          "shape": [
+            125
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1128,
+          "zip_compressed_bytes": 368
+        },
+        {
+          "key": "lambda_time",
+          "shape": [
+            1200
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 9728,
+          "zip_compressed_bytes": 2360
+        },
+        {
+          "key": "lambda_energy_rate",
+          "shape": [
+            1200,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 57728,
+          "zip_compressed_bytes": 55389
+        },
+        {
+          "key": "budget_components",
+          "shape": [
+            733,
+            4,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 281600,
+          "zip_compressed_bytes": 164683
+        },
+        {
+          "key": "budget_observed",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 35230
+        },
+        {
+          "key": "shared_forcing_relative_energy_error",
+          "shape": [
+            733
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 5992,
+          "zip_compressed_bytes": 3290
+        },
+        {
+          "key": "locality_tl_source",
+          "shape": [
+            125,
+            2,
+            5,
+            5,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 300128,
+          "zip_compressed_bytes": 175262
+        },
+        {
+          "key": "locality_phi_source",
+          "shape": [
+            125,
+            2,
+            5,
+            5,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 300128,
+          "zip_compressed_bytes": 164096
+        },
+        {
+          "key": "truth_spectrum",
+          "shape": [
+            125,
+            170
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 85128,
+          "zip_compressed_bytes": 81214
+        },
+        {
+          "key": "forecast_spectrum",
+          "shape": [
+            125,
+            2,
+            170
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 170128,
+          "zip_compressed_bytes": 161748
+        },
+        {
+          "key": "error_spectrum",
+          "shape": [
+            125,
+            2,
+            170
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 170128,
+          "zip_compressed_bytes": 160297
+        },
+        {
+          "key": "field_truth_hat",
+          "shape": [
+            125,
+            512,
+            512
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 262144128,
+          "zip_compressed_bytes": 111614702
+        },
+        {
+          "key": "field_forecast_hat",
+          "shape": [
+            125,
+            2,
+            512,
+            512
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 524288128,
+          "zip_compressed_bytes": 223195791
+        },
+        {
+          "key": "metadata_json",
+          "shape": [],
+          "dtype": "<U785",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 3268,
+          "zip_compressed_bytes": 795
+        },
+        {
+          "key": "Et",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 20093
+        },
+        {
+          "key": "Ef",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 36635
+        },
+        {
+          "key": "C",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38665
+        },
+        {
+          "key": "epsilon",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 37573
+        },
+        {
+          "key": "rho",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 34022
+        },
+        {
+          "key": "P_linear",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 37308
+        },
+        {
+          "key": "P_tl_nonlinear",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38882
+        },
+        {
+          "key": "P_pure_error",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38171
+        }
+      ],
+      "metadata_summary": {
+        "regime": "n512_re940_marginal",
+        "truth_index": 2,
+        "band_names": [
+          "k1_5",
+          "k6_9",
+          "k10_20",
+          "k21_32",
+          "k33_241",
+          "full"
+        ],
+        "bands": [
+          [
+            1,
+            5
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            21,
+            32
+          ],
+          [
+            33,
+            241
+          ]
+        ],
+        "primary_band_index": 2,
+        "schema": "prl-v8-jfm-two-regime-pilot-1",
+        "lambda_is_energy_growth_rate": true,
+        "shared_forcing": true,
+        "config_sha256": "25f7b4c12881ab1c4223b791554f1e3be2494eb62a929649b7cd62b1cfb8dc66",
+        "solver_sha256": "0a17486280732af52fcf11eb02b2b06e0e375f4e94a94cce93f09a6222e16416",
+        "runner_sha256": "1bc80eeccd3c3bf07f67ac034a9aeb0300f46181294871804a279443d23544c5",
+        "truth_state_sha256": "3358cdfe591f3e46a92e0eff23617f3400b576ac7cd5d867521790c37264110a"
+      }
+    },
+    {
+      "path": "data/raw/n512_re940_marginal/clusters/truth_03.npz",
+      "category": "cluster_trajectory",
+      "bytes": 335425290,
+      "sha256": "07bd598df0d90e0750d01d0af8ca13c88d084b85620dae04c6547fdb46848b54",
+      "arrays": [
+        {
+          "key": "scalar_time",
+          "shape": [
+            733
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 5992,
+          "zip_compressed_bytes": 1735
+        },
+        {
+          "key": "locality_time",
+          "shape": [
+            125
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1128,
+          "zip_compressed_bytes": 368
+        },
+        {
+          "key": "field_time",
+          "shape": [
+            125
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1128,
+          "zip_compressed_bytes": 368
+        },
+        {
+          "key": "lambda_time",
+          "shape": [
+            1200
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 9728,
+          "zip_compressed_bytes": 2360
+        },
+        {
+          "key": "lambda_energy_rate",
+          "shape": [
+            1200,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 57728,
+          "zip_compressed_bytes": 55404
+        },
+        {
+          "key": "budget_components",
+          "shape": [
+            733,
+            4,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 281600,
+          "zip_compressed_bytes": 164352
+        },
+        {
+          "key": "budget_observed",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 35369
+        },
+        {
+          "key": "shared_forcing_relative_energy_error",
+          "shape": [
+            733
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 5992,
+          "zip_compressed_bytes": 3290
+        },
+        {
+          "key": "locality_tl_source",
+          "shape": [
+            125,
+            2,
+            5,
+            5,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 300128,
+          "zip_compressed_bytes": 175297
+        },
+        {
+          "key": "locality_phi_source",
+          "shape": [
+            125,
+            2,
+            5,
+            5,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 300128,
+          "zip_compressed_bytes": 164153
+        },
+        {
+          "key": "truth_spectrum",
+          "shape": [
+            125,
+            170
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 85128,
+          "zip_compressed_bytes": 81127
+        },
+        {
+          "key": "forecast_spectrum",
+          "shape": [
+            125,
+            2,
+            170
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 170128,
+          "zip_compressed_bytes": 161448
+        },
+        {
+          "key": "error_spectrum",
+          "shape": [
+            125,
+            2,
+            170
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 170128,
+          "zip_compressed_bytes": 160263
+        },
+        {
+          "key": "field_truth_hat",
+          "shape": [
+            125,
+            512,
+            512
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 262144128,
+          "zip_compressed_bytes": 111375786
+        },
+        {
+          "key": "field_forecast_hat",
+          "shape": [
+            125,
+            2,
+            512,
+            512
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 524288128,
+          "zip_compressed_bytes": 222757272
+        },
+        {
+          "key": "metadata_json",
+          "shape": [],
+          "dtype": "<U785",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 3268,
+          "zip_compressed_bytes": 799
+        },
+        {
+          "key": "Et",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 20029
+        },
+        {
+          "key": "Ef",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 36694
+        },
+        {
+          "key": "C",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 39093
+        },
+        {
+          "key": "epsilon",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 37530
+        },
+        {
+          "key": "rho",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 35201
+        },
+        {
+          "key": "P_linear",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 37182
+        },
+        {
+          "key": "P_tl_nonlinear",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38943
+        },
+        {
+          "key": "P_pure_error",
+          "shape": [
+            733,
+            2,
+            6
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 70496,
+          "zip_compressed_bytes": 38093
+        }
+      ],
+      "metadata_summary": {
+        "regime": "n512_re940_marginal",
+        "truth_index": 3,
+        "band_names": [
+          "k1_5",
+          "k6_9",
+          "k10_20",
+          "k21_32",
+          "k33_241",
+          "full"
+        ],
+        "bands": [
+          [
+            1,
+            5
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            10,
+            20
+          ],
+          [
+            21,
+            32
+          ],
+          [
+            33,
+            241
+          ]
+        ],
+        "primary_band_index": 2,
+        "schema": "prl-v8-jfm-two-regime-pilot-1",
+        "lambda_is_energy_growth_rate": true,
+        "shared_forcing": true,
+        "config_sha256": "25f7b4c12881ab1c4223b791554f1e3be2494eb62a929649b7cd62b1cfb8dc66",
+        "solver_sha256": "0a17486280732af52fcf11eb02b2b06e0e375f4e94a94cce93f09a6222e16416",
+        "runner_sha256": "1bc80eeccd3c3bf07f67ac034a9aeb0300f46181294871804a279443d23544c5",
+        "truth_state_sha256": "926042fae80cb3685d7421bd089054b96cc210ac4de81911ac8556224c6a5592"
+      }
+    },
+    {
+      "path": "data/raw/n512_re940_marginal/truths/truth_00.npz",
+      "category": "initial_truth",
+      "bytes": 891304,
+      "sha256": "ae846f5b9698cc2cdeb0d75bbb91a7796d7a85f9e09dab1ebe1ff79dd2fc8e5a",
+      "arrays": [
+        {
+          "key": "theta_hat",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 2097280,
+          "zip_compressed_bytes": 890399
+        },
+        {
+          "key": "metadata_json",
+          "shape": [],
+          "dtype": "<U578",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 2440,
+          "zip_compressed_bytes": 631
+        }
+      ],
+      "metadata_summary": {
+        "regime": "n512_re940_marginal",
+        "truth_index": 0,
+        "nature_time_tu": 100.0,
+        "nature_step": 500000,
+        "schema": "prl-v8-jfm-two-regime-pilot-1",
+        "config_sha256": "25f7b4c12881ab1c4223b791554f1e3be2494eb62a929649b7cd62b1cfb8dc66",
+        "solver_sha256": "0a17486280732af52fcf11eb02b2b06e0e375f4e94a94cce93f09a6222e16416",
+        "runner_sha256": "1bc80eeccd3c3bf07f67ac034a9aeb0300f46181294871804a279443d23544c5"
+      }
+    },
+    {
+      "path": "data/raw/n512_re940_marginal/truths/truth_01.npz",
+      "category": "initial_truth",
+      "bytes": 891904,
+      "sha256": "773ffe8e4f450692680bd482495c1306a4a2f7d1df7ca833abc241382196e65c",
+      "arrays": [
+        {
+          "key": "theta_hat",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 2097280,
+          "zip_compressed_bytes": 890994
+        },
+        {
+          "key": "metadata_json",
+          "shape": [],
+          "dtype": "<U579",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 2444,
+          "zip_compressed_bytes": 636
+        }
+      ],
+      "metadata_summary": {
+        "regime": "n512_re940_marginal",
+        "truth_index": 1,
+        "nature_time_tu": 115.0,
+        "nature_step": 575000,
+        "schema": "prl-v8-jfm-two-regime-pilot-1",
+        "config_sha256": "25f7b4c12881ab1c4223b791554f1e3be2494eb62a929649b7cd62b1cfb8dc66",
+        "solver_sha256": "0a17486280732af52fcf11eb02b2b06e0e375f4e94a94cce93f09a6222e16416",
+        "runner_sha256": "1bc80eeccd3c3bf07f67ac034a9aeb0300f46181294871804a279443d23544c5"
+      }
+    },
+    {
+      "path": "data/raw/n512_re940_marginal/truths/truth_02.npz",
+      "category": "initial_truth",
+      "bytes": 894886,
+      "sha256": "3358cdfe591f3e46a92e0eff23617f3400b576ac7cd5d867521790c37264110a",
+      "arrays": [
+        {
+          "key": "theta_hat",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 2097280,
+          "zip_compressed_bytes": 893975
+        },
+        {
+          "key": "metadata_json",
+          "shape": [],
+          "dtype": "<U579",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 2444,
+          "zip_compressed_bytes": 637
+        }
+      ],
+      "metadata_summary": {
+        "regime": "n512_re940_marginal",
+        "truth_index": 2,
+        "nature_time_tu": 130.0,
+        "nature_step": 650000,
+        "schema": "prl-v8-jfm-two-regime-pilot-1",
+        "config_sha256": "25f7b4c12881ab1c4223b791554f1e3be2494eb62a929649b7cd62b1cfb8dc66",
+        "solver_sha256": "0a17486280732af52fcf11eb02b2b06e0e375f4e94a94cce93f09a6222e16416",
+        "runner_sha256": "1bc80eeccd3c3bf07f67ac034a9aeb0300f46181294871804a279443d23544c5"
+      }
+    },
+    {
+      "path": "data/raw/n512_re940_marginal/truths/truth_03.npz",
+      "category": "initial_truth",
+      "bytes": 890694,
+      "sha256": "926042fae80cb3685d7421bd089054b96cc210ac4de81911ac8556224c6a5592",
+      "arrays": [
+        {
+          "key": "theta_hat",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "<c8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 2097280,
+          "zip_compressed_bytes": 889780
+        },
+        {
+          "key": "metadata_json",
+          "shape": [],
+          "dtype": "<U579",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 2444,
+          "zip_compressed_bytes": 640
+        }
+      ],
+      "metadata_summary": {
+        "regime": "n512_re940_marginal",
+        "truth_index": 3,
+        "nature_time_tu": 145.0,
+        "nature_step": 725000,
+        "schema": "prl-v8-jfm-two-regime-pilot-1",
+        "config_sha256": "25f7b4c12881ab1c4223b791554f1e3be2494eb62a929649b7cd62b1cfb8dc66",
+        "solver_sha256": "0a17486280732af52fcf11eb02b2b06e0e375f4e94a94cce93f09a6222e16416",
+        "runner_sha256": "1bc80eeccd3c3bf07f67ac034a9aeb0300f46181294871804a279443d23544c5"
+      }
+    },
+    {
+      "path": "data/stationarity/sqg_jfm_n256_re470_dthalf.snapshots.npz",
+      "category": "stationarity_diagnostics",
+      "bytes": 136086,
+      "sha256": "5ac35ad2f61bedb08153026a0fa5de257b632bed6c35a1be6c53bf5cf07bf1a8",
+      "arrays": [
+        {
+          "key": "times",
+          "shape": [
+            200
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1728,
+          "zip_compressed_bytes": 364
+        },
+        {
+          "key": "spe",
+          "shape": [
+            200
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1728,
+          "zip_compressed_bytes": 974
+        },
+        {
+          "key": "vie",
+          "shape": [
+            200
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1728,
+          "zip_compressed_bytes": 1621
+        },
+        {
+          "key": "eps_nu",
+          "shape": [
+            200
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1728,
+          "zip_compressed_bytes": 1627
+        },
+        {
+          "key": "eps_mu",
+          "shape": [
+            200
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1728,
+          "zip_compressed_bytes": 1629
+        },
+        {
+          "key": "spectra",
+          "shape": [
+            200,
+            85
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 68128,
+          "zip_compressed_bytes": 64555
+        },
+        {
+          "key": "fluxes",
+          "shape": [
+            200,
+            85
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 68128,
+          "zip_compressed_bytes": 63843
+        },
+        {
+          "key": "k",
+          "shape": [
+            85
+          ],
+          "dtype": "<i8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 808,
+          "zip_compressed_bytes": 233
+        },
+        {
+          "key": "config_json",
+          "shape": [],
+          "dtype": "<U107",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 556,
+          "zip_compressed_bytes": 186
+        }
+      ],
+      "model_configuration": {
+        "n": 256,
+        "dt": 0.0004,
+        "nu": 0.0134,
+        "mu": 1.0,
+        "k_f": 3.5,
+        "dk_f": 0.5,
+        "eps_I": 24.0,
+        "seed": 20260619
+      }
+    },
+    {
+      "path": "data/stationarity/sqg_jfm_n512_re940_snap.snapshots.npz",
+      "category": "stationarity_diagnostics",
+      "bytes": 266338,
+      "sha256": "c01904def718ee2fa82767ef7ee94fbb7f4be77cea177224490bb6db8ae15331",
+      "arrays": [
+        {
+          "key": "times",
+          "shape": [
+            200
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1728,
+          "zip_compressed_bytes": 364
+        },
+        {
+          "key": "spe",
+          "shape": [
+            200
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1728,
+          "zip_compressed_bytes": 963
+        },
+        {
+          "key": "vie",
+          "shape": [
+            200
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1728,
+          "zip_compressed_bytes": 1624
+        },
+        {
+          "key": "eps_nu",
+          "shape": [
+            200
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1728,
+          "zip_compressed_bytes": 1625
+        },
+        {
+          "key": "eps_mu",
+          "shape": [
+            200
+          ],
+          "dtype": "<f8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1728,
+          "zip_compressed_bytes": 1619
+        },
+        {
+          "key": "spectra",
+          "shape": [
+            200,
+            170
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 136128,
+          "zip_compressed_bytes": 129975
+        },
+        {
+          "key": "fluxes",
+          "shape": [
+            200,
+            170
+          ],
+          "dtype": "<f4",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 136128,
+          "zip_compressed_bytes": 128563
+        },
+        {
+          "key": "k",
+          "shape": [
+            170
+          ],
+          "dtype": "<i8",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 1488,
+          "zip_compressed_bytes": 364
+        },
+        {
+          "key": "config_json",
+          "shape": [],
+          "dtype": "<U107",
+          "fortran_order": false,
+          "npy_uncompressed_bytes": 556,
+          "zip_compressed_bytes": 187
+        }
+      ],
+      "model_configuration": {
+        "n": 512,
+        "dt": 0.0002,
+        "nu": 0.0067,
+        "mu": 1.0,
+        "k_f": 3.5,
+        "dk_f": 0.5,
+        "eps_I": 24.0,
+        "seed": 20260619
+      }
+    }
+  ],
+  "categories": {
+    "cluster_trajectory": {
+      "file_count": 8,
+      "bytes": 1683592098
+    },
+    "derived_figure_data": {
+      "file_count": 1,
+      "bytes": 75526
+    },
+    "initial_truth": {
+      "file_count": 8,
+      "bytes": 4469278
+    },
+    "stationarity_diagnostics": {
+      "file_count": 2,
+      "bytes": 402424
+    }
+  },
+  "definition_sources": [
+    {
+      "path": "scripts/prl_v8_two_regime.py",
+      "sha256": "87e9fe6c55be794f0b27017b9c54aab187c21ec5d1b069a21828b0ffeffe7092"
+    },
+    {
+      "path": "scripts/jas_sqg_jfm.py",
+      "sha256": "0a17486280732af52fcf11eb02b2b06e0e375f4e94a94cce93f09a6222e16416"
+    },
+    {
+      "path": "scripts/make_prl_figure1_data_v1.py",
+      "sha256": "94b08ce4cb46dba77ce471da5ceca1a46ba7d66db0ef030ef6e469d335068808"
+    },
+    {
+      "path": "scripts/npg_audit_v1/audit_io.py",
+      "sha256": "c329109c1881db25a4a43cca4721a765f1c2d39f78e89b8d66eb923fa5ff6faf"
+    },
+    {
+      "path": "scripts/npg_audit_v1/audit_physical.py",
+      "sha256": "9e379592f058a96ffbee1bcc43ee2571cf0fd8fa1564d3197e4679aecfc48f82"
+    },
+    {
+      "path": "scripts/npg_audit_v1/diagnose_archived_budget.py",
+      "sha256": "953dce52e3577a388d4a9e35a07f1b9cae4414e06a9e84dd11b3b143601be7d9"
+    },
+    {
+      "path": "provenance/configs/prl_v8_gate5_nonconfirmatory_config_20260715.json",
+      "sha256": "25f7b4c12881ab1c4223b791554f1e3be2494eb62a929649b7cd62b1cfb8dc66"
+    }
+  ],
+  "quality_status": {
+    "audit_date": "2026-09-11",
+    "status": "completed_with_partial_failure",
+    "phase_A_all_passed": true,
+    "all_band_checks_passed": false,
+    "failed_discrete_checks": [
+      {
+        "regime": "n512_re940_marginal",
+        "truth": 0,
+        "band": "k33_241",
+        "member": 0,
+        "scaled_rms": 0.00011215291920748338,
+        "threshold": 0.0001
+      },
+      {
+        "regime": "n512_re940_marginal",
+        "truth": 0,
+        "band": "k33_241",
+        "member": 1,
+        "scaled_rms": 0.00010422750631214429,
+        "threshold": 0.0001
+      },
+      {
+        "regime": "n512_re940_marginal",
+        "truth": 1,
+        "band": "k33_241",
+        "member": 0,
+        "scaled_rms": 0.00011263871729358597,
+        "threshold": 0.0001
+      },
+      {
+        "regime": "n512_re940_marginal",
+        "truth": 2,
+        "band": "k33_241",
+        "member": 1,
+        "scaled_rms": 0.00010160685954606063,
+        "threshold": 0.0001
+      },
+      {
+        "regime": "n512_re940_marginal",
+        "truth": 3,
+        "band": "k33_241",
+        "member": 1,
+        "scaled_rms": 0.00010417066326649019,
+        "threshold": 0.0001
+      }
+    ],
+    "scope": "Five allocated-increment checks in the highest N512 band failed the unchanged scaled-RMS tolerance. The failures remain part of the dataset; required primary-band dependencies passed."
+  }
+}

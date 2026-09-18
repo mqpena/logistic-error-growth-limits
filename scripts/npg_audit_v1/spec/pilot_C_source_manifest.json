@@ -1,0 +1,11 @@
+{
+  "frozen_at_utc": "2026-09-11T17:11:16.725600+00:00",
+  "phase": "C for independently passing N256truth00 only",
+  "sources": {
+    "audit_aggregation.py": "3f0f29958dcc7c10cc9011c8bd493ad8ff46dcdf091d9899c52b47f8552bed21",
+    "audit_io.py": "c329109c1881db25a4a43cca4721a765f1c2d39f78e89b8d66eb923fa5ff6faf",
+    "with_archive_guard.py": "66390a8fe071f5a3f6378053fb46b26aa61e46d2111182c1abd10925ac87060c"
+  },
+  "raw_C_results_seen": false,
+  "limitation": "N512highestband archiveddiscretebudget check failed and dependenthighbandclaimsarepaused. This N256inputpassed allchecks."
+}

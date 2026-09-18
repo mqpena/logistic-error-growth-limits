@@ -1,0 +1,5 @@
+# Optional model runtime; archived wheels require macOS 26+ on Apple silicon.
+# The CPU audit does not need these packages.
+-r requirements.txt
+mlx==0.31.2; platform_system == "Darwin" and platform_machine == "arm64"
+mlx-metal==0.31.2; platform_system == "Darwin" and platform_machine == "arm64"

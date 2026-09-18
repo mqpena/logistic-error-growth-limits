@@ -6,3 +6,10 @@ __pycache__/
 *.log
 data/*
 !data/prl_figure1_data_v1.npz
+runtime/
+runs/
+extracted/
+new_audit_output/
+sqg_logistic_*.zip
+*.whl
+.pytest_cache/

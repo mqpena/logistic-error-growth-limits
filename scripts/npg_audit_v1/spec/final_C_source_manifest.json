@@ -1,0 +1,14 @@
+{
+  "frozen_at_utc": "2026-09-11T17:15:24.769059+00:00",
+  "sources": {
+    "audit_aggregation.py": "cb4d71bbd3ef3bf6863d4c0e998c139552fa31699691d4c4c796572ceac23a63",
+    "audit_io.py": "c329109c1881db25a4a43cca4721a765f1c2d39f78e89b8d66eb923fa5ff6faf",
+    "audit_dependencies.py": "de297b7bfa658de682d115d0c1dd12180a355e8f66701d462bc2e8a3940759fe",
+    "with_archive_guard.py": "66390a8fe071f5a3f6378053fb46b26aa61e46d2111182c1abd10925ac87060c"
+  },
+  "phase": "all eight primary C analyses",
+  "formula_changes_after_N256_pilot": false,
+  "prerequisite_change": "post_failure_dependency_clarification.json; failed nonprimary allocated increments are preserved and not used by C",
+  "primary_dependencies_all_pass": true,
+  "all_band_implementation_checks_all_pass": false
+}

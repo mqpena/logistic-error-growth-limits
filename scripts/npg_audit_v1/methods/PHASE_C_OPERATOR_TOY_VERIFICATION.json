@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-09-11T17:09:14.177422+00:00",
+  "status": "pass",
+  "scope": "analytic manufactured scalar/energy/operator arrays; no raw SQG fields or results read",
+  "checks": {
+    "operator_reference_reconstruction": true,
+    "operator_q_matches_manufactured_derivative": true,
+    "operator_product_rule_closes": true,
+    "operator_weight_derivative_sums_zero": true,
+    "operator_vs_FD_is_not_forced_zero": true,
+    "centered_FD_error_decreases_with_refinement": true,
+    "FD_common_reference_identity_preserved": true
+  }
+}

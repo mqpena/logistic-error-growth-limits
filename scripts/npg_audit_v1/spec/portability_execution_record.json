@@ -1,0 +1,9 @@
+{
+  "recorded_at_utc": "2026-09-11T16:55:30.992840+00:00",
+  "status": "before numerical pilot",
+  "implementation_environment": "Fresh Python3.13 environment restored offline from copied wheels; no inherited legacy virtualenv",
+  "guard": "with_archive_guard.py denies open/list/execute calls that contain LogisticErrorGrowth-Program",
+  "reference": "analysis_specification.json",
+  "runtime_dependency_files": "CommonModels/SQG_Logistic/v1/dependencies",
+  "prior_versions_untouched": true
+}

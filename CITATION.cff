@@ -1,9 +1,20 @@
 cff-version: 1.2.0
-title: "When Does Forecast-Error Energy Grow Logistically in Geophysical Turbulence?"
-message: "Please cite the associated preprint and this software release."
+message: "Please cite the software release, related dataset, and associated preprint."
 type: software
+title: "logistic-error-growth-limits: SQG simulation and analysis code"
 authors:
   - family-names: "Peña"
     given-names: "Malaquias"
+    orcid: "https://orcid.org/0000-0002-3400-5075"
+    affiliation: "University of Connecticut"
 repository-code: "https://github.com/mqpena/logistic-error-growth-limits"
-date-released: 2026-08-23
+license: MIT
+version: "1.0.0"
+references:
+  - type: data
+    title: "Surface-quasigeostrophic forecast-error growth: two-regime simulation dataset and reproducibility materials"
+    authors:
+      - family-names: "Peña"
+        given-names: "Malaquias"
+    doi: "10.5281/zenodo.22822514"
+    version: "1.0.0"

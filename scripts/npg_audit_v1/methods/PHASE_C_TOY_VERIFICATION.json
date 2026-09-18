@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-09-11T17:01:23.997586+00:00",
+  "status": "pass",
+  "scope": "manufactured arrays and scalar interpolation only; no SQG archive arrays read",
+  "checks": {
+    "synthetic_member_inferred_arithmetic": true,
+    "synthetic_member_common_reference_arithmetic": true,
+    "fd_product_rule_not_forced_zero": true,
+    "fixed_weight_coordinate_identity": true,
+    "zero_rate_PL_bound_exact": true,
+    "positive_rate_PL_bound_covers_sample_error": true,
+    "quadrature_agreement": true,
+    "bound_excludes_gaps_and_late_times": true,
+    "derivative_excludes_cadence_transition": true,
+    "PL_endpoint_0.0": true,
+    "PL_endpoint_1.0": true
+  },
+  "max_quadrature_difference_estimate": 0.0
+}

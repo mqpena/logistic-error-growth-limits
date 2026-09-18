@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-18",
+  "python": "3.13",
+  "platform": "macOS arm64",
+  "dependency_install": "fresh environment restored offline from verified archive wheels",
+  "regression_tests": {
+    "passed": 10,
+    "skipped": 0,
+    "raw_cluster_provenance_enabled": true
+  },
+  "compact_figure_commands": "both completed in separate copy; original evidence preserved",
+  "npg_audit": {
+    "numerical_summary_equal_to_archived": true,
+    "truth_groups": 8,
+    "members": 16,
+    "failed_highest_band_checks_retained": 5,
+    "status": "completed_with_partial_failure"
+  },
+  "dataset": {
+    "doi": "10.5281/zenodo.22822514",
+    "public": true,
+    "files": [
+      {
+        "name": "SHA256SUMS.txt",
+        "bytes": 770,
+        "zenodo_checksum_matches_local": true
+      },
+      {
+        "name": "sqg_logistic_reproduction_v1.zip",
+        "bytes": 157931911,
+        "zenodo_checksum_matches_local": true
+      },
+      {
+        "name": "FILE_INVENTORY.json",
+        "bytes": 114217,
+        "zenodo_checksum_matches_local": true
+      },
+      {
+        "name": "LICENSES.md",
+        "bytes": 951,
+        "zenodo_checksum_matches_local": true
+      },
+      {
+        "name": "DATA_DICTIONARY.md",
+        "bytes": 17329,
+        "zenodo_checksum_matches_local": true
+      },
+      {
+        "name": "LICENSE-DATA.txt",
+        "bytes": 838,
+        "zenodo_checksum_matches_local": true
+      },
+      {
+        "name": "LICENSE-CODE.txt",
+        "bytes": 1072,
+        "zenodo_checksum_matches_local": true
+      },
+      {
+        "name": "README.md",
+        "bytes": 3964,
+        "zenodo_checksum_matches_local": true
+      },
+      {
+        "name": "EXTRACTED_FILES.sha256",
+        "bytes": 63059,
+        "zenodo_checksum_matches_local": true
+      },
+      {
+        "name": "sqg_logistic_data_v1.zip",
+        "bytes": 1688544194,
+        "zenodo_checksum_matches_local": true
+      }
+    ]
+  },
+  "metadata_checks": "CITATION YAML and Zenodo JSON parsed; dataset and software identifiers separated",
+  "new_model_integrations": 0,
+  "new_statistical_samples": 0
+}

@@ -1,0 +1,17 @@
+Data and original scientific documentation: CC BY 4.0
+
+Copyright (c) 2026 Malaquias Peña.
+
+The original simulation data, derived numerical results, figures and original
+scientific documentation in this release are licensed under the Creative
+Commons Attribution 4.0 International license (CC BY 4.0).
+
+License: https://creativecommons.org/licenses/by/4.0/
+Legal terms: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution: Malaquias Peña, "Surface-quasigeostrophic forecast-error growth:
+two-regime simulation dataset and reproducibility materials", version 1.0.0.
+Dataset DOI: https://doi.org/10.5281/zenodo.22822514
+
+Software is covered separately by LICENSE. Third-party material is
+excluded from this license grant and retains its own terms and notices.
